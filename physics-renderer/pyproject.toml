@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hii-radio-sim"
+version = "0.2.0"
+description = "Auditable phase-one H II free-free simulation and measurement pipeline"
+requires-python = ">=3.11"
+dependencies = ["numpy==2.2.6", "scipy==1.18.0", "astropy==8.0.2", "matplotlib==3.11.0"]
+
+[project.scripts]
+hii-sim = "hii_sim.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "imaging": {
+    "imsize": 256,
+    "cell": "2.5arcsec",
+    "phasecenter": "J2000 12h00m00.00076072s +29d59m59.99090000s",
+    "datacolumn": "data",
+    "specmode": "mfs",
+    "gridder": "standard",
+    "weighting": "natural",
+    "pblimit": 0.2,
+    "pbcor": false,
+    "interactive": false,
+    "parallel": false
+  },
+  "reconstruction": {
+    "policy": "multiscale",
+    "noise_multiplier": 3.0,
+    "noisy": true
+  }
+}
