@@ -19,5 +19,14 @@ on a predeclared small validation subset, with sampler convergence reported.
 Neither algorithm is ground truth. The primary image reconstruction remains
 independent of these parameter estimates.
 
-Run commands and resulting evidence will be recorded under
-`output/ml_initial_20261023/`. No real-data work or uploads are part of this run.
+The initial experiment ran and is now paused. Its selected checkpoint is epoch
+22, with validation stopping at epoch 52. All 96 test observations have already
+been evaluated once; keep them out of further model selection. Both conventional
+Bayesian pilots failed convergence checks. Forward checks were interrupted at
+the last console milestone 44/48; 46 cases were subsequently found saved.
+
+Run commands, evidence and limitations are documented in the editable project
+[README](../README.md). Local artifacts are under
+`output/ml_initial_20261023/run_03/`. `run_initial.py` is not a resume-only command.
+No real-data work or upload has occurred. The editable
+[next-agent prompt](NEXT_AGENT_PROMPT.md) does not itself resume execution.
