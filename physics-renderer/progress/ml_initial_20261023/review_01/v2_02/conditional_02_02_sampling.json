@@ -1,0 +1,194 @@
+{
+  "converged": true,
+  "diagnostics": {
+    "variables": {
+      "pa_branch": {
+        "rank_folded_split_rhat": 1.0048663952058083,
+        "bulk_ess": 935.5134850275413,
+        "tail_ess": 607.496122033801,
+        "mean_mcse": 0.0009795250477140276,
+        "passed": true,
+        "failure": null
+      },
+      "east_prior_unit": {
+        "rank_folded_split_rhat": 1.0030351631048475,
+        "bulk_ess": 1776.9752026660215,
+        "tail_ess": 2355.678223619798,
+        "mean_mcse": 0.0013922979440820962,
+        "passed": true,
+        "failure": null
+      },
+      "north_prior_unit": {
+        "rank_folded_split_rhat": 1.0018648041063354,
+        "bulk_ess": 1908.7820055984075,
+        "tail_ess": 2438.916537381948,
+        "mean_mcse": 0.001124773053490344,
+        "passed": true,
+        "failure": null
+      },
+      "common_gain_z": {
+        "rank_folded_split_rhat": 1.001871752217344,
+        "bulk_ess": 1564.5996759027537,
+        "tail_ess": 1940.9700489152751,
+        "mean_mcse": 0.016918480836372624,
+        "passed": true,
+        "failure": null
+      },
+      "slope_z": {
+        "rank_folded_split_rhat": 1.0006950951538953,
+        "bulk_ess": 1710.1552738077012,
+        "tail_ess": 2387.254762098805,
+        "mean_mcse": 0.024029700083851867,
+        "passed": true,
+        "failure": null
+      },
+      "pa_sin": {
+        "rank_folded_split_rhat": 1.004263849522638,
+        "bulk_ess": 935.5134850275417,
+        "tail_ess": 596.8321405820013,
+        "mean_mcse": 0.004039226154853031,
+        "passed": true,
+        "failure": null
+      },
+      "pa_cos": {
+        "rank_folded_split_rhat": 1.005149597727421,
+        "bulk_ess": 935.5134850275413,
+        "tail_ess": 607.496122033801,
+        "mean_mcse": 0.004545175107135116,
+        "passed": true,
+        "failure": null
+      }
+    },
+    "passed": true,
+    "chain_shape": [
+      4,
+      3000,
+      7
+    ],
+    "rhat_limit": 1.01,
+    "ess_min": 400,
+    "method": "rank/folded split Rhat; explicit-length FFT Geyer positive/monotone bulk and 5/95% tail ESS; capped at retained count",
+    "limits": "Finite diagnostic passes do not prove global mode coverage or model calibration."
+  },
+  "stop_reason": "convergence_gate",
+  "retained_per_chain": 3000,
+  "steps_including_warmup": 3500,
+  "wall_seconds": 172.2882322000005,
+  "cpu_seconds": 170.21875,
+  "forward_calls": 10981,
+  "logp_calls": 14004,
+  "nonfinite_proposal_rejections": 0,
+  "acceptance_independence_joint_calibration": [
+    [
+      0.5754231052244297,
+      0.47331240188383045,
+      0.895040369088812
+    ],
+    [
+      0.5708092485549133,
+      0.4913112164296998,
+      0.9023529411764706
+    ],
+    [
+      0.5355153203342619,
+      0.5012510425354462,
+      0.9075144508670521
+    ],
+    [
+      0.5595238095238095,
+      0.4642301710730949,
+      0.9
+    ]
+  ],
+  "rng_end_states": [
+    {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 54416237402891926386345978408996945530,
+        "inc": 286104480682806153932816048910439236101
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    },
+    {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 25620409670558503093303817623276926002,
+        "inc": 116713100129480358387742787961692546101
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    },
+    {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 183538086670292683930099135536812861825,
+        "inc": 135504474034397590052531747328199254353
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    },
+    {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 40468219289179913955388601601252351512,
+        "inc": 311965530628992694386168165198811256413
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    }
+  ],
+  "initializations": [
+    {
+      "cost": 2145.5443300639695,
+      "success": true,
+      "nfev": 68,
+      "coordinates": [
+        0.6484053988710231,
+        0.6500266964754051,
+        0.5474853081989615,
+        -6.775588895438229,
+        0.18509993458418414
+      ]
+    },
+    {
+      "cost": 2145.544330914265,
+      "success": true,
+      "nfev": 19,
+      "coordinates": [
+        0.6483911959284064,
+        0.6500243820711655,
+        0.5474851591209114,
+        -6.775594961744019,
+        0.18509761951099224
+      ]
+    },
+    {
+      "cost": 2145.544332502124,
+      "success": true,
+      "nfev": 10,
+      "coordinates": [
+        0.6483719835887857,
+        0.6500212506744333,
+        0.5474849556352548,
+        -6.775610965768404,
+        0.18509479714165195
+      ]
+    },
+    {
+      "cost": 2145.5443384478017,
+      "success": true,
+      "nfev": 14,
+      "coordinates": [
+        0.6485587525901977,
+        0.6500516353169622,
+        0.547486862989745,
+        -6.775524529793814,
+        0.18512487892104504
+      ]
+    }
+  ],
+  "branch_center": 0.6484053988710231,
+  "prior": "PA uniform over one full period, position uniform prior units [0,1], unbounded independent standard-normal calibration coordinates",
+  "resume_policy": "Latest arrays/RNG states retained; this CLI does not automatically resume an incomplete conditional solve. New attempts require new versioned output."
+}

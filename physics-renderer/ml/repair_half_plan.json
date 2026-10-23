@@ -1,0 +1,13 @@
+{
+  "version": "short_budget_half_preprocessing_correction_v1",
+  "declared_utc": "2026-10-23T12:47:00+00:00",
+  "source_selection": "First198 sorted original training source IDs;396 observations; no data-dependent subset selection",
+  "normalization": "Own396-row feature mean/std (ddof0); own PCA32; target log10 EM/size and linear Te/q statistics from198 unique half-training parents, stored separately. The model uses the same fixed prior-logit target coordinates as canonical full run.",
+  "model_optimizer_seed_stopping": "Same original hidden32/PCA32, seed231026, Adam, validation patience30/min_delta0.001; no promotion/selection/sweep",
+  "optimizer_wall_seconds": 15,
+  "nominal_optimizer_cpu_bound_seconds_at_two_threads": 30,
+  "whole_job_admission_wall_seconds": 60,
+  "rule": "Set optimizer cap from remaining whole-job allowance with5s PCA/finalization reserve. Abort before fitting if insufficient time; report any binding cap as budget-limited, not equivalent convergence. No automatic restart. Expected fit is well below this budget from existing measured runs.",
+  "test_or_challenge_access": "None; cached verified train/validation only",
+  "interpretation": "Correct one implementation fairness defect. One half/full pair at one seed on reused validation is not data-sufficiency evidence. Preserve historical confounded half run."
+}

@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-23T13:26:32.051218+00:00",
+  "manifest_sha256": "c93d0ee0a870f334f8022c241acebfc5c361dfe90842062f0237637c9956fe57",
+  "verification_sha256": "71ed18bcd127d800b310e81f6c954adc6066eb1089b9bfaeaea2e5fd8dfacd94",
+  "report_sha256": "e8a7bbae9c726d1241b5372d32932bf63338cfe28b918604d8d10e5563e3c681",
+  "summary_sha256": "d961393219ee30712456aa35f3b264f97addb9377fd795f3bcc83e81600a3b0c",
+  "readme_sha256": "2a77ec0045086d77f3ba8e52a62116bb176f4cc7b8ed5c63f66794eb0c0cd5a0",
+  "active_scientific_jobs": 0,
+  "no_further_jobs_queued": true
+}

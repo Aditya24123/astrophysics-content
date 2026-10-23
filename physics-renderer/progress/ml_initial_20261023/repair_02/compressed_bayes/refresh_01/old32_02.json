@@ -1,0 +1,181 @@
+{
+  "passed": false,
+  "diagnostics": {
+    "variables": {
+      "em0_pc_cm6": {
+        "rank_folded_split_rhat": 1.001774885395358,
+        "bulk_ess": 1586.5553025741501,
+        "tail_ess": 1653.3972591760441,
+        "mean_mcse": 96.82704372995964,
+        "passed": true,
+        "failure": null
+      },
+      "te_k": {
+        "rank_folded_split_rhat": 1.0029992199242026,
+        "bulk_ess": 2043.4470237644105,
+        "tail_ess": 1959.8888660273396,
+        "mean_mcse": 44.74963170945188,
+        "passed": true,
+        "failure": null
+      },
+      "major_fwhm_arcsec": {
+        "rank_folded_split_rhat": 1.0023408920787626,
+        "bulk_ess": 1780.9227006553576,
+        "tail_ess": 1268.1898365463649,
+        "mean_mcse": 0.029925705414756892,
+        "passed": true,
+        "failure": null
+      },
+      "axis_ratio": {
+        "rank_folded_split_rhat": 1.0034489649711948,
+        "bulk_ess": 1434.5421185964733,
+        "tail_ess": 1522.4352250359925,
+        "mean_mcse": 0.0018703587177811268,
+        "passed": true,
+        "failure": null
+      },
+      "pa_branch": {
+        "rank_folded_split_rhat": 1.006217067698245,
+        "bulk_ess": 843.313784036732,
+        "tail_ess": 382.8666600655005,
+        "mean_mcse": 0.0067873462172072475,
+        "passed": false,
+        "failure": "rhat_or_ess_gate_failed"
+      },
+      "east_prior_unit": {
+        "rank_folded_split_rhat": 1.0023953549752231,
+        "bulk_ess": 1556.2767350188624,
+        "tail_ess": 2219.0933805328273,
+        "mean_mcse": 0.0006441435095611766,
+        "passed": true,
+        "failure": null
+      },
+      "north_prior_unit": {
+        "rank_folded_split_rhat": 1.003659862764602,
+        "bulk_ess": 1747.800556900437,
+        "tail_ess": 2109.283093468081,
+        "mean_mcse": 0.0006053915903637619,
+        "passed": true,
+        "failure": null
+      },
+      "common_gain_z": {
+        "rank_folded_split_rhat": 1.0028585008127693,
+        "bulk_ess": 1858.6177280733632,
+        "tail_ess": 2554.305707629298,
+        "mean_mcse": 0.023601538181347068,
+        "passed": true,
+        "failure": null
+      },
+      "slope_z": {
+        "rank_folded_split_rhat": 1.0056393913596522,
+        "bulk_ess": 1401.0078292227943,
+        "tail_ess": 1523.5982130273737,
+        "mean_mcse": 0.026748901906511264,
+        "passed": true,
+        "failure": null
+      },
+      "pa_sin": {
+        "rank_folded_split_rhat": 1.0035338565301533,
+        "bulk_ess": 2470.2239028759664,
+        "tail_ess": 2805.59288898884,
+        "mean_mcse": 0.013692513898125865,
+        "passed": true,
+        "failure": null
+      },
+      "pa_cos": {
+        "rank_folded_split_rhat": 1.008245323200748,
+        "bulk_ess": 763.8388892685524,
+        "tail_ess": 366.8116467502931,
+        "mean_mcse": 0.023060041884432718,
+        "passed": false,
+        "failure": "rhat_or_ess_gate_failed"
+      },
+      "log_likelihood": {
+        "rank_folded_split_rhat": 1.0027428693309284,
+        "bulk_ess": 2171.1875623498395,
+        "tail_ess": 1886.927407561215,
+        "mean_mcse": 0.0339354342475203,
+        "passed": true,
+        "failure": null
+      }
+    },
+    "passed": false,
+    "chain_shape": [
+      4,
+      2901,
+      12
+    ],
+    "rhat_limit": 1.01,
+    "ess_min": 400,
+    "method": "rank/folded split Rhat; explicit-length FFT Geyer positive/monotone bulk and 5/95% tail ESS; capped at retained count",
+    "limits": "Finite diagnostic passes do not prove global mode coverage or model calibration."
+  },
+  "draws_per_chain": 2901,
+  "warmup": 500,
+  "wall_seconds": 615.6869747000001,
+  "cpu_seconds": 513.28125,
+  "acceptance": [
+    [
+      0.3994252873563218,
+      0.26407766990291265,
+      0.33208020050125314
+    ],
+    [
+      0.3806262230919765,
+      0.2601626016260163,
+      0.34566473988439306
+    ],
+    [
+      0.3685770750988142,
+      0.2419047619047619,
+      0.3192488262910798
+    ],
+    [
+      0.3632264529058116,
+      0.24538745387453875,
+      0.3128621089223638
+    ]
+  ],
+  "budget_hit": true,
+  "parent_phase_wall_seconds": 730.4193610000002,
+  "total_recorded_sampler_wall_seconds": 1346.1063895999996,
+  "rng_states": [
+    {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 295774912497721209611744203463457668233,
+        "inc": 203616119897830543635825100710622667297
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    },
+    {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 126997441614959843781679441703269295577,
+        "inc": 117710316785353546336328578405475043405
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    },
+    {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 268108757731434685183632243973953229533,
+        "inc": 103314078581090789759874403118710703839
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    },
+    {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 13051727487278360208717943576388122128,
+        "inc": 286313483971543593799257596322607707799
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    }
+  ],
+  "posterior_comparison_allowed": false
+}

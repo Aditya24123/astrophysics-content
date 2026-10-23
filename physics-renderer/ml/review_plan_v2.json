@@ -1,0 +1,24 @@
+{
+  "version": "independent_inference_audit_and_conditional_predictive_v2",
+  "seed": 231028,
+  "preserved_runs": ["output/ml_initial_20261023/run_03", "output/ml_initial_20261023/followup_01"],
+  "selection": "Same first realization of first two sorted validation source IDs; never test or challenge",
+  "neural_policy": "Frozen checkpoint and PCA; no model selection, calibration fitting or new test scoring",
+  "outer_neural_draws_per_validation_observation": 2,
+  "outer_draw_policy": "Fixed RNG draws before seeing conditional results. Never filter or reweight theta draws by fit or convergence.",
+  "conditional_sampler": {
+    "warmup": 500,
+    "max_draws": 3000,
+    "diagnostic_every": 1000,
+    "wall_seconds": 300,
+    "map_max_nfev": 100,
+    "calibration_step": 0.15
+  },
+  "conditional_gate": "Four independent chains; all five nuisances and PA sine/cosine rank/folded Rhat <1.01, bulk and tail ESS >=400; otherwise no aggregate neural predictive claim",
+  "replicates_per_outer_draw": 64,
+  "mode_search_starts_per_validation_observation": 8,
+  "mode_search_max_nfev": 80,
+  "threads": 2,
+  "limits": "Four total neural outer draws are an implementation/pilot check, insufficient to estimate a reliable neural predictive tail probability or calibration. Conditional solves add conventional inference cost. Finite multistart/diagnostics cannot prove global mode coverage.",
+  "generation": "None; no new protected set, bulk bank, real observations, cloud compute or publication"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "full",
+  "best_epoch": 22,
+  "epochs": 52,
+  "best_validation_nll": 4.9338096487585466,
+  "stopping_reason": "validation_patience",
+  "elapsed_seconds": 1.4099859999996625,
+  "cpu_seconds": 1.078125,
+  "train_rows": 794,
+  "pca_explained_fraction": 0.39219688430482896,
+  "parameter_count": 1518,
+  "working_set_mib": 155.05078125,
+  "peak_working_set_mib": 201.1875
+}

@@ -1,0 +1,13 @@
+{
+  "purpose": "Diagnose frozen-model temperature/axis-ratio weakness without test selection or model fitting",
+  "seed": 231030,
+  "data": "All 134 validation observations from 67 grouped sources; same two preselected validation comparators; training preprocessing remains frozen",
+  "metrics": ["per-target original-unit MAE/RMSE and paired source-bootstrap difference from the prior median", "joint and marginal NLL relative to exact prior in common prior-unit coordinates", "20-bin descriptive prior-relative marginal KL and 95% width ratios on the two comparators", "local conditional and nuisance-projected Fisher information before/after the existing PCA with the exact compressed thermal covariance"],
+  "bootstrap_source_resamples": 5000,
+  "neural_comparator_draws": 8192,
+  "histogram_bins": 20,
+  "local_information_chain_fractions": [0.125, 0.5, 0.875],
+  "finite_difference_step_prior_units": 0.0001,
+  "budget": "One diagnostic pass, CPU/two BLAS threads; no training, model selection, test rerender or new source generation",
+  "interpretation": "Local Fisher retention is not global sufficiency or posterior calibration. Histograms are coarse, correlated MCMC ESS limits precision. Validation was used for stopping, so source bootstrap is descriptive development uncertainty, not a fresh blind confidence guarantee. A proper density objective need not improve a finite-sample point MAE, but the exact posterior median is optimal for expected absolute error."
+}

@@ -1,0 +1,12 @@
+{
+  "omitted_bad_dimension_rejected": true,
+  "stuck_failure_json_serializable": true,
+  "recomputed_bayesian_passes": 2,
+  "conditional_converged": 2,
+  "conditional_total": 4,
+  "validation_model_changed": false,
+  "test_rescored": false,
+  "scientific_limits_eliminated": false,
+  "conditional_wall_seconds_total": 768.1928167000005,
+  "conditional_forward_calls_total": 42066
+}

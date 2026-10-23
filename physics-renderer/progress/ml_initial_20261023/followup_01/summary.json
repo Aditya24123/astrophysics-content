@@ -1,0 +1,59 @@
+{
+  "original_run": "output\\ml_initial_20261023\\run_03",
+  "continuation": "output\\ml_initial_20261023\\followup_01",
+  "neural_checkpoint_sha256": "e07db567c60f826280f47fd063f7068cebc4df49fedb4e1377cfe1222925ec0e",
+  "new_test_predictions": false,
+  "existing_test_observations": 96,
+  "existing_test_independent_sources": 48,
+  "forward_profiles": 48,
+  "forward_optimizer_failures": 0,
+  "forward_profile_rms_median": 1.04033574383882,
+  "forward_profile_rms_max": 3.0919717120348156,
+  "bayesian_converged_cases": 2,
+  "bayesian_cases": 2,
+  "neural_optimizer_training_seconds": 0.563540600000124,
+  "training_runtime_limit": "Original training timer excludes PCA and data loading; do not call it end-to-end training cost.",
+  "pca_verification_refit_seconds": 0.3168631000003188,
+  "decision": "Initial synthetic experiment, no accuracy threshold or real-nebula readiness claim; two validation comparators cannot establish population superiority.",
+  "training_replay_performed": true,
+  "comparison_model_retrained_or_replaced": false,
+  "training_replay": {
+    "end_to_end_wall_seconds": 83.89211090000026,
+    "end_to_end_cpu_seconds": 69.8125,
+    "train_only_normalization_fit_seconds": 35.59993630000008,
+    "training_validation_verified_loading_seconds": 43.142563399999744,
+    "pca_and_optimizer_and_checkpoint_io_seconds": 1.895906599999762,
+    "optimizer_only_seconds": 1.4099859999996625,
+    "best_epoch": 22,
+    "epochs": 52,
+    "max_array_differences_from_frozen_fit": {
+      "weights/w1": 0.0,
+      "weights/b1": 0.0,
+      "weights/w2": 0.0,
+      "weights/b2": 0.0,
+      "pca/mean": 0.0,
+      "pca/basis": 0.0,
+      "pca/scale": 0.0,
+      "pca/explained_fraction": 0.0
+    },
+    "frozen_checkpoint_preserved": true,
+    "test_labels_opened": false,
+    "test_scored": false,
+    "interpretation": "Measured replay cost on this CPU/two-thread environment, including integrity checks, repeated disk reads, normalization fit, PCA, optimizer, validation stopping and checkpoint I/O. Excludes initial dataset generation, readiness audit, half-data diagnostic and dependency import startup. Disk/cache/system load affect timing. Neural model used in comparison remains the original frozen checkpoint."
+  },
+  "runtime_accounting": "runtime_accounting.json",
+  "completed": [
+    "Immutable inventory/bindings and training-only normalization/PCA verified",
+    "Original neural training/test archive verified, model retained",
+    "134 validation observations evaluated without new test scoring",
+    "48/48 neural median nuisance profiles saved; original 46 preserved",
+    "2/2 Bayesian validation cases pass all target/nuisance gates",
+    "Training replay, inference timings, curves, coverage/sharpness and local report saved"
+  ],
+  "pending": [
+    "Full neural posterior predictive treatment of nuisance correlations",
+    "Larger independently source-based Bayesian comparison and calibration evidence",
+    "Future protected independently generated evaluation set if later model development requires a new blind test; proposal documented, no generation authorized"
+  ],
+  "blockers": []
+}

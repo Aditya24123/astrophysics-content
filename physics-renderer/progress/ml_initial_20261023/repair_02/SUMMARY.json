@@ -1,0 +1,104 @@
+{
+  "utc": "2026-10-23T13:22:29.603343+00:00",
+  "campaign_complete": true,
+  "all_scientific_issues_resolved": false,
+  "canonical_model_unchanged": true,
+  "new_model_promoted": false,
+  "new_model_mae": [
+    35336.03679492191,
+    1829.806754645236,
+    8.442829141638668,
+    0.1332901074151038
+  ],
+  "new_model_selected_epoch": 18,
+  "new_model_stopped_epoch": 48,
+  "new_model_checkpoint_sha256": "22ad199584c17b95bb9f97ae056aff7a117e235e4c9d5a287125e43fa15f4892",
+  "validated_bayesian_routes": [
+    {
+      "case": 1,
+      "route": "old32",
+      "phase": "refresh_01"
+    },
+    {
+      "case": 1,
+      "route": "full_y",
+      "phase": "historical_full_y"
+    },
+    {
+      "case": 2,
+      "route": "old32",
+      "phase": "refresh_01 homogeneous continuation_01"
+    },
+    {
+      "case": 2,
+      "route": "full_y",
+      "phase": "historical_full_y"
+    }
+  ],
+  "unvalidated_bayesian_routes": [
+    {
+      "case": 1,
+      "route": "noise128"
+    },
+    {
+      "case": 2,
+      "route": "noise128"
+    }
+  ],
+  "validation_observations": 134,
+  "validation_sources": 67,
+  "test_rescored": false,
+  "test_archive_observations": 96,
+  "test_archive_sources": 48,
+  "original_data_simulator_runs_and_review_unchanged": true,
+  "tests": {
+    "utc": "2026-10-23T13:06:27.852200+00:00",
+    "command": [
+      ".\\.venv\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "pytest",
+      "-q",
+      "tests/test_npe_contract.py",
+      "tests/test_training_data.py",
+      "ml/test_ml.py",
+      "ml/test_followup.py",
+      "ml/test_review_v2.py",
+      "ml/test_resume_conditionals.py",
+      "ml/test_probit_probe.py",
+      "ml/test_angle_refresh.py",
+      "ml/test_model_information.py",
+      "ml/test_repair_campaign.py",
+      "ml/test_repair_refresh.py",
+      "ml/test_repair_resume.py",
+      "-p",
+      "no:cacheprovider",
+      "--basetemp",
+      "LOCAL_PATH_REDACTED"
+    ],
+    "exit_code": 0,
+    "passed": true,
+    "wall_seconds": 79.53072320000138,
+    "fixture_root": "LOCAL_PATH_REDACTED",
+    "fixture_policy": "Fresh explicitly chosen path, no cleanup/deletion, no physics/source-I/O changes, no automatic failure suppression. A numerical failure is never retried as an environment failure.",
+    "log": "regressions.log"
+  },
+  "half_data_correction_completed": true,
+  "new_scientific_bank_generated": false,
+  "blockers": [
+    "Physics/data: weak temperature leverage in this continuum-only proxy; no validated precise Te claim",
+    "Model/data: one more informative representation did not repair posterior estimation; 397 independent training sources and restricted Gaussian conditional family",
+    "Evidence: only two Bayesian validation sources; repeated validation and historical test cannot establish fresh blind calibration",
+    "Permission: protected evaluation is proposed only, generation requires explicit approval"
+  ],
+  "execution": "complete",
+  "active_jobs": 0,
+  "canonical_model_checkpoint": "output/ml_initial_20261023/run_03/full/best.npz",
+  "canonical_model_sha256": "e07db567c60f826280f47fd063f7068cebc4df49fedb4e1377cfe1222925ec0e",
+  "canonical_selected_epoch": 22,
+  "canonical_stopped_epoch": 52,
+  "challenge_public_inputs_audited": 24,
+  "challenge_observations_scored": 0,
+  "deferred_optional_bayesian_routes": "DEFERRED, not launched",
+  "canonical_matched_bayesian_cases_passed": 2
+}

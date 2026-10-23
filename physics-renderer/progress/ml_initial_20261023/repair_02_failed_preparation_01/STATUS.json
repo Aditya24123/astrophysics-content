@@ -1,0 +1,7 @@
+{
+  "stage": "failed",
+  "utc": "2026-10-23T11:59:08.046993+00:00",
+  "pid": 9644,
+  "action": "prepare",
+  "error": "AssertionError('\\nNot equal to tolerance rtol=1e-07, atol=1e-09\\n\\nMismatched elements: 4616 / 17152 (26.9%)\\nMax absolute difference among violations: 3.31897176e-07\\nMax relative difference among violations: 0.00082352\\n ACTUAL: array([[-0.712788, -0.226041,  0.037488, ..., -0.353959, -0.323936,\\n         0.657802],\\n       [-0.690801, -0.110735, -0.236282, ..., -0.037529,  0.281629,...\\n DESIRED: array([[-0.712788, -0.226041,  0.037488, ..., -0.353959, -0.323936,\\n         0.657802],\\n       [-0.690801, -0.110735, -0.236282, ..., -0.037529,  0.281629,...')"
+}

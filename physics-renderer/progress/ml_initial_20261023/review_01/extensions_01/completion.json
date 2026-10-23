@@ -1,0 +1,21 @@
+{
+  "execution": "complete",
+  "conditional_passes": 3,
+  "conditional_total": 4,
+  "aggregate_neural_calibration_claim": false,
+  "outer_draw_limit": "Only four total fixed theta draws, so a reliable neural predictive distribution/calibration assessment is still unestablished",
+  "parent_artifacts_unchanged": true,
+  "original_dataset_runs_simulator_unchanged": true,
+  "additional_wall_seconds": 360.9938314000001,
+  "output_hashes": {
+    "binding.json": "dbc57f6ff1d298918356de359a3009ec4d501ddf85d0c9a8808a67cd83bcbbe8",
+    "conditional_01_01_chains.npz": "668a4f43f79c3c1367f7937ad3812d536379973a5af52d1b65946dbdda632097",
+    "conditional_01_01_predictive.npz": "b08ad31cfbc4993b313bd99899bd544ee7b6aaaf20cbec75de395ea113044ba5",
+    "conditional_01_01_result.json": "113fc5f3b5c01d2b5c00c210e4d415f15faa4c8c27f1a738523770c1c140538f",
+    "conditional_01_01_sampling.json": "ead80ae574507d7718be10b18f6528144afc0042135ccc46a4472c2b272f0898",
+    "conditional_02_01_chains.npz": "b9a8639917a32f015303b6c0df066d0720470d83effff01897db0f835ab9d6d7",
+    "conditional_02_01_result.json": "0980602c5f0dd4e56cb3a1a303e91be96f3d4e02688d69a7e5c5d874433a8779",
+    "conditional_02_01_sampling.json": "c7f250d8381796fbbf2a2c2dff5aee1d40c8a16fb5051ea5ec6f5d991ba340d0",
+    "results.json": "8d03e0e6310dd07bc820c78784e416e73a554c71591d78a9fa3bdffdcdf34619"
+  }
+}

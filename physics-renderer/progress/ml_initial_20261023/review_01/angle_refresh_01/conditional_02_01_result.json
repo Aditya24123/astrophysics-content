@@ -1,0 +1,151 @@
+{
+  "tag": "conditional_02_01",
+  "converged": true,
+  "diagnostics": {
+    "variables": {
+      "pa_branch": {
+        "rank_folded_split_rhat": 1.0053566312308084,
+        "bulk_ess": 580.9889306730386,
+        "tail_ess": 596.3533470152037,
+        "mean_mcse": 0.002865546102141694,
+        "passed": true,
+        "failure": null
+      },
+      "east_prior_unit": {
+        "rank_folded_split_rhat": 1.0035813476612443,
+        "bulk_ess": 869.4820816043837,
+        "tail_ess": 946.1487482967331,
+        "mean_mcse": 0.0009695322013238735,
+        "passed": true,
+        "failure": null
+      },
+      "north_prior_unit": {
+        "rank_folded_split_rhat": 1.0052629111550817,
+        "bulk_ess": 731.9307371572802,
+        "tail_ess": 870.8403995861779,
+        "mean_mcse": 0.0007978051419191709,
+        "passed": true,
+        "failure": null
+      },
+      "common_gain_z": {
+        "rank_folded_split_rhat": 1.0078456757875782,
+        "bulk_ess": 745.2298654750531,
+        "tail_ess": 832.4053453282141,
+        "mean_mcse": 0.03267760860565416,
+        "passed": true,
+        "failure": null
+      },
+      "slope_z": {
+        "rank_folded_split_rhat": 1.0035087998658423,
+        "bulk_ess": 950.1303571772028,
+        "tail_ess": 1171.943083362067,
+        "mean_mcse": 0.03190635516495675,
+        "passed": true,
+        "failure": null
+      },
+      "pa_sin": {
+        "rank_folded_split_rhat": 1.0053771573225139,
+        "bulk_ess": 587.7026255811987,
+        "tail_ess": 572.7286646123703,
+        "mean_mcse": 0.015567812652529186,
+        "passed": true,
+        "failure": null
+      },
+      "pa_cos": {
+        "rank_folded_split_rhat": 1.006994444721591,
+        "bulk_ess": 710.8325616839926,
+        "tail_ess": 718.455281894845,
+        "mean_mcse": 0.005834589061100814,
+        "passed": true,
+        "failure": null
+      }
+    },
+    "passed": true,
+    "chain_shape": [
+      4,
+      1445,
+      7
+    ],
+    "rhat_limit": 1.01,
+    "ess_min": 400,
+    "method": "rank/folded split Rhat; explicit-length FFT Geyer positive/monotone bulk and 5/95% tail ESS; capped at retained count",
+    "limits": "Finite diagnostic passes do not prove global mode coverage or model calibration."
+  },
+  "retained_per_chain": 1445,
+  "steps_with_new_phase_warmup": 1945,
+  "wall_seconds": 300.1777447000004,
+  "cpu_seconds": 255.421875,
+  "stop_reason": "wall_budget",
+  "branch_center": 0.5187089401668468,
+  "rng_end_states": [
+    {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 39372580921075425226659677063763787588,
+        "inc": 115704684018361538040620289882718513133
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    },
+    {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 41536164691588483713696631419523097162,
+        "inc": 224106443252340586821050355924793468327
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    },
+    {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 33981505875980990141553913552817638650,
+        "inc": 240525497281273590579257492564481661227
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    },
+    {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 139045759816020704922862234825646857125,
+        "inc": 143247613228252596402203093735173676571
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    }
+  ],
+  "acceptance_t_local_cal_globalPA": [
+    [
+      0.529874213836478,
+      0.4563279857397504,
+      0.9097744360902256,
+      0.14315352697095435
+    ],
+    [
+      0.5368782161234992,
+      0.4983277591973244,
+      0.9188191881918819,
+      0.13387423935091278
+    ],
+    [
+      0.5249569707401033,
+      0.47440273037542663,
+      0.9172185430463576,
+      0.13025210084033614
+    ],
+    [
+      0.577054794520548,
+      0.4782608695652174,
+      0.9300699300699301,
+      0.1530398322851153
+    ]
+  ],
+  "forward_calls": 6665,
+  "old_draws_discarded_from_artifacts": false,
+  "diagnostic_phase": "Only new homogeneous-kernel retained phase; older chains remain unchanged and are not counted as passing",
+  "source_state_sha256": "b9a8639917a32f015303b6c0df066d0720470d83effff01897db0f835ab9d6d7",
+  "new_theta_draws": 0,
+  "conditional_observed_rms_median": 1.0143695221126563,
+  "conditional_predictive_tail_fraction": 0.125
+}

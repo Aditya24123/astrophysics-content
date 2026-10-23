@@ -1,0 +1,58 @@
+{
+  "prior_corner_optical_depth": [
+    {
+      "em": 10000.0,
+      "te": 5000,
+      "tau_by_frequency": [
+        0.0073879964658677445,
+        0.004733418196726215,
+        0.0038790125426892436,
+        0.0027692153832996613,
+        0.00236898311924944,
+        0.002048444677144666
+      ]
+    },
+    {
+      "em": 10000.0,
+      "te": 12000,
+      "tau_by_frequency": [
+        0.002252660090594142,
+        0.0014467946832101223,
+        0.0011869697858966095,
+        0.0008490138596709197,
+        0.0007269688562392504,
+        0.0006291448884217636
+      ]
+    },
+    {
+      "em": 500000.0,
+      "te": 5000,
+      "tau_by_frequency": [
+        0.3693998232933872,
+        0.23667090983631073,
+        0.19395062713446218,
+        0.13846076916498307,
+        0.118449155962472,
+        0.10242223385723327
+      ]
+    },
+    {
+      "em": 500000.0,
+      "te": 12000,
+      "tau_by_frequency": [
+        0.11263300452970709,
+        0.07233973416050611,
+        0.059348489294830484,
+        0.04245069298354598,
+        0.03634844281196252,
+        0.03145724442108818
+      ]
+    }
+  ],
+  "thin_equation": "I_nu proportional to EM * Te^(-1/2) * g_ff(Te,nu) when tau << 1; morphology and gain can trade against normalization. The narrow six-band spectrum has weak distinct Te leverage.",
+  "additional_observation_hypotheses": [
+    "Measure resolved optically thick brightness with beam/foreground/calibration modeled, over frequencies that bracket optical-depth turnover for the individual source",
+    "Add an independent temperature-sensitive diagnostic with a jointly specified forward model and nuisance assumptions; outside this continuum-only data contract"
+  ],
+  "scope": "Inference from the preserved physical equations and two-case posteriors; does not establish universal non-identifiability or authorize new observations/data generation."
+}

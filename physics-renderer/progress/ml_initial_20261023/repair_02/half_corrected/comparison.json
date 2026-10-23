@@ -1,0 +1,44 @@
+{
+  "half": {
+    "name": "full",
+    "best_epoch": 40,
+    "epochs": 70,
+    "best_validation_nll": 5.129973101204911,
+    "stopping_reason": "validation_patience",
+    "elapsed_seconds": 1.7197412000004988,
+    "cpu_seconds": 1.109375,
+    "train_rows": 396,
+    "pca_explained_fraction": 0.41969971714292403,
+    "parameter_count": 1518,
+    "working_set_mib": 178.02734375,
+    "peak_working_set_mib": 201.3359375
+  },
+  "full": {
+    "name": "full",
+    "best_epoch": 22,
+    "epochs": 52,
+    "best_validation_nll": 4.9338096487585466,
+    "stopping_reason": "validation_patience",
+    "elapsed_seconds": 0.563540600000124,
+    "cpu_seconds": 0.515625,
+    "train_rows": 794,
+    "pca_explained_fraction": 0.39219688430482896,
+    "parameter_count": 1518,
+    "working_set_mib": 156.54296875,
+    "peak_working_set_mib": 202.11328125
+  },
+  "half_validation_mae": [
+    30094.529337689288,
+    1886.7220737391604,
+    7.8637547575135205,
+    0.1274826802847079
+  ],
+  "full_validation_mae": [
+    33718.01141754726,
+    1832.0412172598653,
+    7.535885692247668,
+    0.13072506050149366
+  ],
+  "half_validation_nll": 5.129973101204911,
+  "scope": "Correct own-half feature means/std and PCA; fixed prior logit coordinates. One seed,198 vs397 training sources, reused validation; no trend/data-sufficiency proof. Historical half diagnostic remains preserved and used full-training feature normalization."
+}

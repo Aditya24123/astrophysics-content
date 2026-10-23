@@ -1,0 +1,18 @@
+{
+  "protocol": {
+    "version": "short_budget_half_preprocessing_correction_v1",
+    "declared_utc": "2026-10-23T12:47:00+00:00",
+    "source_selection": "First198 sorted original training source IDs;396 observations; no data-dependent subset selection",
+    "normalization": "Own396-row feature mean/std (ddof0); own PCA32; target log10 EM/size and linear Te/q statistics from198 unique half-training parents, stored separately. The model uses the same fixed prior-logit target coordinates as canonical full run.",
+    "optimizer_wall_seconds": 15,
+    "nominal_optimizer_cpu_bound_seconds_at_two_threads": 30,
+    "whole_job_admission_wall_seconds": 60,
+    "rule": "Set optimizer cap from remaining whole-job allowance with5s PCA/finalization reserve. Abort before fitting if insufficient time; report any binding cap as budget-limited, not equivalent convergence. No automatic restart. Expected fit is well below this budget from existing measured runs.",
+    "test_or_challenge_access": "None; cached verified train/validation only",
+    "interpretation": "Correct one implementation fairness defect. One half/full pair at one seed on reused validation is not data-sufficiency evidence. Preserve historical confounded half run."
+  },
+  "protocol_sha256": "378f98586c4cbd98ba7ffb37973ae8f3b048145ea00a332f923579df91f52ab5",
+  "wrapper_sha256": "0bb2eb01221bebce342215ece05310b26563bfd19fe2320e0d1587aa630e42e7",
+  "frozen_campaign_source_sha256": "5a99d9db7da1bcd4a4a03cb147f1892012db84458ed15e638a2c99a97c66d1c8",
+  "created_before_half_fit": true
+}

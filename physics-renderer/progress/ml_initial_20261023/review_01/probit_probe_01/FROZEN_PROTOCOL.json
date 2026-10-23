@@ -1,0 +1,52 @@
+{
+  "protocol": {
+    "version": "single_prior_correct_transform_sensitivity_probe_v1",
+    "rationale_frozen_before_training": "Temperature and axis-ratio validation MAEs are slightly worse than prior-median diagnostics. A Gaussian in scaled-logit prior coordinates cannot exactly represent the uniform prior when data are uninformative; Gaussian probit(prior-unit) coordinates can. One otherwise identical fit isolates this prior-family representation choice. It cannot restore PCA information, remove nonlinear multimodality or prove data sufficiency.",
+    "change": "Only the fixed supervised target transform and inverse: use ndtri(prior-unit) / ndtr. Same 3906 measured inputs, train-only normalization/PCA32, 32-unit tanh network and full covariance Gaussian output.",
+    "epochs": 300,
+    "fit_wall_seconds": 600,
+    "patience": 30,
+    "min_delta": 0.001,
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "gradient_clip": 5.0,
+    "pca_components": 32,
+    "hidden": 32,
+    "threads": 2,
+    "bootstrap_parent_draws": 5000,
+    "stopping_and_selection": "One fit only, best validation NLL with unchanged patience/min_delta. Within a fixed coordinate transform the label Jacobian is constant across epochs. Compare original/probe density scores only in common prior-unit u coordinates including exact Jacobians.",
+    "comparison_metrics": [
+      "All four original-unit MAE/RMSE against frozen model and prior medians",
+      "Paired source-resampling intervals for MAE differences",
+      "Joint and marginal prior-unit density NLL relative to exact uniform prior",
+      "Central 50/80/95% marginal coverage and widths with 67-source sample-size caveat",
+      "Training/validation curves and fitting cost"
+    ],
+    "decision": "Report all outcomes, including degradation. No automatic model replacement, no retries for score improvement and no second hyperparameter/architecture probe. A better validation score is development evidence only; independent final evaluation would need a separately approved protected set.",
+    "data": "794 train /397 sources; 134 validation /67 sources. Existing test/challenge labels and test scoring forbidden. Simulator/datasets/run_03/followup_01 remain unchanged.",
+    "new_data_or_dependencies": "None"
+  },
+  "protocol_sha256": "ab32bca96cd4d713ddea396d54544693d9b565542f07f15e227fda291d09efe6",
+  "created_before_training": true,
+  "frozen_utc": "2026-10-23T11:09:02.001017+00:00",
+  "source_sha256": {
+    "ml/probit_probe.py": "db2404d148ae618df5a9dbbe9e321c4ddc34ee8af56124cba78095be194259c6",
+    "ml/model.py": "541bce7b8aba542227c5bd51591b1f82dcf9c2bd3a4ef2211b0579252b2e2a7d",
+    "ml/run_initial.py": "9a6667fa7e3e50e485777e6500d40784a65ecd1ccb19e30fbb5792f947171ef8",
+    "ml/diagnose_model.py": "05074a6dfcaf8feeafe59f7b4a1756f9a909ad96091170fc27be667e996dfa66"
+  },
+  "environment": {
+    "python": "3.13.14",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "numpy": "2.2.6",
+    "scipy": "1.18.0",
+    "astropy": "8.0.2",
+    "matplotlib": "3.11.0"
+  },
+  "frozen_original_checkpoint_sha256": "e07db567c60f826280f47fd063f7068cebc4df49fedb4e1377cfe1222925ec0e",
+  "normalization_sha256": "6f6d6af5cf35dc1709ee1bc6bb38fc8bfccd292c3f69c6f4915c86d923fe65f7",
+  "new_test_evaluation": false,
+  "fit_count": 1,
+  "model_replaced": false
+}

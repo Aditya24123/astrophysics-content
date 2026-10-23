@@ -1,0 +1,105 @@
+{
+  "observations": 24,
+  "sources": 12,
+  "rows": [
+    {
+      "canonical_values": 3906,
+      "status": "quarantined: no base-model posterior score or labels read, irrespective of whether dimensional layout happens to match"
+    },
+    {
+      "canonical_values": 3228,
+      "status": "quarantined: no base-model posterior score or labels read, irrespective of whether dimensional layout happens to match"
+    },
+    {
+      "canonical_values": 3906,
+      "status": "quarantined: no base-model posterior score or labels read, irrespective of whether dimensional layout happens to match"
+    },
+    {
+      "canonical_values": 3228,
+      "status": "quarantined: no base-model posterior score or labels read, irrespective of whether dimensional layout happens to match"
+    },
+    {
+      "canonical_values": 3906,
+      "status": "quarantined: no base-model posterior score or labels read, irrespective of whether dimensional layout happens to match"
+    },
+    {
+      "canonical_values": 3906,
+      "status": "quarantined: no base-model posterior score or labels read, irrespective of whether dimensional layout happens to match"
+    },
+    {
+      "canonical_values": 3228,
+      "status": "quarantined: no base-model posterior score or labels read, irrespective of whether dimensional layout happens to match"
+    },
+    {
+      "canonical_values": 3906,
+      "status": "quarantined: no base-model posterior score or labels read, irrespective of whether dimensional layout happens to match"
+    },
+    {
+      "canonical_values": 3228,
+      "status": "quarantined: no base-model posterior score or labels read, irrespective of whether dimensional layout happens to match"
+    },
+    {
+      "canonical_values": 3228,
+      "status": "quarantined: no base-model posterior score or labels read, irrespective of whether dimensional layout happens to match"
+    },
+    {
+      "canonical_values": 3228,
+      "status": "quarantined: no base-model posterior score or labels read, irrespective of whether dimensional layout happens to match"
+    },
+    {
+      "canonical_values": 3906,
+      "status": "quarantined: no base-model posterior score or labels read, irrespective of whether dimensional layout happens to match"
+    },
+    {
+      "canonical_values": 3228,
+      "status": "quarantined: no base-model posterior score or labels read, irrespective of whether dimensional layout happens to match"
+    },
+    {
+      "canonical_values": 3906,
+      "status": "quarantined: no base-model posterior score or labels read, irrespective of whether dimensional layout happens to match"
+    },
+    {
+      "canonical_values": 3906,
+      "status": "quarantined: no base-model posterior score or labels read, irrespective of whether dimensional layout happens to match"
+    },
+    {
+      "canonical_values": 3906,
+      "status": "quarantined: no base-model posterior score or labels read, irrespective of whether dimensional layout happens to match"
+    },
+    {
+      "canonical_values": 3906,
+      "status": "quarantined: no base-model posterior score or labels read, irrespective of whether dimensional layout happens to match"
+    },
+    {
+      "canonical_values": 3228,
+      "status": "quarantined: no base-model posterior score or labels read, irrespective of whether dimensional layout happens to match"
+    },
+    {
+      "canonical_values": 3906,
+      "status": "quarantined: no base-model posterior score or labels read, irrespective of whether dimensional layout happens to match"
+    },
+    {
+      "canonical_values": 3906,
+      "status": "quarantined: no base-model posterior score or labels read, irrespective of whether dimensional layout happens to match"
+    },
+    {
+      "canonical_values": 3906,
+      "status": "quarantined: no base-model posterior score or labels read, irrespective of whether dimensional layout happens to match"
+    },
+    {
+      "canonical_values": 3906,
+      "status": "quarantined: no base-model posterior score or labels read, irrespective of whether dimensional layout happens to match"
+    },
+    {
+      "canonical_values": 3906,
+      "status": "quarantined: no base-model posterior score or labels read, irrespective of whether dimensional layout happens to match"
+    },
+    {
+      "canonical_values": 3906,
+      "status": "quarantined: no base-model posterior score or labels read, irrespective of whether dimensional layout happens to match"
+    }
+  ],
+  "protected_labels_decoded": false,
+  "posterior_scored": false,
+  "why": "Different layout and/or generative challenge assumptions must remain separate; never pad, merge, fit or select this base model using these rows."
+}

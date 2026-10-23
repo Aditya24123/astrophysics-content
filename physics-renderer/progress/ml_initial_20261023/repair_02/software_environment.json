@@ -1,0 +1,35 @@
+{
+  "python": "3.13.14",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "logical_cpu_count": 16,
+  "packages": {
+    "astropy": "8.0.2",
+    "astropy-iers-data": "0.2026.10.19.0.52.1",
+    "colorama": "0.4.6",
+    "contourpy": "1.4.0",
+    "cycler": "0.12.1",
+    "fonttools": "4.67.0",
+    "iniconfig": "2.3.1",
+    "kiwisolver": "1.5.1",
+    "matplotlib": "3.11.0",
+    "numpy": "2.2.6",
+    "packaging": "26.3",
+    "pillow": "13.0.0",
+    "pluggy": "1.7.0",
+    "pyerfa": "2.0.1.5",
+    "Pygments": "2.21.0",
+    "pyparsing": "3.3.3",
+    "pytest": "9.0.2",
+    "python-dateutil": "2.9.0.post0",
+    "PyYAML": "6.0.3",
+    "scipy": "1.18.0",
+    "six": "1.17.0"
+  },
+  "manifest_method": "importlib.metadata; pip absent; no installation performed",
+  "threads": {
+    "OPENBLAS_NUM_THREADS": 2,
+    "OMP_NUM_THREADS": 2,
+    "MKL_NUM_THREADS": 2
+  }
+}

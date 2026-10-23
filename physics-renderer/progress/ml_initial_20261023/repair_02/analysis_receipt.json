@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-23T13:02:38.762161+00:00",
+  "source_sha256": "734c4c5bd4ef0a6bb2122d53e6640acc749e3ef7e882ef31a6fff54654d86248",
+  "preservation_passed": true,
+  "test_scored": false,
+  "wall_seconds": 467.3014604,
+  "cpu_seconds": 390.546875,
+  "scope": "Offline complete likelihood diagnostic replay, development-operator audit, posterior predictive checks, validation/half-data summaries and preservation verification; separate from model training or posterior sampling"
+}

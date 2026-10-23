@@ -1,0 +1,94 @@
+{
+  "issues": [
+    {
+      "id": "I01",
+      "severity": "P1",
+      "evidence": "Saved convergence/finalizer evidence not derived from raw chains at finalization; chain hashes not bound",
+      "intended_repair": "Recompute raw-chain diagnostics, physical quantiles, source selection and predictive receipts; bind derived artifacts",
+      "regression_check": "Tampered chains, omitted/duplicate/missing cases, NaN diagnostics rejected",
+      "scientific_limit": "Actual raw-chain passes require independent recheck, not automatic withdrawal",
+      "after_status": "Fixed in v2 audit route",
+      "after_evidence": "Raw chain hashes/counts/source pairs, all 11 diagnostic variables, quantiles and all 128 predictive receipts per case recomputed. Historical finalizer unchanged."
+    },
+    {
+      "id": "I02",
+      "severity": "P1",
+      "evidence": "Diagnostic API silently accepts fewer names than variables; NaN/constant failure serialization and odd-FFT inverse-length handling are weak",
+      "intended_repair": "Versioned strict finite diagnostics, all-variable dimension checks, explicit inverse FFT length, JSON-safe failures",
+      "regression_check": "Omitted variable, nonfinite/stuck chains, odd padding vs direct autocovariance",
+      "scientific_limit": "Existing 4000-draw chain FFT padding is even; numeric impact must be measured",
+      "after_status": "Fixed in v2 diagnostic route",
+      "after_evidence": "Names must cover every variable; nonfinite/degenerate failures are JSON-safe; explicit inverse FFT length. Old 4000-draw passes reproduced without change."
+    },
+    {
+      "id": "I03",
+      "severity": "P1",
+      "evidence": "Neural forward records profile only marginal medians and fitted nuisances; no nuisance-correlated predictive integration",
+      "intended_repair": "Implement conditional p(nuisance|theta,measurement) sampling for frozen neural theta draws; accept only converged conditionals",
+      "regression_check": "Known conditional Gaussian, cached likelihood vs original, all-nuisance convergence",
+      "scientific_limit": "Few outer neural draws and approximate neural theta posterior prevent global calibration claims",
+      "after_status": "Implementation added; scientific assessment remains limited",
+      "after_evidence": "2/4 conditional solves passed. No profile or nuisance truth substituted. Only two outer neural draws per observation; no reliable aggregate predictive/calibration claim."
+    },
+    {
+      "id": "I04",
+      "severity": "P2",
+      "evidence": "Broad optimization starts collapse near modes; finite diagnostics cannot prove global mode coverage",
+      "intended_repair": "Independent bounded validation multistart mode search and chain log-density/early-late checks",
+      "regression_check": "Displaced geometry modes and higher-density discoveries flagged",
+      "scientific_limit": "Global mode completeness is irreducible with finite exploration",
+      "after_status": "Exploration strengthened; irreducible limit remains",
+      "after_evidence": "Eight independent validation optimizer starts per case, including position/PA/physical variation; optimizers are not posteriors. Finite mode completeness unproven."
+    },
+    {
+      "id": "I05",
+      "severity": "P2",
+      "evidence": "PhysicsLikelihood and Support assume PA 0..180, offsets +/-10 and log EM/size even if future config changes",
+      "intended_repair": "Fail closed on unsupported config/observing units and prior definitions in new review route",
+      "regression_check": "Changed PA/offset/grid/target transforms rejected",
+      "scientific_limit": "Current documented config may already match exactly",
+      "after_status": "Fixed in v2 review route",
+      "after_evidence": "Unsupported PA/offset/target/grid/noise contracts fail closed; current contract matches. Frozen legacy likelihood preserved."
+    },
+    {
+      "id": "I06",
+      "severity": "P2",
+      "evidence": "Validation/test/challenge roles and empirical coverage uncertainty can be confused",
+      "intended_repair": "Explicit data-role ledger and source-based validation resampling with finite-design caveats; preserve test archive",
+      "regression_check": "Exact grouped counts, no test/challenge training, feature allowlist and train-only preprocessing checks",
+      "scientific_limit": "67 validation/48 test groups and Sobol design cannot certify frequentist calibration",
+      "after_status": "Clarified and verified; finite-data limit remains",
+      "after_evidence": "Train 397/794, validation 67/134, test 48/96, challenge 12/24 source/observation counts. Train normalization/PCA and validation predictions reproduced. Test archive not rescored."
+    },
+    {
+      "id": "I07",
+      "severity": "P1",
+      "evidence": "Frozen neural posterior is broad/weak for temperature and differs from validated Bayesian marginals",
+      "intended_repair": "Quantify validation-only errors, widths and predictive mismatch; retain frozen model and propose later architecture/joint-nuisance work",
+      "regression_check": "Do not pick models or calibrate using test; no false fixed-accuracy claim",
+      "scientific_limit": "Insufficient design/posterior family cannot be eliminated by bookkeeping fixes",
+      "after_status": "Unresolved scientific/model limitation",
+      "after_evidence": "Frozen neural model unchanged. Same validation errors before/after; broad restricted-family posterior and temperature weakness are not repaired by audit checks."
+    },
+    {
+      "id": "I08",
+      "severity": "P2",
+      "evidence": "Historical/follow-up timings and conditional-predictive work have different cost/precision scopes",
+      "intended_repair": "Retain pilot-inclusive accounting; time new conditional work separately with call counts and CPU/thread environment",
+      "regression_check": "No matched-accuracy speedup from incomparable draw counts",
+      "scientific_limit": "Two cases/session effects remain",
+      "after_status": "Accounting clarified; comparison precision limit remains",
+      "after_evidence": "Pilot-inclusive old accounting retained; conditional Bayesian extension cost/calls reported separately from amortized neural inference. No numerical speedup claim."
+    },
+    {
+      "id": "I09",
+      "severity": "P2",
+      "evidence": "Sampler final output requires draw count divisible by diagnostic interval; wall budget checked only at diagnostic milestones; interrupted conditional work needs honest status",
+      "intended_repair": "New bounded conditional sampler validates settings and always records success/failure/time-stop with resumable state or explicit limitation",
+      "regression_check": "Invalid budgets, stop before first milestone, failed chain state serialization",
+      "scientific_limit": "Historical follow-up files/code preserved; new route does not imply old sampler has been retroactively repaired",
+      "after_status": "Fixed for new bounded conditional route; legacy limitation retained",
+      "after_evidence": "Invalid settings rejected; stops before first milestone saved, all failures retained. No automatic partial-chain resume is claimed; old sampler code remains historical."
+    }
+  ]
+}

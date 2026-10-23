@@ -1,0 +1,14 @@
+{
+  "name": "half_diagnostic",
+  "best_epoch": 46,
+  "epochs": 76,
+  "best_validation_nll": 4.943784367480693,
+  "stopping_reason": "validation_patience",
+  "elapsed_seconds": 0.7226749999972526,
+  "cpu_seconds": 0.671875,
+  "train_rows": 396,
+  "pca_explained_fraction": 0.4265511280216474,
+  "parameter_count": 1518,
+  "working_set_mib": 158.484375,
+  "peak_working_set_mib": 202.11328125
+}

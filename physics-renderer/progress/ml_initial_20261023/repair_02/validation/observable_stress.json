@@ -1,0 +1,80 @@
+{
+  "statistic": "RMS of raw measured y in exact conditional thermal-whitened coordinates; includes noise and calibration, not a debiased true SNR",
+  "thresholds_fitted_on": "794 training observations only",
+  "thresholds": [
+    1.0836707174657496,
+    1.5031993874272045,
+    3.312695366906092
+  ],
+  "rows": [
+    {
+      "bin": 0,
+      "observations": 44,
+      "sources": 22,
+      "mae_all_targets": [
+        6978.741381071083,
+        1917.1638612872607,
+        9.09381292025482,
+        0.14588349118506164
+      ],
+      "central95_coverage_all_targets": [
+        0.9090909090909091,
+        0.9318181818181818,
+        0.9090909090909091,
+        0.8181818181818182
+      ]
+    },
+    {
+      "bin": 1,
+      "observations": 36,
+      "sources": 19,
+      "mae_all_targets": [
+        22634.880492862405,
+        1767.1447864311606,
+        10.773943792963294,
+        0.12983692189408694
+      ],
+      "central95_coverage_all_targets": [
+        1.0,
+        0.9444444444444444,
+        0.9166666666666666,
+        0.8888888888888888
+      ]
+    },
+    {
+      "bin": 2,
+      "observations": 32,
+      "sources": 17,
+      "mae_all_targets": [
+        76028.00514102964,
+        1661.9233105746164,
+        5.26963798051682,
+        0.1425290993263506
+      ],
+      "central95_coverage_all_targets": [
+        0.9375,
+        1.0,
+        1.0,
+        0.875
+      ]
+    },
+    {
+      "bin": 3,
+      "observations": 22,
+      "sources": 11,
+      "mae_all_targets": [
+        53646.02034074613,
+        2001.824407996036,
+        7.941861116597848,
+        0.10031547340231155
+      ],
+      "central95_coverage_all_targets": [
+        0.9090909090909091,
+        0.9090909090909091,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "limits": "Descriptive reused-validation stress check only. Source groups may straddle measurement-defined bins; rows are not independent subexperiments. No score-driven refit."
+}

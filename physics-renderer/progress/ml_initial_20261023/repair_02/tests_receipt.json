@@ -1,0 +1,32 @@
+{
+  "utc": "2026-10-23T13:06:27.852200+00:00",
+  "command": [
+    ".\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "tests/test_npe_contract.py",
+    "tests/test_training_data.py",
+    "ml/test_ml.py",
+    "ml/test_followup.py",
+    "ml/test_review_v2.py",
+    "ml/test_resume_conditionals.py",
+    "ml/test_probit_probe.py",
+    "ml/test_angle_refresh.py",
+    "ml/test_model_information.py",
+    "ml/test_repair_campaign.py",
+    "ml/test_repair_refresh.py",
+    "ml/test_repair_resume.py",
+    "-p",
+    "no:cacheprovider",
+    "--basetemp",
+    "LOCAL_PATH_REDACTED"
+  ],
+  "exit_code": 0,
+  "passed": true,
+  "wall_seconds": 79.53072320000138,
+  "fixture_root": "LOCAL_PATH_REDACTED",
+  "fixture_policy": "Fresh explicitly chosen path, no cleanup/deletion, no physics/source-I/O changes, no automatic failure suppression. A numerical failure is never retried as an environment failure.",
+  "log": "regressions.log"
+}

@@ -1,0 +1,395 @@
+{
+  "created_utc": "2026-10-23T10:18:20.738847+00:00",
+  "state": "BEFORE; no repair applied",
+  "inventory": {
+    "status": "PASS",
+    "files_hashed": 3712,
+    "bytes": 409685158,
+    "parent_counts": {
+      "train": 397,
+      "test": 48,
+      "validation": 67,
+      "challenge": 12
+    },
+    "observation_counts": {
+      "train": 794,
+      "test": 96,
+      "validation": 134,
+      "challenge": 24
+    },
+    "realizations_per_parent": {
+      "2": 524
+    },
+    "dataset_generation_code_sha256": "0a31e1c6c436ca14d4def031a53fb76ee159db7c2b209308277ffb7fb45f2e6a",
+    "core_files_identical_to_frozen_generation": [
+      "pyproject.toml",
+      "requirements-dev.txt",
+      "requirements.txt",
+      "src/hii_sim/__init__.py",
+      "src/hii_sim/audit.py",
+      "src/hii_sim/casa_bridge.py",
+      "src/hii_sim/casa_reconstruction_policy.py",
+      "src/hii_sim/casa_simulate.py",
+      "src/hii_sim/cli.py",
+      "src/hii_sim/config_defaults.py",
+      "src/hii_sim/convergence.py",
+      "src/hii_sim/dataset.py",
+      "src/hii_sim/export.py",
+      "src/hii_sim/instrument.py",
+      "src/hii_sim/instrument_validation.py",
+      "src/hii_sim/io.py",
+      "src/hii_sim/loaders.py",
+      "src/hii_sim/npe_contract.py",
+      "src/hii_sim/physics.py",
+      "src/hii_sim/reconstruction.py",
+      "src/hii_sim/reconstruction_validation.py",
+      "src/hii_sim/schema.py",
+      "src/hii_sim/sensitivity.py",
+      "src/hii_sim/validation.py"
+    ],
+    "noncore_changed_frozen_files": [
+      "tools/validate_casa_run.py"
+    ],
+    "current_added_files": [
+      "src/hii_sim/training_data.py",
+      "src/hii_sim/visibility_photometry.py",
+      "tools/prepare_training_data.py"
+    ],
+    "current_code_sha256": "6b03c1b7e3660622839de62caaf490ffd84e5288bc4a448d168cb8a96e852412",
+    "public_manifest_sha256": "54a34598b9189e5ec113e79b805bbb3fa9620b2eb042d192f64f8f891510b34e",
+    "provenance_sha256": "07280b9237348753482c79039a0c58a5e2bb0c74350b2a9e92d5f4b4123c1bda",
+    "heldout_target_handling": "protected plan parsed for lineage; holdout label/truth files hashed only; holdout parameter values not summarized, selected on, or used for normalization; prior full original-plan equality audit reused"
+  },
+  "split_observations": {
+    "train": 794,
+    "test": 96,
+    "validation": 134,
+    "challenge": 24
+  },
+  "source_counts": {
+    "train": 397,
+    "test": 48,
+    "validation": 67,
+    "challenge": 12
+  },
+  "replay_array_comparisons": {
+    "full/best.npz/w1": {
+      "max_absolute_difference": 0.0,
+      "array_equal": true
+    },
+    "full/best.npz/b1": {
+      "max_absolute_difference": 0.0,
+      "array_equal": true
+    },
+    "full/best.npz/w2": {
+      "max_absolute_difference": 0.0,
+      "array_equal": true
+    },
+    "full/best.npz/b2": {
+      "max_absolute_difference": 0.0,
+      "array_equal": true
+    },
+    "full/pca.npz/mean": {
+      "max_absolute_difference": 0.0,
+      "array_equal": true
+    },
+    "full/pca.npz/basis": {
+      "max_absolute_difference": 0.0,
+      "array_equal": true
+    },
+    "full/pca.npz/scale": {
+      "max_absolute_difference": 0.0,
+      "array_equal": true
+    },
+    "full/pca.npz/explained_fraction": {
+      "max_absolute_difference": 0.0,
+      "array_equal": true
+    }
+  },
+  "forward_record_check": {
+    "cases": 48,
+    "preserved_original_rows": 46,
+    "all_selected_source_ids_match": true,
+    "optimizer_failures": 0,
+    "median_stored_rms": 1.04033574383882,
+    "max_stored_rms": 3.0919717120348156,
+    "limit": "Structural/receipt audit only; no new test rerender. Profiles are not neural posterior predictive draws."
+  },
+  "bayesian_raw_chain_audit": [
+    {
+      "shape": [
+        4,
+        4000,
+        9
+      ],
+      "chain_sha256": "2f5b6d4a12565fc0e50886ce6925f0df140903c080ef7e7153a6f8abafba439b",
+      "finite": true,
+      "recomputed_diagnostics": {
+        "variables": {
+          "em0_pc_cm6": {
+            "rank_folded_split_rhat": 1.0044174913641937,
+            "bulk_ess": 1300.2010109857713,
+            "tail_ess": 1256.2996831026474,
+            "mean_mcse": 108.52769621919293
+          },
+          "te_k": {
+            "rank_folded_split_rhat": 1.002510967882138,
+            "bulk_ess": 1101.9619927975023,
+            "tail_ess": 1058.0381460257188,
+            "mean_mcse": 57.073180465865775
+          },
+          "major_fwhm_arcsec": {
+            "rank_folded_split_rhat": 1.0035952813950022,
+            "bulk_ess": 1151.263348999172,
+            "tail_ess": 1048.1803497274232,
+            "mean_mcse": 0.02332026549122565
+          },
+          "axis_ratio": {
+            "rank_folded_split_rhat": 1.0046351225338241,
+            "bulk_ess": 902.4459426354808,
+            "tail_ess": 986.1067946275643,
+            "mean_mcse": 0.001266037567750005
+          },
+          "pa_branch": {
+            "rank_folded_split_rhat": 1.0034617762881002,
+            "bulk_ess": 1185.027454395179,
+            "tail_ess": 1072.7574103678419,
+            "mean_mcse": 0.005697241279830484
+          },
+          "east_prior_unit": {
+            "rank_folded_split_rhat": 1.0037698942451714,
+            "bulk_ess": 1452.0690057130942,
+            "tail_ess": 2133.0750588074716,
+            "mean_mcse": 0.00044004641262342006
+          },
+          "north_prior_unit": {
+            "rank_folded_split_rhat": 1.0036349962776252,
+            "bulk_ess": 1352.6730704889133,
+            "tail_ess": 1375.195829425447,
+            "mean_mcse": 0.000451342373996045
+          },
+          "common_gain_z": {
+            "rank_folded_split_rhat": 1.0020061247954486,
+            "bulk_ess": 1289.8087714659446,
+            "tail_ess": 1279.1828730002544,
+            "mean_mcse": 0.02742797771951406
+          },
+          "slope_z": {
+            "rank_folded_split_rhat": 1.001423589154862,
+            "bulk_ess": 1496.5055444718435,
+            "tail_ess": 1306.9677484602125,
+            "mean_mcse": 0.026025243369483846
+          },
+          "pa_sin": {
+            "rank_folded_split_rhat": 1.0028787613564234,
+            "bulk_ess": 1306.2832428406514,
+            "tail_ess": 1069.0634576353095,
+            "mean_mcse": 0.01832245241978883
+          },
+          "pa_cos": {
+            "rank_folded_split_rhat": 1.0026185861429864,
+            "bulk_ess": 1479.1461942261103,
+            "tail_ess": 1508.8051279468934,
+            "mean_mcse": 0.01650882681717537
+          }
+        },
+        "passed": true,
+        "gate": "Every target AND nuisance: rank/folded split Rhat <1.01; bulk and 5/95% tail ESS >=400 across four chains",
+        "limits": "Finite diagnostics cannot prove global mode discovery; periodic PA is also checked through sine/cosine. ESS capped at retained draw count."
+      },
+      "max_saved_diagnostic_difference": 0.0,
+      "max_saved_quantile_difference": 4.3655745685100555e-11,
+      "initialization_costs": [
+        1947.3132413495055,
+        1947.313241826798,
+        1947.313241771543,
+        1948.1458660669953
+      ],
+      "note": "Broad optimizer INPUTS are not overdispersed final chain states; mode coverage still unproven"
+    },
+    {
+      "shape": [
+        4,
+        4000,
+        9
+      ],
+      "chain_sha256": "f2ef6888cc8cd76a8a667d58f8dc8511d1aae8a4c16bdf64e6a52b00181955fc",
+      "finite": true,
+      "recomputed_diagnostics": {
+        "variables": {
+          "em0_pc_cm6": {
+            "rank_folded_split_rhat": 1.0026315721042154,
+            "bulk_ess": 1024.1659976017356,
+            "tail_ess": 897.3466802764871,
+            "mean_mcse": 119.91435946598912
+          },
+          "te_k": {
+            "rank_folded_split_rhat": 1.002949583946742,
+            "bulk_ess": 943.1759291155323,
+            "tail_ess": 853.8679670615144,
+            "mean_mcse": 62.97526597224286
+          },
+          "major_fwhm_arcsec": {
+            "rank_folded_split_rhat": 1.0034344919728009,
+            "bulk_ess": 1385.0865601819514,
+            "tail_ess": 1621.1537447037797,
+            "mean_mcse": 0.02354871228123875
+          },
+          "axis_ratio": {
+            "rank_folded_split_rhat": 1.005296875136153,
+            "bulk_ess": 1194.7181638895795,
+            "tail_ess": 1347.3909402928748,
+            "mean_mcse": 0.0016891315396652968
+          },
+          "pa_branch": {
+            "rank_folded_split_rhat": 1.004863897986708,
+            "bulk_ess": 1210.6344027217394,
+            "tail_ess": 988.9560884685651,
+            "mean_mcse": 0.006678297782871712
+          },
+          "east_prior_unit": {
+            "rank_folded_split_rhat": 1.0015747603362943,
+            "bulk_ess": 1305.3813806271564,
+            "tail_ess": 976.7766445478388,
+            "mean_mcse": 0.0005811154399397787
+          },
+          "north_prior_unit": {
+            "rank_folded_split_rhat": 1.0070961270494325,
+            "bulk_ess": 1539.0228811649329,
+            "tail_ess": 2233.3553900134725,
+            "mean_mcse": 0.000547259258406455
+          },
+          "common_gain_z": {
+            "rank_folded_split_rhat": 1.0053920505339287,
+            "bulk_ess": 1938.2293503572425,
+            "tail_ess": 2767.2163379895114,
+            "mean_mcse": 0.022799434943142148
+          },
+          "slope_z": {
+            "rank_folded_split_rhat": 1.0013378499129146,
+            "bulk_ess": 1895.1062581248634,
+            "tail_ess": 2557.0190636777106,
+            "mean_mcse": 0.02273796810021797
+          },
+          "pa_sin": {
+            "rank_folded_split_rhat": 1.0032821138968957,
+            "bulk_ess": 1715.7198824859156,
+            "tail_ess": 1348.2787685189257,
+            "mean_mcse": 0.01625873529406578
+          },
+          "pa_cos": {
+            "rank_folded_split_rhat": 1.00321065021522,
+            "bulk_ess": 1405.3891238575652,
+            "tail_ess": 1697.6050420790514,
+            "mean_mcse": 0.018401667025874632
+          }
+        },
+        "passed": true,
+        "gate": "Every target AND nuisance: rank/folded split Rhat <1.01; bulk and 5/95% tail ESS >=400 across four chains",
+        "limits": "Finite diagnostics cannot prove global mode discovery; periodic PA is also checked through sine/cosine. ESS capped at retained draw count."
+      },
+      "max_saved_diagnostic_difference": 0.0,
+      "max_saved_quantile_difference": 2.9103830456733704e-11,
+      "initialization_costs": [
+        1955.8978923690854,
+        1955.8978912001905,
+        1955.8978947194653,
+        1955.897892420948
+      ],
+      "note": "Broad optimizer INPUTS are not overdispersed final chain states; mode coverage still unproven"
+    }
+  ],
+  "validation_metrics_from_saved_arrays": {
+    "em0_pc_cm6": {
+      "mae": 33718.01141754727,
+      "rmse": 64234.808033903086,
+      "prior_midpoint_mae": 87035.23829937741,
+      "coverage": {
+        "0.5": {
+          "observed": 0.664179104477612,
+          "mean_width": 76524.61041553615
+        },
+        "0.8": {
+          "observed": 0.917910447761194,
+          "mean_width": 145836.00222155362
+        },
+        "0.95": {
+          "observed": 0.9253731343283582,
+          "mean_width": 227247.8910213665
+        }
+      }
+    },
+    "te_k": {
+      "mae": 1832.0412172598637,
+      "rmse": 2053.082951169836,
+      "prior_midpoint_mae": 1788.075661675921,
+      "coverage": {
+        "0.5": {
+          "observed": 0.5373134328358209,
+          "mean_width": 3728.045162988418
+        },
+        "0.8": {
+          "observed": 0.8283582089552238,
+          "mean_width": 5659.142882861539
+        },
+        "0.95": {
+          "observed": 0.9552238805970149,
+          "mean_width": 6551.031880195187
+        }
+      }
+    },
+    "major_fwhm_arcsec": {
+      "mae": 7.535885692247667,
+      "rmse": 10.327741037126298,
+      "prior_midpoint_mae": 11.415809737231383,
+      "coverage": {
+        "0.5": {
+          "observed": 0.6343283582089553,
+          "mean_width": 18.1464642793594
+        },
+        "0.8": {
+          "observed": 0.8656716417910447,
+          "mean_width": 30.585508485808948
+        },
+        "0.95": {
+          "observed": 0.9477611940298507,
+          "mean_width": 39.142537300594284
+        }
+      }
+    },
+    "axis_ratio": {
+      "mae": 0.13072506050149366,
+      "rmse": 0.1495678044606502,
+      "prior_midpoint_mae": 0.12867091689258814,
+      "coverage": {
+        "0.5": {
+          "observed": 0.4626865671641791,
+          "mean_width": 0.249531683250128
+        },
+        "0.8": {
+          "observed": 0.746268656716418,
+          "mean_width": 0.38829994340637314
+        },
+        "0.95": {
+          "observed": 0.917910447761194,
+          "mean_width": 0.4587235818002701
+        }
+      }
+    }
+  },
+  "validation_observations": 134,
+  "validation_sources": 67,
+  "synthetic_defect_reproductions": {
+    "omitted_bad_dimension_can_pass": true,
+    "stuck_failure_report_json_serializable": false,
+    "first_odd_fft_padding_example_chain_half_length": 31,
+    "requested_fft_length": 63,
+    "legacy_irfft_default_length": 62,
+    "nan_saved_diagnostic_passes_old_finalizer_predicate": true
+  },
+  "test_archive": {
+    "sha256": "a0dd42f73db740cf8d30ae737da895f67574a9c37375eb30957108017c93015a",
+    "status": "Existing evaluated archive only; not rescored"
+  },
+  "original_run_checkpoint": "e07db567c60f826280f47fd063f7068cebc4df49fedb4e1377cfe1222925ec0e"
+}

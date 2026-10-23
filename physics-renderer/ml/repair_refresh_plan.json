@@ -1,0 +1,18 @@
+{
+  "version": "one_fixed_sampler_refresh_if_initial_gate_fails_v1",
+  "declared_utc": "2026-10-23T12:09:00+00:00",
+  "scope": "Only preselected compressed cases that fail the initial complete convergence gate. No neural refit, case replacement, posterior reweighting or truth-dependent selection.",
+  "proposal": "Use failed phase solely as a pilot for latent-z mean/covariance. Freeze a 75% mixture of independence-t/local-Gaussian MH and 25% angle-prior refresh with conditional 8D Student-t proposal. Include exact component-wise Hastings ratios and normal density of proposed z_PA. Each component separately preserves the identical compressed likelihood and prior.",
+  "seed": 231041,
+  "warmup": 500,
+  "max_draws": 6000,
+  "diagnostic_every": 1000,
+  "case_wall_seconds": 600,
+  "student_df": 5,
+  "proposal_covariance_inflation": 1.5,
+  "local_scale": 0.6,
+  "independence_probability": 0.8,
+  "angle_probability": 0.25,
+  "gate": "Same complete physical target/nuisance/PA sin/cos/log-likelihood rank-folded Rhat<1.01, bulk and tail ESS>=400, four chains; no posterior use otherwise.",
+  "phase_policy": "Retain initial raw chains, failures and timing. Start four chains at their own saved states, warm up under the frozen new kernel and assess new production alone; do not pool heterogeneous phases. One refresh phase per failed case, subject to 13:30 UTC science stop. Count all earlier work in total runtime. No threshold relaxation."
+}

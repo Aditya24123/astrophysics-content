@@ -1,0 +1,2145 @@
+{
+  "schema": "public_progress_snapshot_v1",
+  "repository": "Aditya24123/astrophysics-content",
+  "prior_main": "c4767b6cd0ce916f06b5f6d9b31397232ef6d766",
+  "merged_checkpoint": "1c4b777be5e3b2381f76195cc43d72e4445daa2c",
+  "sanitized_copies": true,
+  "originals_unchanged": true,
+  "files": [
+    {
+      "source": "src/hii_sim/__init__.py",
+      "published": "physics-renderer/src/hii_sim/__init__.py",
+      "category": "source",
+      "source_sha256": "2f9af781d9d760b30e8afb140f07dd56c65847f8f8c4dc4bbeb426c4fb6bcb8b",
+      "published_sha256": "2f9af781d9d760b30e8afb140f07dd56c65847f8f8c4dc4bbeb426c4fb6bcb8b",
+      "bytes": 89,
+      "modified_public_copy": false
+    },
+    {
+      "source": "src/hii_sim/audit.py",
+      "published": "physics-renderer/src/hii_sim/audit.py",
+      "category": "source",
+      "source_sha256": "e0ae6e2fdb5e6f0589578d9174a20922a6a98aaf7e4c8e8b8592a2f05839bf0b",
+      "published_sha256": "e0ae6e2fdb5e6f0589578d9174a20922a6a98aaf7e4c8e8b8592a2f05839bf0b",
+      "bytes": 5612,
+      "modified_public_copy": false
+    },
+    {
+      "source": "src/hii_sim/casa_bridge.py",
+      "published": "physics-renderer/src/hii_sim/casa_bridge.py",
+      "category": "source",
+      "source_sha256": "1dc43e4f40646262101e6c0592cd1524084191676ccf5f89a47e2bb8bf61346d",
+      "published_sha256": "1dc43e4f40646262101e6c0592cd1524084191676ccf5f89a47e2bb8bf61346d",
+      "bytes": 4044,
+      "modified_public_copy": false
+    },
+    {
+      "source": "src/hii_sim/casa_reconstruction_policy.py",
+      "published": "physics-renderer/src/hii_sim/casa_reconstruction_policy.py",
+      "category": "source",
+      "source_sha256": "a6e3adea1e3cb5eca80488e3251946631932ade4068f43a78c1558cc31fbf154",
+      "published_sha256": "a6e3adea1e3cb5eca80488e3251946631932ade4068f43a78c1558cc31fbf154",
+      "bytes": 3824,
+      "modified_public_copy": false
+    },
+    {
+      "source": "src/hii_sim/casa_simulate.py",
+      "published": "physics-renderer/src/hii_sim/casa_simulate.py",
+      "category": "source",
+      "source_sha256": "90e96ae59c68cb959b47e6d564eb160e64c704b2f29ee3516bff594a04940e63",
+      "published_sha256": "90e96ae59c68cb959b47e6d564eb160e64c704b2f29ee3516bff594a04940e63",
+      "bytes": 33897,
+      "modified_public_copy": false
+    },
+    {
+      "source": "src/hii_sim/cli.py",
+      "published": "physics-renderer/src/hii_sim/cli.py",
+      "category": "source",
+      "source_sha256": "1df1d251911b90bd789063e5b0db026841564c066b1f1d6899862b08f9ff5642",
+      "published_sha256": "1df1d251911b90bd789063e5b0db026841564c066b1f1d6899862b08f9ff5642",
+      "bytes": 4361,
+      "modified_public_copy": false
+    },
+    {
+      "source": "src/hii_sim/config_defaults.py",
+      "published": "physics-renderer/src/hii_sim/config_defaults.py",
+      "category": "source",
+      "source_sha256": "3250abe476150ca9c783eeaa0cd3bd9524f7c15ccd8972255c5f25a2ce6d5c87",
+      "published_sha256": "3250abe476150ca9c783eeaa0cd3bd9524f7c15ccd8972255c5f25a2ce6d5c87",
+      "bytes": 160,
+      "modified_public_copy": false
+    },
+    {
+      "source": "src/hii_sim/convergence.py",
+      "published": "physics-renderer/src/hii_sim/convergence.py",
+      "category": "source",
+      "source_sha256": "f126bdb3c90bd10d9b9aeffb6bfd87cf71856f777715c8f916b2044b6589d553",
+      "published_sha256": "f126bdb3c90bd10d9b9aeffb6bfd87cf71856f777715c8f916b2044b6589d553",
+      "bytes": 2853,
+      "modified_public_copy": false
+    },
+    {
+      "source": "src/hii_sim/dataset.py",
+      "published": "physics-renderer/src/hii_sim/dataset.py",
+      "category": "source",
+      "source_sha256": "30deaeffdf816ec5a7aadd4a05c5065fd1ad80705330c78fc67644bbfceb10dc",
+      "published_sha256": "30deaeffdf816ec5a7aadd4a05c5065fd1ad80705330c78fc67644bbfceb10dc",
+      "bytes": 20266,
+      "modified_public_copy": false
+    },
+    {
+      "source": "src/hii_sim/export.py",
+      "published": "physics-renderer/src/hii_sim/export.py",
+      "category": "source",
+      "source_sha256": "1d536d8f5016a64e184bd7fecdb03f983ac1248ef254e2d6020a45adb27ac68b",
+      "published_sha256": "1d536d8f5016a64e184bd7fecdb03f983ac1248ef254e2d6020a45adb27ac68b",
+      "bytes": 11080,
+      "modified_public_copy": false
+    },
+    {
+      "source": "src/hii_sim/instrument.py",
+      "published": "physics-renderer/src/hii_sim/instrument.py",
+      "category": "source",
+      "source_sha256": "6657859065295a90701ec28a3003c8554b7f0afa92bdc249e56a52ae72938159",
+      "published_sha256": "6657859065295a90701ec28a3003c8554b7f0afa92bdc249e56a52ae72938159",
+      "bytes": 7119,
+      "modified_public_copy": false
+    },
+    {
+      "source": "src/hii_sim/instrument_validation.py",
+      "published": "physics-renderer/src/hii_sim/instrument_validation.py",
+      "category": "source",
+      "source_sha256": "1ef1b881d21fac60f3c0f5ca46fd20dd6ac9c9ebe73bbd5e01fb272ec62247f4",
+      "published_sha256": "1ef1b881d21fac60f3c0f5ca46fd20dd6ac9c9ebe73bbd5e01fb272ec62247f4",
+      "bytes": 4455,
+      "modified_public_copy": false
+    },
+    {
+      "source": "src/hii_sim/io.py",
+      "published": "physics-renderer/src/hii_sim/io.py",
+      "category": "source",
+      "source_sha256": "c0e6265e4ba305c7525db6bf1ecba28a6048f90f7eba1f43b3e80e5384538a78",
+      "published_sha256": "c0e6265e4ba305c7525db6bf1ecba28a6048f90f7eba1f43b3e80e5384538a78",
+      "bytes": 3405,
+      "modified_public_copy": false
+    },
+    {
+      "source": "src/hii_sim/loaders.py",
+      "published": "physics-renderer/src/hii_sim/loaders.py",
+      "category": "source",
+      "source_sha256": "3b0e572a3488083d2fad4c4ecf5c2763d918e791d082cae78206138ddecba59d",
+      "published_sha256": "3b0e572a3488083d2fad4c4ecf5c2763d918e791d082cae78206138ddecba59d",
+      "bytes": 16812,
+      "modified_public_copy": false
+    },
+    {
+      "source": "src/hii_sim/npe_contract.py",
+      "published": "physics-renderer/src/hii_sim/npe_contract.py",
+      "category": "source",
+      "source_sha256": "d828b6042b45148d9e52690072af2ce1510039b63f0b3ee8b89124735217ef7c",
+      "published_sha256": "d828b6042b45148d9e52690072af2ce1510039b63f0b3ee8b89124735217ef7c",
+      "bytes": 7203,
+      "modified_public_copy": false
+    },
+    {
+      "source": "src/hii_sim/physics.py",
+      "published": "physics-renderer/src/hii_sim/physics.py",
+      "category": "source",
+      "source_sha256": "16c3f0cc401d147a766378c7980ff30907ece3792048286ac6657bd56f894822",
+      "published_sha256": "16c3f0cc401d147a766378c7980ff30907ece3792048286ac6657bd56f894822",
+      "bytes": 3947,
+      "modified_public_copy": false
+    },
+    {
+      "source": "src/hii_sim/reconstruction.py",
+      "published": "physics-renderer/src/hii_sim/reconstruction.py",
+      "category": "source",
+      "source_sha256": "d20a3a235a82e2b380f3ef25b06a9fee4954784763b66a5f3500bf273ca218f4",
+      "published_sha256": "d20a3a235a82e2b380f3ef25b06a9fee4954784763b66a5f3500bf273ca218f4",
+      "bytes": 9625,
+      "modified_public_copy": false
+    },
+    {
+      "source": "src/hii_sim/reconstruction_validation.py",
+      "published": "physics-renderer/src/hii_sim/reconstruction_validation.py",
+      "category": "source",
+      "source_sha256": "0749c8db26ab8f336ca4fc0af45912e5ff9e67df19048c7338e31a9aaf942e56",
+      "published_sha256": "0749c8db26ab8f336ca4fc0af45912e5ff9e67df19048c7338e31a9aaf942e56",
+      "bytes": 13221,
+      "modified_public_copy": false
+    },
+    {
+      "source": "src/hii_sim/schema.py",
+      "published": "physics-renderer/src/hii_sim/schema.py",
+      "category": "source",
+      "source_sha256": "6d957d8b9047b051fab9349f08a9bd63a4759fbc26f83123657a7ac0f94c75f7",
+      "published_sha256": "6d957d8b9047b051fab9349f08a9bd63a4759fbc26f83123657a7ac0f94c75f7",
+      "bytes": 7330,
+      "modified_public_copy": false
+    },
+    {
+      "source": "src/hii_sim/sensitivity.py",
+      "published": "physics-renderer/src/hii_sim/sensitivity.py",
+      "category": "source",
+      "source_sha256": "5eb3e0c95fc21a8c26e6acf95dafcc5ce2ec95d68d7be0145b64266127bddf44",
+      "published_sha256": "5eb3e0c95fc21a8c26e6acf95dafcc5ce2ec95d68d7be0145b64266127bddf44",
+      "bytes": 7350,
+      "modified_public_copy": false
+    },
+    {
+      "source": "src/hii_sim/training_data.py",
+      "published": "physics-renderer/src/hii_sim/training_data.py",
+      "category": "source",
+      "source_sha256": "f7f1e31b4597d0eb651b36dbeb9718ed35d6dd4a23c3a83a2a03298bff11edde",
+      "published_sha256": "f7f1e31b4597d0eb651b36dbeb9718ed35d6dd4a23c3a83a2a03298bff11edde",
+      "bytes": 12564,
+      "modified_public_copy": false
+    },
+    {
+      "source": "src/hii_sim/validation.py",
+      "published": "physics-renderer/src/hii_sim/validation.py",
+      "category": "source",
+      "source_sha256": "6e2d32d0a7e0c6fbc7f558c7ca5b28f20fb324d6c9b6e3d85dfb6d46566cf17a",
+      "published_sha256": "6e2d32d0a7e0c6fbc7f558c7ca5b28f20fb324d6c9b6e3d85dfb6d46566cf17a",
+      "bytes": 12236,
+      "modified_public_copy": false
+    },
+    {
+      "source": "src/hii_sim/visibility_photometry.py",
+      "published": "physics-renderer/src/hii_sim/visibility_photometry.py",
+      "category": "source",
+      "source_sha256": "18b3a174922f0aad7120011d6fbd409544e7b1260ce81b91f219cfd54a7ff203",
+      "published_sha256": "18b3a174922f0aad7120011d6fbd409544e7b1260ce81b91f219cfd54a7ff203",
+      "bytes": 7025,
+      "modified_public_copy": false
+    },
+    {
+      "source": "tests/test_casa_preview.py",
+      "published": "physics-renderer/tests/test_casa_preview.py",
+      "category": "source",
+      "source_sha256": "6507af429122ccb7ee6691d30f9b88823d66cba426f669e2a697250e1de7a939",
+      "published_sha256": "6507af429122ccb7ee6691d30f9b88823d66cba426f669e2a697250e1de7a939",
+      "bytes": 23717,
+      "modified_public_copy": false
+    },
+    {
+      "source": "tests/test_casa_reconstruction_policy.py",
+      "published": "physics-renderer/tests/test_casa_reconstruction_policy.py",
+      "category": "source",
+      "source_sha256": "67bc67ab8531ab176082a24a98f5082418956e7f3d2650be25ec4b72a045d4c6",
+      "published_sha256": "67bc67ab8531ab176082a24a98f5082418956e7f3d2650be25ec4b72a045d4c6",
+      "bytes": 5266,
+      "modified_public_copy": false
+    },
+    {
+      "source": "tests/test_casa_validator.py",
+      "published": "physics-renderer/tests/test_casa_validator.py",
+      "category": "source",
+      "source_sha256": "37b9e56e429bc530bef0facfd89a6f510828ebd14a39802c50d76023b21b0d00",
+      "published_sha256": "37b9e56e429bc530bef0facfd89a6f510828ebd14a39802c50d76023b21b0d00",
+      "bytes": 28138,
+      "modified_public_copy": false
+    },
+    {
+      "source": "tests/test_cli_config_defaults.py",
+      "published": "physics-renderer/tests/test_cli_config_defaults.py",
+      "category": "source",
+      "source_sha256": "ee9ef236deb1160fed29d9b7159959f00e786e25a521b6d3b3da0f223a249fb3",
+      "published_sha256": "ee9ef236deb1160fed29d9b7159959f00e786e25a521b6d3b3da0f223a249fb3",
+      "bytes": 4347,
+      "modified_public_copy": false
+    },
+    {
+      "source": "tests/test_dataset_security.py",
+      "published": "physics-renderer/tests/test_dataset_security.py",
+      "category": "source",
+      "source_sha256": "a86de369c8c13bca9755a1b236135973c3e73fd4d36bc80801e603a951cb598d",
+      "published_sha256": "a86de369c8c13bca9755a1b236135973c3e73fd4d36bc80801e603a951cb598d",
+      "bytes": 12733,
+      "modified_public_copy": false
+    },
+    {
+      "source": "tests/test_generation_budgets.py",
+      "published": "physics-renderer/tests/test_generation_budgets.py",
+      "category": "source",
+      "source_sha256": "3f1d4ccbcf6dba405b1207bd6d6ba097940b44e586fb4fcaa7b0b0c7f315d882",
+      "published_sha256": "3f1d4ccbcf6dba405b1207bd6d6ba097940b44e586fb4fcaa7b0b0c7f315d882",
+      "bytes": 3865,
+      "modified_public_copy": false
+    },
+    {
+      "source": "tests/test_instrument_audit.py",
+      "published": "physics-renderer/tests/test_instrument_audit.py",
+      "category": "source",
+      "source_sha256": "648326c57aecff9eef0500de81ad196207fc44aa3bb2b302712cabcfb785dcdc",
+      "published_sha256": "648326c57aecff9eef0500de81ad196207fc44aa3bb2b302712cabcfb785dcdc",
+      "bytes": 2466,
+      "modified_public_copy": false
+    },
+    {
+      "source": "tests/test_npe_contract.py",
+      "published": "physics-renderer/tests/test_npe_contract.py",
+      "category": "source",
+      "source_sha256": "ffd3feec6687b2e8525cd074fd5ab3cab72215ed9d355eea16e1a4e06af8a62c",
+      "published_sha256": "ffd3feec6687b2e8525cd074fd5ab3cab72215ed9d355eea16e1a4e06af8a62c",
+      "bytes": 10476,
+      "modified_public_copy": false
+    },
+    {
+      "source": "tests/test_physics_audit.py",
+      "published": "physics-renderer/tests/test_physics_audit.py",
+      "category": "source",
+      "source_sha256": "abaffc62e9c9ceb72f0724794da7d0ff8b7a08abd5166130c55ae4089358246c",
+      "published_sha256": "abaffc62e9c9ceb72f0724794da7d0ff8b7a08abd5166130c55ae4089358246c",
+      "bytes": 1699,
+      "modified_public_copy": false
+    },
+    {
+      "source": "tests/test_reconstruction.py",
+      "published": "physics-renderer/tests/test_reconstruction.py",
+      "category": "source",
+      "source_sha256": "71d50daeb7ea5207a82539b8013b14b340d60ef9234122a5028dd9be829209c7",
+      "published_sha256": "71d50daeb7ea5207a82539b8013b14b340d60ef9234122a5028dd9be829209c7",
+      "bytes": 4419,
+      "modified_public_copy": false
+    },
+    {
+      "source": "tests/test_sensitivity.py",
+      "published": "physics-renderer/tests/test_sensitivity.py",
+      "category": "source",
+      "source_sha256": "753169e1ee5ab6a09fb5fa635d4a293ef395c31f96c2d521af569acaba61aab2",
+      "published_sha256": "753169e1ee5ab6a09fb5fa635d4a293ef395c31f96c2d521af569acaba61aab2",
+      "bytes": 3445,
+      "modified_public_copy": false
+    },
+    {
+      "source": "tests/test_spatial_integration.py",
+      "published": "physics-renderer/tests/test_spatial_integration.py",
+      "category": "source",
+      "source_sha256": "3f0c1e6d604d70d33173eb00214e6918a86ee5f0baacc74c1979d5f57a07eaf6",
+      "published_sha256": "3f0c1e6d604d70d33173eb00214e6918a86ee5f0baacc74c1979d5f57a07eaf6",
+      "bytes": 11313,
+      "modified_public_copy": false
+    },
+    {
+      "source": "tests/test_training_data.py",
+      "published": "physics-renderer/tests/test_training_data.py",
+      "category": "source",
+      "source_sha256": "34a8000264e9b4ee39e59ce68d5eeab741c98fdb848e5169a6813a5d82cbe057",
+      "published_sha256": "34a8000264e9b4ee39e59ce68d5eeab741c98fdb848e5169a6813a5d82cbe057",
+      "bytes": 8270,
+      "modified_public_copy": false
+    },
+    {
+      "source": "tests/test_visibility_photometry.py",
+      "published": "physics-renderer/tests/test_visibility_photometry.py",
+      "category": "source",
+      "source_sha256": "81aab917d3b17093cfa50ee84dd1648fc27773bdc54e3b3a455283052f7ae515",
+      "published_sha256": "81aab917d3b17093cfa50ee84dd1648fc27773bdc54e3b3a455283052f7ae515",
+      "bytes": 6220,
+      "modified_public_copy": false
+    },
+    {
+      "source": "configs/base.json",
+      "published": "physics-renderer/configs/base.json",
+      "category": "source",
+      "source_sha256": "47a9ffc6157c60eb95d4ef3e2d1c0f93ce0765a32c76110b158309737fd97b1b",
+      "published_sha256": "47a9ffc6157c60eb95d4ef3e2d1c0f93ce0765a32c76110b158309737fd97b1b",
+      "bytes": 1193,
+      "modified_public_copy": false
+    },
+    {
+      "source": "configs/casa_reimage_multiscale.json",
+      "published": "physics-renderer/configs/casa_reimage_multiscale.json",
+      "category": "source",
+      "source_sha256": "f1500a914017dc078d910a14d6228dd29a2eb7bb079d9cfd93df485bbe9205ef",
+      "published_sha256": "f1500a914017dc078d910a14d6228dd29a2eb7bb079d9cfd93df485bbe9205ef",
+      "bytes": 455,
+      "modified_public_copy": false
+    },
+    {
+      "source": "configs/compact_proxy_gl4_v3.json",
+      "published": "physics-renderer/configs/compact_proxy_gl4_v3.json",
+      "category": "source",
+      "source_sha256": "bfde6c03f97ec2165a0736acf14e3601a4da3100a06b8622e1f41cc6a9625f30",
+      "published_sha256": "577d4bb55377565be15b70aa04c94eaf0f611f88ce090610ac8dea5e6774b153",
+      "bytes": 1728,
+      "modified_public_copy": true
+    },
+    {
+      "source": "configs/compact_proxy_v2.json",
+      "published": "physics-renderer/configs/compact_proxy_v2.json",
+      "category": "source",
+      "source_sha256": "b7aec83f127d438950d3675742065b27762304051219980d21022de805d5eafb",
+      "published_sha256": "cf2b2b01a6531e70ff4b037ccce596be04d59c8930cc7b05ef32dfe15cdfaca4",
+      "bytes": 1588,
+      "modified_public_copy": true
+    },
+    {
+      "source": "configs/widefield_proxy_v2.json",
+      "published": "physics-renderer/configs/widefield_proxy_v2.json",
+      "category": "source",
+      "source_sha256": "d7f892dae8dd9db5bde8bc446242f30f3aaa943696e5cbb4ec4379313c4aafed",
+      "published_sha256": "b3527487ad9f26de37040d0b8348c3413aa12ac55a9a57d86b42d79bc2a6ab8d",
+      "bytes": 1591,
+      "modified_public_copy": true
+    },
+    {
+      "source": "examples/load_training_batch.py",
+      "published": "physics-renderer/examples/load_training_batch.py",
+      "category": "source",
+      "source_sha256": "bb43519926206fa01371cfc0968aefad9f774213a5983746286a9bfdf5e2c215",
+      "published_sha256": "bb43519926206fa01371cfc0968aefad9f774213a5983746286a9bfdf5e2c215",
+      "bytes": 1242,
+      "modified_public_copy": false
+    },
+    {
+      "source": "tools/plot_dataset_diagnostics.py",
+      "published": "physics-renderer/tools/plot_dataset_diagnostics.py",
+      "category": "source",
+      "source_sha256": "036dfa7c0e329aefcd0b2663aefc314dca640cdeaaf39e25de81d7971fa8b1a1",
+      "published_sha256": "036dfa7c0e329aefcd0b2663aefc314dca640cdeaaf39e25de81d7971fa8b1a1",
+      "bytes": 3347,
+      "modified_public_copy": false
+    },
+    {
+      "source": "tools/prepare_casa_validation.py",
+      "published": "physics-renderer/tools/prepare_casa_validation.py",
+      "category": "source",
+      "source_sha256": "f3f10162996af34ac0a966fe71b433f4f731560f010b178c3293530bcfef37ea",
+      "published_sha256": "f3f10162996af34ac0a966fe71b433f4f731560f010b178c3293530bcfef37ea",
+      "bytes": 1918,
+      "modified_public_copy": false
+    },
+    {
+      "source": "tools/prepare_training_data.py",
+      "published": "physics-renderer/tools/prepare_training_data.py",
+      "category": "source",
+      "source_sha256": "5f654c4bc07afc0c6935eaac8f86115e1654c7b2caf0c33abc5eb1ff2dca9bd9",
+      "published_sha256": "5f654c4bc07afc0c6935eaac8f86115e1654c7b2caf0c33abc5eb1ff2dca9bd9",
+      "bytes": 18287,
+      "modified_public_copy": false
+    },
+    {
+      "source": "tools/preview_sample.py",
+      "published": "physics-renderer/tools/preview_sample.py",
+      "category": "source",
+      "source_sha256": "2adf82b4d028e958ea33fa4b7954228f8e1d03eb0268bda17f7ea663674f7322",
+      "published_sha256": "2adf82b4d028e958ea33fa4b7954228f8e1d03eb0268bda17f7ea663674f7322",
+      "bytes": 6031,
+      "modified_public_copy": false
+    },
+    {
+      "source": "tools/rebuild_dataset_index.py",
+      "published": "physics-renderer/tools/rebuild_dataset_index.py",
+      "category": "source",
+      "source_sha256": "3f7e3c4a164c45bc0c9db1c246185f11688dbc5906ebc1a27dc6a12a80b0926e",
+      "published_sha256": "3f7e3c4a164c45bc0c9db1c246185f11688dbc5906ebc1a27dc6a12a80b0926e",
+      "bytes": 659,
+      "modified_public_copy": false
+    },
+    {
+      "source": "tools/reconstruct_sample.py",
+      "published": "physics-renderer/tools/reconstruct_sample.py",
+      "category": "source",
+      "source_sha256": "d603fb597abe983c2356ae6ff79e75921ca8f28f426c799a4ffad936c0af0812",
+      "published_sha256": "d603fb597abe983c2356ae6ff79e75921ca8f28f426c799a4ffad936c0af0812",
+      "bytes": 4527,
+      "modified_public_copy": false
+    },
+    {
+      "source": "tools/validate_casa_run.py",
+      "published": "physics-renderer/tools/validate_casa_run.py",
+      "category": "source",
+      "source_sha256": "53cf74d10a9c61317fc60083f01f956868daaf0e1825aa88eb8df53c159d68c0",
+      "published_sha256": "53cf74d10a9c61317fc60083f01f956868daaf0e1825aa88eb8df53c159d68c0",
+      "bytes": 48584,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/angle_refresh.py",
+      "published": "physics-renderer/ml/angle_refresh.py",
+      "category": "source",
+      "source_sha256": "5f52f6a93a760cc8ff3f63ccc9d9449c161ea8fc2288da3308889e5b85414790",
+      "published_sha256": "5f52f6a93a760cc8ff3f63ccc9d9449c161ea8fc2288da3308889e5b85414790",
+      "bytes": 10110,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/angle_refresh_plan.json",
+      "published": "physics-renderer/ml/angle_refresh_plan.json",
+      "category": "source",
+      "source_sha256": "ff30e3cf6cfbce692dc9a48b2edd15d173408e4d72b19378ada3837a768e6f7f",
+      "published_sha256": "ff30e3cf6cfbce692dc9a48b2edd15d173408e4d72b19378ada3837a768e6f7f",
+      "bytes": 1443,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/assemble_review.py",
+      "published": "physics-renderer/ml/assemble_review.py",
+      "category": "source",
+      "source_sha256": "bd070acd8a69a62489e1dba197864d6aaf850ae3a211dff9b295916d32d41911",
+      "published_sha256": "bd070acd8a69a62489e1dba197864d6aaf850ae3a211dff9b295916d32d41911",
+      "bytes": 29427,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/audit_before_v2.py",
+      "published": "physics-renderer/ml/audit_before_v2.py",
+      "category": "source",
+      "source_sha256": "a9f514bcf065e16c9c0e0f369e7f07a694e26b701c626ac05c34d0cd271d9985",
+      "published_sha256": "a9f514bcf065e16c9c0e0f369e7f07a694e26b701c626ac05c34d0cd271d9985",
+      "bytes": 12911,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/bayes.py",
+      "published": "physics-renderer/ml/bayes.py",
+      "category": "source",
+      "source_sha256": "57e7c3a381eaef1b6076496a46ec6af47f50a319c1a239dcbc68b13afe65f17e",
+      "published_sha256": "57e7c3a381eaef1b6076496a46ec6af47f50a319c1a239dcbc68b13afe65f17e",
+      "bytes": 9113,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/bayes_followup.py",
+      "published": "physics-renderer/ml/bayes_followup.py",
+      "category": "source",
+      "source_sha256": "47c9f97e433de049cff99cb0cc2c11971680be39cb05e3ad5535a8186d5ea072",
+      "published_sha256": "47c9f97e433de049cff99cb0cc2c11971680be39cb05e3ad5535a8186d5ea072",
+      "bytes": 6826,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/benchmark_training.py",
+      "published": "physics-renderer/ml/benchmark_training.py",
+      "category": "source",
+      "source_sha256": "f18bee70d906e13370db66beee9ef0701796366385d78e6b892efa86ccca1bba",
+      "published_sha256": "f18bee70d906e13370db66beee9ef0701796366385d78e6b892efa86ccca1bba",
+      "bytes": 7135,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/check_repair.py",
+      "published": "physics-renderer/ml/check_repair.py",
+      "category": "source",
+      "source_sha256": "8ee0380707a0dc2a64696e2e5e16525c060439995bbe294ea41aede444627c2f",
+      "published_sha256": "8ee0380707a0dc2a64696e2e5e16525c060439995bbe294ea41aede444627c2f",
+      "bytes": 2168,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/CHECKPOINT_STATUS.md",
+      "published": "physics-renderer/ml/CHECKPOINT_STATUS.md",
+      "category": "source",
+      "source_sha256": "b63d609d672475fd29e9e0138f9729b1202f23e64a3095b4437ab162483c7589",
+      "published_sha256": "b63d609d672475fd29e9e0138f9729b1202f23e64a3095b4437ab162483c7589",
+      "bytes": 2723,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/conditional_predictive_v2.py",
+      "published": "physics-renderer/ml/conditional_predictive_v2.py",
+      "category": "source",
+      "source_sha256": "6fc19bc75e4e9398489ed5033c04e16e8ca298036c11f59bc7a0c6d7ced895f9",
+      "published_sha256": "6fc19bc75e4e9398489ed5033c04e16e8ca298036c11f59bc7a0c6d7ced895f9",
+      "bytes": 8538,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/continue_initial.py",
+      "published": "physics-renderer/ml/continue_initial.py",
+      "category": "source",
+      "source_sha256": "ea9404fc909d53700a7bb584bb14cad004b8435697640578834227bedd407b55",
+      "published_sha256": "ea9404fc909d53700a7bb584bb14cad004b8435697640578834227bedd407b55",
+      "bytes": 20503,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/diagnose_model.py",
+      "published": "physics-renderer/ml/diagnose_model.py",
+      "category": "source",
+      "source_sha256": "05074a6dfcaf8feeafe59f7b4a1756f9a909ad96091170fc27be667e996dfa66",
+      "published_sha256": "05074a6dfcaf8feeafe59f7b4a1756f9a909ad96091170fc27be667e996dfa66",
+      "bytes": 13676,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/diagnostics.py",
+      "published": "physics-renderer/ml/diagnostics.py",
+      "category": "source",
+      "source_sha256": "694a83be5ad13116a7141d76859b4f193aedc42a329461d2c123a6067cd60932",
+      "published_sha256": "694a83be5ad13116a7141d76859b4f193aedc42a329461d2c123a6067cd60932",
+      "bytes": 2912,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/diagnostics_v2.py",
+      "published": "physics-renderer/ml/diagnostics_v2.py",
+      "category": "source",
+      "source_sha256": "1cfe992443fe35c04517fb15028ed26fc1c562c2cc75a0a19c68cbbedab94894",
+      "published_sha256": "1cfe992443fe35c04517fb15028ed26fc1c562c2cc75a0a19c68cbbedab94894",
+      "bytes": 3878,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/export_checkpoint.py",
+      "published": "physics-renderer/ml/export_checkpoint.py",
+      "category": "source",
+      "source_sha256": "9745feb8b1195663e9d49c856d48c8b49f5ffb6285b804d82cfea46cfd1d8830",
+      "published_sha256": "9745feb8b1195663e9d49c856d48c8b49f5ffb6285b804d82cfea46cfd1d8830",
+      "bytes": 2825,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/finalize_initial.py",
+      "published": "physics-renderer/ml/finalize_initial.py",
+      "category": "source",
+      "source_sha256": "fcbdf076106366f09e3830d8d48be09bab6a60f087736e2ab752ec3b7b51934e",
+      "published_sha256": "fcbdf076106366f09e3830d8d48be09bab6a60f087736e2ab752ec3b7b51934e",
+      "bytes": 11985,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/followup_plan_v1.json",
+      "published": "physics-renderer/ml/followup_plan_v1.json",
+      "category": "source",
+      "source_sha256": "b24847729df7907c8aea78b7f1515601f755c981f4976270ea353f6e399df57f",
+      "published_sha256": "b24847729df7907c8aea78b7f1515601f755c981f4976270ea353f6e399df57f",
+      "bytes": 1239,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/model.py",
+      "published": "physics-renderer/ml/model.py",
+      "category": "source",
+      "source_sha256": "541bce7b8aba542227c5bd51591b1f82dcf9c2bd3a4ef2211b0579252b2e2a7d",
+      "published_sha256": "541bce7b8aba542227c5bd51591b1f82dcf9c2bd3a4ef2211b0579252b2e2a7d",
+      "bytes": 3623,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/model_diagnosis_plan.json",
+      "published": "physics-renderer/ml/model_diagnosis_plan.json",
+      "category": "source",
+      "source_sha256": "9a12f98f00c25cc2af2a1fadb5ac70e1437e4a6e8e25ec0279dea079c5175abc",
+      "published_sha256": "9a12f98f00c25cc2af2a1fadb5ac70e1437e4a6e8e25ec0279dea079c5175abc",
+      "bytes": 1478,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/plan_v1.json",
+      "published": "physics-renderer/ml/plan_v1.json",
+      "category": "source",
+      "source_sha256": "3d1a9ad983798de59146222aee0cb9221f76fecd124a7151246808575f199a09",
+      "published_sha256": "3d1a9ad983798de59146222aee0cb9221f76fecd124a7151246808575f199a09",
+      "bytes": 3843,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/predictive_details.py",
+      "published": "physics-renderer/ml/predictive_details.py",
+      "category": "source",
+      "source_sha256": "094a222a1c5131940802277a837982ab91a49ff5f06bd7652a8c163457257e47",
+      "published_sha256": "094a222a1c5131940802277a837982ab91a49ff5f06bd7652a8c163457257e47",
+      "bytes": 9071,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/predictive_details_final.py",
+      "published": "physics-renderer/ml/predictive_details_final.py",
+      "category": "source",
+      "source_sha256": "1bac8df1f4c40889e846e484b4dbdcf53f11da0bc3f1e281f5776cd6b6eaa993",
+      "published_sha256": "1bac8df1f4c40889e846e484b4dbdcf53f11da0bc3f1e281f5776cd6b6eaa993",
+      "bytes": 7378,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/probit_probe.py",
+      "published": "physics-renderer/ml/probit_probe.py",
+      "category": "source",
+      "source_sha256": "db2404d148ae618df5a9dbbe9e321c4ddc34ee8af56124cba78095be194259c6",
+      "published_sha256": "db2404d148ae618df5a9dbbe9e321c4ddc34ee8af56124cba78095be194259c6",
+      "bytes": 11161,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/probit_probe_plan.json",
+      "published": "physics-renderer/ml/probit_probe_plan.json",
+      "category": "source",
+      "source_sha256": "ab32bca96cd4d713ddea396d54544693d9b565542f07f15e227fda291d09efe6",
+      "published_sha256": "ab32bca96cd4d713ddea396d54544693d9b565542f07f15e227fda291d09efe6",
+      "bytes": 2250,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/README.md",
+      "published": "physics-renderer/ml/README.md",
+      "category": "source",
+      "source_sha256": "78eceb47ea93926c2ed5bd15e902671d84ecb7e3c4a9a21604d48d41dd838006",
+      "published_sha256": "66e9fab6872ef4a2647433bdfcbcb9545c8ea64850cef660a22818956fb21c58",
+      "bytes": 11674,
+      "modified_public_copy": true
+    },
+    {
+      "source": "ml/repair_analysis.py",
+      "published": "physics-renderer/ml/repair_analysis.py",
+      "category": "source",
+      "source_sha256": "734c4c5bd4ef0a6bb2122d53e6640acc749e3ef7e882ef31a6fff54654d86248",
+      "published_sha256": "734c4c5bd4ef0a6bb2122d53e6640acc749e3ef7e882ef31a6fff54654d86248",
+      "bytes": 24494,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/repair_benchmark.py",
+      "published": "physics-renderer/ml/repair_benchmark.py",
+      "category": "source",
+      "source_sha256": "1e1bad89cc2050f80ae54d3121a73287e3e8bf95e821379c525d144a930eb800",
+      "published_sha256": "1e1bad89cc2050f80ae54d3121a73287e3e8bf95e821379c525d144a930eb800",
+      "bytes": 2791,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/repair_campaign.py",
+      "published": "physics-renderer/ml/repair_campaign.py",
+      "category": "source",
+      "source_sha256": "5a99d9db7da1bcd4a4a03cb147f1892012db84458ed15e638a2c99a97c66d1c8",
+      "published_sha256": "5a99d9db7da1bcd4a4a03cb147f1892012db84458ed15e638a2c99a97c66d1c8",
+      "bytes": 20245,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/repair_campaign_plan.json",
+      "published": "physics-renderer/ml/repair_campaign_plan.json",
+      "category": "source",
+      "source_sha256": "4a36536dc331525f2460820c998acb5ed4ce38a4b3e39ebf6b10ccd5c5a1abb8",
+      "published_sha256": "4a36536dc331525f2460820c998acb5ed4ce38a4b3e39ebf6b10ccd5c5a1abb8",
+      "bytes": 3845,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/repair_cli.py",
+      "published": "physics-renderer/ml/repair_cli.py",
+      "category": "source",
+      "source_sha256": "4b0552c02473a4fbe93ed1e8f41b329a05277f6d4fcee823f66d56dbff71029a",
+      "published_sha256": "4b0552c02473a4fbe93ed1e8f41b329a05277f6d4fcee823f66d56dbff71029a",
+      "bytes": 3518,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/repair_half.py",
+      "published": "physics-renderer/ml/repair_half.py",
+      "category": "source",
+      "source_sha256": "0bb2eb01221bebce342215ece05310b26563bfd19fe2320e0d1587aa630e42e7",
+      "published_sha256": "0bb2eb01221bebce342215ece05310b26563bfd19fe2320e0d1587aa630e42e7",
+      "bytes": 1613,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/repair_half_plan.json",
+      "published": "physics-renderer/ml/repair_half_plan.json",
+      "category": "source",
+      "source_sha256": "378f98586c4cbd98ba7ffb37973ae8f3b048145ea00a332f923579df91f52ab5",
+      "published_sha256": "378f98586c4cbd98ba7ffb37973ae8f3b048145ea00a332f923579df91f52ab5",
+      "bytes": 1354,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/repair_refresh_plan.json",
+      "published": "physics-renderer/ml/repair_refresh_plan.json",
+      "category": "source",
+      "source_sha256": "1eb3df9d07d49b25fcb8410b87c8e5a94e84749fe4fb13e5409ff213b18ed412",
+      "published_sha256": "1eb3df9d07d49b25fcb8410b87c8e5a94e84749fe4fb13e5409ff213b18ed412",
+      "bytes": 1449,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/repair_refresh_resume.py",
+      "published": "physics-renderer/ml/repair_refresh_resume.py",
+      "category": "source",
+      "source_sha256": "96ae749754904ac0f6546e9a84568e2f76d76e42d1ae24d05d1b0a1a7caaecc4",
+      "published_sha256": "96ae749754904ac0f6546e9a84568e2f76d76e42d1ae24d05d1b0a1a7caaecc4",
+      "bytes": 5983,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/repair_report.py",
+      "published": "physics-renderer/ml/repair_report.py",
+      "category": "source",
+      "source_sha256": "84e8bf2a25bb4eec3e89d92339b16534e49e716048cdb6f5109ed13bac7f534e",
+      "published_sha256": "84e8bf2a25bb4eec3e89d92339b16534e49e716048cdb6f5109ed13bac7f534e",
+      "bytes": 42051,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/repair_resume_plan.json",
+      "published": "physics-renderer/ml/repair_resume_plan.json",
+      "category": "source",
+      "source_sha256": "f71a1d87eb3dbee921811efb4c500df7f3512957f25921e5a1da417403a09d48",
+      "published_sha256": "f71a1d87eb3dbee921811efb4c500df7f3512957f25921e5a1da417403a09d48",
+      "bytes": 1195,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/repair_sampler_refresh.py",
+      "published": "physics-renderer/ml/repair_sampler_refresh.py",
+      "category": "source",
+      "source_sha256": "2f978826598e2254e9d6bcf4b9ed308648be501731c23378e9b4c0d6266d8e7b",
+      "published_sha256": "2f978826598e2254e9d6bcf4b9ed308648be501731c23378e9b4c0d6266d8e7b",
+      "bytes": 6132,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/report_initial.py",
+      "published": "physics-renderer/ml/report_initial.py",
+      "category": "source",
+      "source_sha256": "690c1a831c5006a36e7de97d86db10bcdd69dd784d0b24a8006ba49ac62f657f",
+      "published_sha256": "690c1a831c5006a36e7de97d86db10bcdd69dd784d0b24a8006ba49ac62f657f",
+      "bytes": 17615,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/report_review_v2.py",
+      "published": "physics-renderer/ml/report_review_v2.py",
+      "category": "source",
+      "source_sha256": "06764507d991fdaa943a196943ee03e069651706644a9943ba3e07836cd96722",
+      "published_sha256": "06764507d991fdaa943a196943ee03e069651706644a9943ba3e07836cd96722",
+      "bytes": 20515,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/resume_conditionals.py",
+      "published": "physics-renderer/ml/resume_conditionals.py",
+      "category": "source",
+      "source_sha256": "87d2a19b1c70d89c56db4aa37d276e9f6aae818f889a1196137021ac5fafec7e",
+      "published_sha256": "87d2a19b1c70d89c56db4aa37d276e9f6aae818f889a1196137021ac5fafec7e",
+      "bytes": 16889,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/review_contract.py",
+      "published": "physics-renderer/ml/review_contract.py",
+      "category": "source",
+      "source_sha256": "805c9dfcec8d1c2bce0e53bae32d1034230cd5b1b117d1a3b70ab7e2e3d10ffa",
+      "published_sha256": "805c9dfcec8d1c2bce0e53bae32d1034230cd5b1b117d1a3b70ab7e2e3d10ffa",
+      "bytes": 3828,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/review_inference_v2.py",
+      "published": "physics-renderer/ml/review_inference_v2.py",
+      "category": "source",
+      "source_sha256": "e5304d330756d1c6cea555f6bd71c63c9298818bc6124052ad6d6db2dec31a75",
+      "published_sha256": "e5304d330756d1c6cea555f6bd71c63c9298818bc6124052ad6d6db2dec31a75",
+      "bytes": 18412,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/review_plan_v2.json",
+      "published": "physics-renderer/ml/review_plan_v2.json",
+      "category": "source",
+      "source_sha256": "d629b7b95433844f9b5e36e72d387f5b6f36887ea2d60afa01f06d1d86027cb8",
+      "published_sha256": "d629b7b95433844f9b5e36e72d387f5b6f36887ea2d60afa01f06d1d86027cb8",
+      "bytes": 1496,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/run_initial.py",
+      "published": "physics-renderer/ml/run_initial.py",
+      "category": "source",
+      "source_sha256": "9a6667fa7e3e50e485777e6500d40784a65ecd1ccb19e30fbb5792f947171ef8",
+      "published_sha256": "9a6667fa7e3e50e485777e6500d40784a65ecd1ccb19e30fbb5792f947171ef8",
+      "bytes": 20940,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/test_angle_refresh.py",
+      "published": "physics-renderer/ml/test_angle_refresh.py",
+      "category": "source",
+      "source_sha256": "ff67adb4b245d136c936072219a577c3d21eb1f39f1daeb8cfcdbded4814e180",
+      "published_sha256": "ff67adb4b245d136c936072219a577c3d21eb1f39f1daeb8cfcdbded4814e180",
+      "bytes": 1438,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/test_followup.py",
+      "published": "physics-renderer/ml/test_followup.py",
+      "category": "source",
+      "source_sha256": "bee46e05376b08d7ab334871ab309cb4a3dba9ab3d2340d11f51cb397fb717d0",
+      "published_sha256": "bee46e05376b08d7ab334871ab309cb4a3dba9ab3d2340d11f51cb397fb717d0",
+      "bytes": 2882,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/test_ml.py",
+      "published": "physics-renderer/ml/test_ml.py",
+      "category": "source",
+      "source_sha256": "c6c01e257681e0cd218efc528a2538d30dc51eaf9df4e6dff7e8bc387be127e0",
+      "published_sha256": "c6c01e257681e0cd218efc528a2538d30dc51eaf9df4e6dff7e8bc387be127e0",
+      "bytes": 3498,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/test_model_information.py",
+      "published": "physics-renderer/ml/test_model_information.py",
+      "category": "source",
+      "source_sha256": "443eb504a7eaa712b5819f8838863eab79b9f523ebf54e51dac6bd2e9dcfa0dc",
+      "published_sha256": "443eb504a7eaa712b5819f8838863eab79b9f523ebf54e51dac6bd2e9dcfa0dc",
+      "bytes": 1849,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/test_probit_probe.py",
+      "published": "physics-renderer/ml/test_probit_probe.py",
+      "category": "source",
+      "source_sha256": "d437f392e2a3bfd21a4736e03ceaefe3d6cfea772b3848cac78716602ecf52c8",
+      "published_sha256": "d437f392e2a3bfd21a4736e03ceaefe3d6cfea772b3848cac78716602ecf52c8",
+      "bytes": 1908,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/test_repair_campaign.py",
+      "published": "physics-renderer/ml/test_repair_campaign.py",
+      "category": "source",
+      "source_sha256": "c9e34d991f556e4efed739e2568d88a01e955b1bf9f27551eeb3ab720be7e528",
+      "published_sha256": "c9e34d991f556e4efed739e2568d88a01e955b1bf9f27551eeb3ab720be7e528",
+      "bytes": 4197,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/test_repair_refresh.py",
+      "published": "physics-renderer/ml/test_repair_refresh.py",
+      "category": "source",
+      "source_sha256": "c06d220715c2d29f9d6a8da19d75e2efa20a4152209fec7a63a83b21f26f1655",
+      "published_sha256": "c06d220715c2d29f9d6a8da19d75e2efa20a4152209fec7a63a83b21f26f1655",
+      "bytes": 1192,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/test_repair_resume.py",
+      "published": "physics-renderer/ml/test_repair_resume.py",
+      "category": "source",
+      "source_sha256": "c06f6832d5f8f8e0a206b64e226864955ae0bcebaeed691eb151e29a070fab52",
+      "published_sha256": "c06f6832d5f8f8e0a206b64e226864955ae0bcebaeed691eb151e29a070fab52",
+      "bytes": 2017,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/test_resume_conditionals.py",
+      "published": "physics-renderer/ml/test_resume_conditionals.py",
+      "category": "source",
+      "source_sha256": "d8c3527a8255a6a3548ac868b0e7e85d3aa6dd64d1fd40beab8cb46f5b3cfb0b",
+      "published_sha256": "d8c3527a8255a6a3548ac868b0e7e85d3aa6dd64d1fd40beab8cb46f5b3cfb0b",
+      "bytes": 1764,
+      "modified_public_copy": false
+    },
+    {
+      "source": "ml/test_review_v2.py",
+      "published": "physics-renderer/ml/test_review_v2.py",
+      "category": "source",
+      "source_sha256": "f44ad2478d8625ef409e65b38eff0ef79dc2db2df2e0f32624445e8b919c5fab",
+      "published_sha256": "f44ad2478d8625ef409e65b38eff0ef79dc2db2df2e0f32624445e8b919c5fab",
+      "bytes": 7161,
+      "modified_public_copy": false
+    },
+    {
+      "source": "docs/AUDIT_V2.md",
+      "published": "physics-renderer/docs/AUDIT_V2.md",
+      "category": "source",
+      "source_sha256": "ed06ad6d53cc23f5e1dc7aa6929bbaa8771ce309a3a1688499c45c0e932e3af3",
+      "published_sha256": "86fdde1c282665724b3efae3712b51e3be3ffe4aad60af25dbbad3e9ba183dd4",
+      "bytes": 31558,
+      "modified_public_copy": true
+    },
+    {
+      "source": "docs/CASA.md",
+      "published": "physics-renderer/docs/CASA.md",
+      "category": "source",
+      "source_sha256": "f1c34ebfedd8ee3e1771ce6e96f0a33a1476df6fa977b52d35974303e90d68aa",
+      "published_sha256": "abfa96c45e0e7f94902e2ba9e7a5b7754c7f73e0fff9f94cb8b507abf8a9643d",
+      "bytes": 28500,
+      "modified_public_copy": true
+    },
+    {
+      "source": "docs/CASA_MULTISCALE_DENSITY_POLICY_V2.md",
+      "published": "physics-renderer/docs/CASA_MULTISCALE_DENSITY_POLICY_V2.md",
+      "category": "source",
+      "source_sha256": "843b7a92084f0b3753bcb7096e9c902463827ef5cff1dc94ecb14acb6c3a5df0",
+      "published_sha256": "843b7a92084f0b3753bcb7096e9c902463827ef5cff1dc94ecb14acb6c3a5df0",
+      "bytes": 8956,
+      "modified_public_copy": false
+    },
+    {
+      "source": "docs/CASA_MULTISCALE_POLICY_V1.md",
+      "published": "physics-renderer/docs/CASA_MULTISCALE_POLICY_V1.md",
+      "category": "source",
+      "source_sha256": "75c9226ec0948b18902960918a124f57e8c8293ddb0a687505a476b83d8037c2",
+      "published_sha256": "75c9226ec0948b18902960918a124f57e8c8293ddb0a687505a476b83d8037c2",
+      "bytes": 10403,
+      "modified_public_copy": false
+    },
+    {
+      "source": "docs/CASA_RECONSTRUCTION_PATH.md",
+      "published": "physics-renderer/docs/CASA_RECONSTRUCTION_PATH.md",
+      "category": "source",
+      "source_sha256": "d9146bc041c6330db057fdaed91ebe9130432bd2d3d97d735acf9a240cbef196",
+      "published_sha256": "d9146bc041c6330db057fdaed91ebe9130432bd2d3d97d735acf9a240cbef196",
+      "bytes": 8033,
+      "modified_public_copy": false
+    },
+    {
+      "source": "docs/CASA_TERMINAL_MILESTONE.md",
+      "published": "physics-renderer/docs/CASA_TERMINAL_MILESTONE.md",
+      "category": "source",
+      "source_sha256": "56dca83928af12fff47b27cd48de56795c8d5a22fc761fd2df3ecddf72f51396",
+      "published_sha256": "d5894be329d12b4250f9d740d5c5bbd5c9d18333068d3ec278b2e1f5f299fa2e",
+      "bytes": 8844,
+      "modified_public_copy": true
+    },
+    {
+      "source": "docs/CORRELATED_FLUX_V1.md",
+      "published": "physics-renderer/docs/CORRELATED_FLUX_V1.md",
+      "category": "source",
+      "source_sha256": "ef6c2438da7fcdebaf2d5a28a3017c5b2ca824ae924f32a4cd22e8037bf77669",
+      "published_sha256": "ef6c2438da7fcdebaf2d5a28a3017c5b2ca824ae924f32a4cd22e8037bf77669",
+      "bytes": 6243,
+      "modified_public_copy": false
+    },
+    {
+      "source": "docs/DATA_CONTRACT.md",
+      "published": "physics-renderer/docs/DATA_CONTRACT.md",
+      "category": "source",
+      "source_sha256": "1ef9d3ec3c44bd7d7d4f2d4c27cd2c749519aec749cc3e854ed9f94f97c86107",
+      "published_sha256": "3074a96c0a43472afa15c42a75c9c80923b785d52c276cb3ed9c61a492a96483",
+      "bytes": 7854,
+      "modified_public_copy": true
+    },
+    {
+      "source": "docs/GAUSSIAN_SPATIAL_INTEGRATION_V3.md",
+      "published": "physics-renderer/docs/GAUSSIAN_SPATIAL_INTEGRATION_V3.md",
+      "category": "source",
+      "source_sha256": "6c4a627ed13ec8e759fad330a0e2f3719167d47ffe232126b783e1bb31a52ce8",
+      "published_sha256": "6c4a627ed13ec8e759fad330a0e2f3719167d47ffe232126b783e1bb31a52ce8",
+      "bytes": 6679,
+      "modified_public_copy": false
+    },
+    {
+      "source": "docs/INSTRUMENT_AUDIT.md",
+      "published": "physics-renderer/docs/INSTRUMENT_AUDIT.md",
+      "category": "source",
+      "source_sha256": "5eef1562d5cc9f9839ffd9fac0f38d4d8008b3eeb30d1cb88829c06f8fc075ba",
+      "published_sha256": "5eef1562d5cc9f9839ffd9fac0f38d4d8008b3eeb30d1cb88829c06f8fc075ba",
+      "bytes": 6722,
+      "modified_public_copy": false
+    },
+    {
+      "source": "docs/MODEL.md",
+      "published": "physics-renderer/docs/MODEL.md",
+      "category": "source",
+      "source_sha256": "8d04d8d5725d7b4f5f58da9b3bc372a23ed39938adfeb5a3ec4f0b053d604778",
+      "published_sha256": "8d04d8d5725d7b4f5f58da9b3bc372a23ed39938adfeb5a3ec4f0b053d604778",
+      "bytes": 12589,
+      "modified_public_copy": false
+    },
+    {
+      "source": "docs/NPE_INPUT_CONTRACT.md",
+      "published": "physics-renderer/docs/NPE_INPUT_CONTRACT.md",
+      "category": "source",
+      "source_sha256": "ef579e5dad0efe9cd249898a8b1c8879f31f0e4a90fc8b77766796abcd85d981",
+      "published_sha256": "ef579e5dad0efe9cd249898a8b1c8879f31f0e4a90fc8b77766796abcd85d981",
+      "bytes": 7711,
+      "modified_public_copy": false
+    },
+    {
+      "source": "docs/RECONSTRUCTION.md",
+      "published": "physics-renderer/docs/RECONSTRUCTION.md",
+      "category": "source",
+      "source_sha256": "6cad1519195ef1bb23e2af5c86f439dc60e631533882bdd0e8b5036a5b444a22",
+      "published_sha256": "6cad1519195ef1bb23e2af5c86f439dc60e631533882bdd0e8b5036a5b444a22",
+      "bytes": 8923,
+      "modified_public_copy": false
+    },
+    {
+      "source": "docs/TRAINING_CONTRACT_REPAIR_2026-10-21.md",
+      "published": "physics-renderer/docs/TRAINING_CONTRACT_REPAIR_2026-10-21.md",
+      "category": "source",
+      "source_sha256": "64e21f0c619413645bf2c18563cf5bc2a7b5f3261adb850bdf2ffde1ad7c8198",
+      "published_sha256": "64e21f0c619413645bf2c18563cf5bc2a7b5f3261adb850bdf2ffde1ad7c8198",
+      "bytes": 4586,
+      "modified_public_copy": false
+    },
+    {
+      "source": "docs/TRAINING_DATA_READINESS_SPEC_V1.md",
+      "published": "physics-renderer/docs/TRAINING_DATA_READINESS_SPEC_V1.md",
+      "category": "source",
+      "source_sha256": "12a061061a81a8e14120b8126edaf79742481f3cb0dc7f9e886204853cb27098",
+      "published_sha256": "12a061061a81a8e14120b8126edaf79742481f3cb0dc7f9e886204853cb27098",
+      "bytes": 29008,
+      "modified_public_copy": false
+    },
+    {
+      "source": "docs/TRAINING_STARTER.md",
+      "published": "physics-renderer/docs/TRAINING_STARTER.md",
+      "category": "source",
+      "source_sha256": "a33290c2f4843d39c3941241989df2b0dd07f8c610a9bbdd3f95941453e30831",
+      "published_sha256": "a33290c2f4843d39c3941241989df2b0dd07f8c610a9bbdd3f95941453e30831",
+      "bytes": 8004,
+      "modified_public_copy": false
+    },
+    {
+      "source": "docs/VALIDATION.md",
+      "published": "physics-renderer/docs/VALIDATION.md",
+      "category": "source",
+      "source_sha256": "cf22637fd7d6572ebe61808bc29cf862f38f675a550a5e3c743a8545ce5cef2c",
+      "published_sha256": "cf22637fd7d6572ebe61808bc29cf862f38f675a550a5e3c743a8545ce5cef2c",
+      "bytes": 10119,
+      "modified_public_copy": false
+    },
+    {
+      "source": "README.md",
+      "published": "physics-renderer/README.md",
+      "category": "source",
+      "source_sha256": "2a77ec0045086d77f3ba8e52a62116bb176f4cc7b8ed5c63f66794eb0c0cd5a0",
+      "published_sha256": "3f732a8d0b1fd5a7534a3f25170a44fc77a650edc6208fee0cc502b966960bed",
+      "bytes": 36077,
+      "modified_public_copy": true
+    },
+    {
+      "source": "pyproject.toml",
+      "published": "physics-renderer/pyproject.toml",
+      "category": "source",
+      "source_sha256": "1d6dda28a7019f0b0f39a1daf337e9158d883922417a61900ccfaff46224452c",
+      "published_sha256": "1d6dda28a7019f0b0f39a1daf337e9158d883922417a61900ccfaff46224452c",
+      "bytes": 507,
+      "modified_public_copy": false
+    },
+    {
+      "source": "requirements.txt",
+      "published": "physics-renderer/requirements.txt",
+      "category": "source",
+      "source_sha256": "9d26c9d4f2e594550bc5f48ec0740ae724e5bd24bba45edde670609c60049468",
+      "published_sha256": "9d26c9d4f2e594550bc5f48ec0740ae724e5bd24bba45edde670609c60049468",
+      "bytes": 75,
+      "modified_public_copy": false
+    },
+    {
+      "source": "requirements-dev.txt",
+      "published": "physics-renderer/requirements-dev.txt",
+      "category": "source",
+      "source_sha256": "ebc319f05921f7d8d196fb93e7e47ffabc2cdda3dbd7e261d76a8fbc5ea099c8",
+      "published_sha256": "ebc319f05921f7d8d196fb93e7e47ffabc2cdda3dbd7e261d76a8fbc5ea099c8",
+      "bytes": 34,
+      "modified_public_copy": false
+    },
+    {
+      "source": ".gitignore",
+      "published": "physics-renderer/.gitignore",
+      "category": "source",
+      "source_sha256": "07478e2fc443d71db72a26e1f7937bddcb0ce43ae8968320874dae4170290b87",
+      "published_sha256": "07478e2fc443d71db72a26e1f7937bddcb0ce43ae8968320874dae4170290b87",
+      "bytes": 77,
+      "modified_public_copy": false
+    },
+    {
+      "source": "output/ml_initial_20261023/run_03/full/training.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/run_03/full/training.json",
+      "category": "output",
+      "source_sha256": "d704281f9062bca2715039d07473539a53178920455d8ce5257d816c6cc3887c",
+      "published_sha256": "8b74524fd6774dac858f777c9493d1a798aade61d149a802d3f06dfe99dd8a46",
+      "bytes": 385,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/run_03/full/epochs.jsonl",
+      "published": "physics-renderer/progress/ml_initial_20261023/run_03/full/epochs.jsonl",
+      "category": "output",
+      "source_sha256": "71069bfd9b63de0b2452e87437d44dc4d497fa69ce4e4e14ae5af5856d9adbb7",
+      "published_sha256": "3aa817b60a7b95ada844281f54070eeebbf8177b18eb67946988afeadd48a118",
+      "bytes": 11159,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/run_03/half_diagnostic/training.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/run_03/half_diagnostic/training.json",
+      "category": "output",
+      "source_sha256": "5075777bb1407864f4fee4d81d28718b129f1b2ec5334f6c80fd3dcede2059e4",
+      "published_sha256": "4f098c01c49a089bd43e6e10a384314d85bdecb77be3ba91ce9ff7c8dd065a9c",
+      "bytes": 393,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/run_03/half_diagnostic/epochs.jsonl",
+      "published": "physics-renderer/progress/ml_initial_20261023/run_03/half_diagnostic/epochs.jsonl",
+      "category": "output",
+      "source_sha256": "b789764a209001fe01ef171589c25867aebd22610cdc28d1c9a099e6be725c2f",
+      "published_sha256": "76cafd5c591009ab0c36b2e77e1e82a3d571fc7aff13f913ed2db238733c9f65",
+      "bytes": 16143,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/run_03/test_evaluation.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/run_03/test_evaluation.json",
+      "category": "output",
+      "source_sha256": "21b83b20164fcb22aa7cb175aa4e25327fb6e8244b89eae5e0557507ba74a532",
+      "published_sha256": "2f9b554951af439ec41aa88b05ad2545153f6975163e9d0e0e7d4ed66596a361",
+      "bytes": 7655,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/followup_01/REPORT.md",
+      "published": "physics-renderer/progress/ml_initial_20261023/followup_01/REPORT.md",
+      "category": "output",
+      "source_sha256": "b257f2ef192bcf9408a7fcfa8db21d03edfe98b133eeaf84c4b97e535ac1c3e1",
+      "published_sha256": "b15c1964fbcb1ad3af30becf8c47914041bd165113c8274f9f257735a4b538c1",
+      "bytes": 16141,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/followup_01/summary.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/followup_01/summary.json",
+      "category": "output",
+      "source_sha256": "dcdc82bc3ca201dca23fcc936354b9a2f4f0b3a04d190d63168bbc7281db13c7",
+      "published_sha256": "b677d084ca422fe07300bed3bdb2d448ec606fc23a8f83647f5865c906e7fe02",
+      "bytes": 3129,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/followup_01/status.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/followup_01/status.json",
+      "category": "output",
+      "source_sha256": "91ccd64785aeb714130998e67c2f1f37ccf2b03198e8489d38654f324ef15343",
+      "published_sha256": "8d068ce113cc5d89e94f0573044bd4f47c1cf7745801bb936d0e55734acb4eb2",
+      "bytes": 276,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/followup_01/runtime_accounting.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/followup_01/runtime_accounting.json",
+      "category": "output",
+      "source_sha256": "38fe66ca7ff3130bfb2690c68db21601b66f5d22836c1b59ef4221caada0c8cc",
+      "published_sha256": "8cff35b7d7e5d620a2a07b87d4c978d3071988edb6063b6912b53f8e3a59e7aa",
+      "bytes": 3779,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/followup_01/final_verification.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/followup_01/final_verification.json",
+      "category": "output",
+      "source_sha256": "6dd13db5fd708ec7d5f7e6c689661a257bef6cb1733e3463b91739c4c429305b",
+      "published_sha256": "6f127aedf8bfee5c0e7f037bdb17abb13614b3147786756088e42e018ec25b1f",
+      "bytes": 979,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/followup_01/training_runtime_replay/REPORT.md",
+      "published": "physics-renderer/progress/ml_initial_20261023/followup_01/training_runtime_replay/REPORT.md",
+      "category": "output",
+      "source_sha256": "42aa32df985dc4e1b6e387f590c4c9a199289de4360c8ba76de4aa8549d0a28b",
+      "published_sha256": "ca56b5600bc2e89c8090b989efdc853d2824d334eab7500613504c0012eacbfe",
+      "bytes": 1164,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/followup_01/training_runtime_replay/full/training.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/followup_01/training_runtime_replay/full/training.json",
+      "category": "output",
+      "source_sha256": "6ac32b9e01f112adc5d68dd83a2821a5eadbffb894843c802f529533d215467c",
+      "published_sha256": "13d376ea736ff1fedca67a4d4c4280ae51ada14bf5e6feb904fb59755f7cc443",
+      "bytes": 382,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/followup_01/training_runtime_replay/full/epochs.jsonl",
+      "published": "physics-renderer/progress/ml_initial_20261023/followup_01/training_runtime_replay/full/epochs.jsonl",
+      "category": "output",
+      "source_sha256": "5ce6b39b8e614588704401da7a009616f0eab443a2dd2cbe6f7c4600136e589b",
+      "published_sha256": "82debc0382bec8da764aaff403be752a4b57ce2aa761682d25a33ece7d55ff41",
+      "bytes": 10919,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/followup_01/validation/metrics.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/followup_01/validation/metrics.json",
+      "category": "output",
+      "source_sha256": "c3e0aad8040851a13ec73f3559af2d0892a0fc031b91e2681c0fe2756b999ef0",
+      "published_sha256": "f86ee7e9ca905f743b262a717e18fc777f6d42ecc8c1453960db4f3759623c34",
+      "bytes": 7938,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/ISSUES_BEFORE.md",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/ISSUES_BEFORE.md",
+      "category": "output",
+      "source_sha256": "942b25c3b299f34b71786a2af733565bef4360018da631f9e8eb4548009503fe",
+      "published_sha256": "6ddca537b94aa21a315afdebb199204fb2d494bf7a0b60f2619c72832a071e06",
+      "bytes": 4063,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/ISSUES_BEFORE.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/ISSUES_BEFORE.json",
+      "category": "output",
+      "source_sha256": "39a043f4771d25cbd6446ba0280297899c0be911a76b4f289ab34ecc7cae2874",
+      "published_sha256": "7d0d62ef48b33be23a7d120abb380acb92b50c26348430ef0e5deee140cce8d7",
+      "bytes": 4907,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/BEFORE_METRICS.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/BEFORE_METRICS.json",
+      "category": "output",
+      "source_sha256": "6e3fadd4cf8c7ac8b9ed83cd72ab3fc1668e7bbfd20bbdce6a15da8d91fc5751",
+      "published_sha256": "93054c603ba825283f90bf1b5083c48152b0bb84543b1050f594b476798e9dfb",
+      "bytes": 13348,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/INCIDENTS.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/INCIDENTS.json",
+      "category": "output",
+      "source_sha256": "90f8ffb9acf7bbac3d56ede59dd635e8615f7a0c7a78a9f3cd9ba0c42a6ea4a7",
+      "published_sha256": "eb553d74d21741584d7a910bb29430fd9ca9fdb99dd22755801e815bdf08efa1",
+      "bytes": 1670,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/final_01/BEFORE_AFTER.md",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/final_01/BEFORE_AFTER.md",
+      "category": "output",
+      "source_sha256": "5bd5fcf40bdb1414d43e36cd5b804efab37359cf5c94d5e08342b12791322f2e",
+      "published_sha256": "b94875caa8b0640e46b594d044b92aca5878874113142cd5d0e20ad852743542",
+      "bytes": 19325,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/final_01/SUMMARY.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/final_01/SUMMARY.json",
+      "category": "output",
+      "source_sha256": "465e801493c57d39566d5f7ff27385803c775de068067c6c9d9a8f6789e72b2f",
+      "published_sha256": "66265f954b5a1b2c6d324cb9d12d42d30447690e91610ceeade3db6ec289d890",
+      "bytes": 20241,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/final_01/DELIVERY.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/final_01/DELIVERY.json",
+      "category": "output",
+      "source_sha256": "c9fbf5deb53b9eb109399e964988cc5a77c9facb2e8c39ae56b5befd96785036",
+      "published_sha256": "805377809629f59d960458eda92564a7412acde1f4c78b4a955393415ea0962b",
+      "bytes": 4460,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/v2_02/ISSUES_AFTER.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/v2_02/ISSUES_AFTER.json",
+      "category": "output",
+      "source_sha256": "73af8119720f64141434902d0045d3d67f61e76c1d87ad4b243c8788b43c2b1e",
+      "published_sha256": "a9eefcb39f9f67ed0433cf0187c6bcc35c7ebd66b670c365e32f74fa1eb25a51",
+      "bytes": 7228,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/v2_02/AFTER_METRICS.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/v2_02/AFTER_METRICS.json",
+      "category": "output",
+      "source_sha256": "98fab3c66959e7a8a713bd98d211fc3f70cb399becca69b64ba125ad6ec9aa8a",
+      "published_sha256": "2cf60cca0758222d6a276045e14d1f7a2b4b0808e4996d0411536294d84a188e",
+      "bytes": 382,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/extensions_01/completion.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/extensions_01/completion.json",
+      "category": "output",
+      "source_sha256": "09d5d872f6cbfb1f45a3a8ea2a414e55946e4039d60ee4016b605fc133e614ac",
+      "published_sha256": "6814d7c20b5b0a30fd3e4b72663ab0b452fe197c75d748e6da16722efe103e31",
+      "bytes": 1361,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/extensions_01/results.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/extensions_01/results.json",
+      "category": "output",
+      "source_sha256": "8d03e0e6310dd07bc820c78784e416e73a554c71591d78a9fa3bdffdcdf34619",
+      "published_sha256": "2649bd70a28730a0757a1d4255ff970675d87a68546336d867625ef9a880834e",
+      "bytes": 11008,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/angle_refresh_01/RESULTS.md",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/angle_refresh_01/RESULTS.md",
+      "category": "output",
+      "source_sha256": "71aa8831bb2945ebae91079bb4539141565ac7a3f21b407056ce17ab7f2540dd",
+      "published_sha256": "17d0e1f350b5d81752b897ce7a9d8074a29c3ea1a17f0d7bc85b87f5439a6ef8",
+      "bytes": 1231,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/angle_refresh_01/completion.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/angle_refresh_01/completion.json",
+      "category": "output",
+      "source_sha256": "befbf29631b92083afae5cb1ea6a0b761986d7128fff8be12032e9134dbc7d9e",
+      "published_sha256": "2f1a5cc4b0f8db4ded77d2c3f6af0e804a2f904c2f87b5e866c703e098d6759b",
+      "bytes": 5275,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/predictive_details_01/RESULTS.md",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/predictive_details_01/RESULTS.md",
+      "category": "output",
+      "source_sha256": "114e27f27f365f82f341104f382e5cf5070a921c9d9841fb542e7277301b7cb3",
+      "published_sha256": "d92f5dc97b3b37d4dbd7886ceb62558daf86d5858fc7825069c507420d9f85f6",
+      "bytes": 4418,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/model_diagnosis_01/DIAGNOSIS.md",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/model_diagnosis_01/DIAGNOSIS.md",
+      "category": "output",
+      "source_sha256": "2df8675e044e21b8f40959c7de25a0d9d9d1ac25b6ae0646c894adfe50e9346e",
+      "published_sha256": "5fd986e58b4d4b6c51351c9a44271067fb29212092712791945f7c44c5dc4006",
+      "bytes": 4221,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/model_diagnosis_01/diagnosis.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/model_diagnosis_01/diagnosis.json",
+      "category": "output",
+      "source_sha256": "6e4d9b9cd1111304f16fbd9c3cd508693145191db560cfe4615beab5c5ad1968",
+      "published_sha256": "83b16837a9a1d770b601a299e60aae678df5b7686e2fae43040dd3b93cdaa99f",
+      "bytes": 32385,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/probit_probe_01/RESULTS.md",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/probit_probe_01/RESULTS.md",
+      "category": "output",
+      "source_sha256": "62bcadacc79c1eec0e0d4c0e4a2cc8765970f5cb437e94b565c8d2a572282fd0",
+      "published_sha256": "9aa10310d2c1a064b2752f205fa8b916dfb3202eaed7ad23df912218d45143cf",
+      "bytes": 3187,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/probit_probe_01/comparison.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/probit_probe_01/comparison.json",
+      "category": "output",
+      "source_sha256": "4c542847c5582c4935ea7889fd2ad1dda757d1c1a39e7a760f7f76c1b3492c34",
+      "published_sha256": "28615743546bf80112c23bbdef15fbd76358e224fb4f37b91f682e10a5b11ece",
+      "bytes": 7205,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/probit_probe_01/FROZEN_PROTOCOL.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/probit_probe_01/FROZEN_PROTOCOL.json",
+      "category": "output",
+      "source_sha256": "284e1223ace97008c64cca24a67bc85e7b06c79572e3b99d6f833b804c1a827a",
+      "published_sha256": "34eb2402a89d1a2d764c5e9dd21deef52b3843445cdc4620fd4a5eb193717e14",
+      "bytes": 3340,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/probit_probe_01/full/training.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/probit_probe_01/full/training.json",
+      "category": "output",
+      "source_sha256": "7c20f7f5203ab4e8cfac9c53d552daab57f9d9d6fac9153d9c9cb8c2cb452d2b",
+      "published_sha256": "ebbba3038f3b83f51bbe6611e12dd4e376c63ee095a83f6a2013b00188ff0be0",
+      "bytes": 385,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/probit_probe_01/full/epochs.jsonl",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/probit_probe_01/full/epochs.jsonl",
+      "category": "output",
+      "source_sha256": "6cc894d73d0c87dad121ba9b655e4bff04ddb465aa3e5efc4d5a4fa929a337d5",
+      "published_sha256": "c7c887aff818080cac81eaada89bdd0cc87a7cee480f0fda946ae009b52359a3",
+      "bytes": 12193,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/probit_probe_01/validation/metrics.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/probit_probe_01/validation/metrics.json",
+      "category": "output",
+      "source_sha256": "313c33ec41a5674be4429ed031f7209829b319d8f29c4296b43f9792fe5cc428",
+      "published_sha256": "4d51689f9bfd1ca37006efb6f08736535ae076369f3a47e06cde0fe534d4b182",
+      "bytes": 7974,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/BEFORE_AFTER.md",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/BEFORE_AFTER.md",
+      "category": "output",
+      "source_sha256": "e8a7bbae9c726d1241b5372d32932bf63338cfe28b918604d8d10e5563e3c681",
+      "published_sha256": "2d6acd03e9ed9b9176e28ae4073aa2b9c5c4308e6a0b2d3e919d50cc7801f682",
+      "bytes": 23977,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/SUMMARY.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/SUMMARY.json",
+      "category": "output",
+      "source_sha256": "d961393219ee30712456aa35f3b264f97addb9377fd795f3bcc83e81600a3b0c",
+      "published_sha256": "6ff063cf6c6d74afe427a27385eab47614d5cb94def80cddfa3c3b0e4bcb568a",
+      "bytes": 3371,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/FINAL_VERIFICATION.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/FINAL_VERIFICATION.json",
+      "category": "output",
+      "source_sha256": "71ed18bcd127d800b310e81f6c954adc6066eb1089b9bfaeaea2e5fd8dfacd94",
+      "published_sha256": "07cfae4d5805c47770cfaabaceea40d898a56fdad806e1a32fb87a8ffff2b2ce",
+      "bytes": 788,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/SEALED_DELIVERY.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/SEALED_DELIVERY.json",
+      "category": "output",
+      "source_sha256": "1e9ad1f2e0566e913ae32a237440ef0944a5c68f38f0b55d10545708ceb02505",
+      "published_sha256": "01899faa5ec5dd4eab4d2bb17f50d12c25c7916a6cc4149076242ada167aaba0",
+      "bytes": 557,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/DELIVERY.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/DELIVERY.json",
+      "category": "output",
+      "source_sha256": "e29555ec728ee430ba9d849f6bf444e780a17d6dd578c3b00aba4cdb908bb319",
+      "published_sha256": "ba317a9584a22d76b268572de7db2da12b7447412bd5e5b2c074137fd336811e",
+      "bytes": 5995,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/STATUS.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/STATUS.json",
+      "category": "output",
+      "source_sha256": "b7c5a39998b5239e1cd2dd6b4ac488c6671f57f0cf39f78013b2f1911680bcdc",
+      "published_sha256": "fad8da1f2fb27224715200934bd1284f71f652a9fbea3cda338992f26daecf98",
+      "bytes": 173,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/ADMISSION_DECISIONS.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/ADMISSION_DECISIONS.json",
+      "category": "output",
+      "source_sha256": "41cafe126d6134675adcf30324ec5aff79fed84a3f8bb5af1841f5876f38c3fa",
+      "published_sha256": "d0180a69414f472dbcd69a543cbd9f85cfd66fa53141789ca48212efda5e3790",
+      "bytes": 717,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/failure_timing_ledger.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/failure_timing_ledger.json",
+      "category": "output",
+      "source_sha256": "605a57b505fa6118ec08b1e5e4f0fc1c2fd5a4365075770c286977ead509ada6",
+      "published_sha256": "a8ff296230d492fccb74ad2c5ffc5f1d353ddff0a7005534b5e2bd9dbe1e954d",
+      "bytes": 41449,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/INCIDENTS.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/INCIDENTS.json",
+      "category": "output",
+      "source_sha256": "1647ca84ef488d0b6bc2fd331fa536341f48c7f9c58148b832cb47729efbc520",
+      "published_sha256": "2f7f4ce63d740feb1aadb5a6d4f6125bdb57b391d8255f66c3500213cdf83bbc",
+      "bytes": 4161,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/FROZEN_PROTOCOL.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/FROZEN_PROTOCOL.json",
+      "category": "output",
+      "source_sha256": "93ce4d385b6852784aade4c0c51c514aa36435623839795bcaf4480eb744d8ee",
+      "published_sha256": "939d645744bfdcdcccd8ef3deed8c76e6a511a7d7067d22d553455a064fc0462",
+      "bytes": 4758,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/analysis_receipt.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/analysis_receipt.json",
+      "category": "output",
+      "source_sha256": "fc570ffce3fbfc4d77d18755b6a07d0776a4ce9b92a167e08244f47ca7ea8233",
+      "published_sha256": "e36254e8ad67b4d0d5ced57fd409587066f86d5d19a21b3da565c73225b34ec3",
+      "bytes": 481,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/tests_receipt.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/tests_receipt.json",
+      "category": "output",
+      "source_sha256": "214a9b68e9507607663cad8ac6f7858f755152816306f54637a8b5aaa8a126d5",
+      "published_sha256": "35c3b7c06ca3e7968626f6c328e9bb24f4f2d1a82ed012c4b6f376c941efbcfa",
+      "bytes": 953,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/inference_benchmarks.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/inference_benchmarks.json",
+      "category": "output",
+      "source_sha256": "3cfb65944edfee2916eac110973966e0ec2281799c5216521376b1e236fe14a1",
+      "published_sha256": "d635e11c189c8389d060bce4bab6e83539b782159c3005a6f6891dcb1c8afd93",
+      "bytes": 3677,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/matched_comparison.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/matched_comparison.json",
+      "category": "output",
+      "source_sha256": "d5cffe98618341297cbda67378cd80312dafb4c32bcb67c16bcd5961c9cebc1a",
+      "published_sha256": "7b7d7c65468f2b4a35530bb5a6ad2241126847ec279dba0ec16bd627a2f439ca",
+      "bytes": 37198,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/neural_comparison.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/neural_comparison.json",
+      "category": "output",
+      "source_sha256": "a0b4d0e2dbde7f3a53d9339297939882f7b97c9274ce2ae0e9b4f7e34002ac71",
+      "published_sha256": "1f821e81a0229168dd4fca6faee10ffe24434b555596e45df84a53c9fadd321d",
+      "bytes": 3604,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/information_retention.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/information_retention.json",
+      "category": "output",
+      "source_sha256": "a4eedd583e9d377337b3462a829a45247df948b18df7b3e9a675065b95d01cf5",
+      "published_sha256": "deb6a2a85c73b9ece44e6633c6b47605922745dd244815b56a1c472c95dec423",
+      "bytes": 35737,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/temperature_identifiability.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/temperature_identifiability.json",
+      "category": "output",
+      "source_sha256": "f35c89a94cf4c8b10f8af701643a2174700e28f03f7496f4cbcd8c3bd00af075",
+      "published_sha256": "d7ad6229d771dc03c9e819fe5e3c29644a5183513e1e06aa71d7e9938f88f724",
+      "bytes": 1872,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/rounding_and_runtime.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/rounding_and_runtime.json",
+      "category": "output",
+      "source_sha256": "314a1df5e71fda0527a015c25b313cf6859479f5f1eb49c95fb06b4ba46716d3",
+      "published_sha256": "0e76c3ad604ef53cbce67a02e1d6ab0e208b446141d12551bcd912cab0a1be61",
+      "bytes": 336,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/preparation.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/preparation.json",
+      "category": "output",
+      "source_sha256": "72cda2ac1135f64ee3849b903c71db9258e5ad41715ef428df9848cae2a0e49c",
+      "published_sha256": "4e30051127d4dbb88db1f47ff4f55572e5c0a2d48aa0a24db125357dd4e9bfde",
+      "bytes": 448,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/software_environment.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/software_environment.json",
+      "category": "output",
+      "source_sha256": "847b783b94d416d9aca645a9d78ee7ce938ac667a7ea66c405f113fef543dcae",
+      "published_sha256": "e527e9e97d4bf4b52c18c7cddf96c1d4b4bbbd33cdf91b5814d2c139ef05887a",
+      "bytes": 924,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/PROTECTED_EVALUATION_PROPOSAL.md",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/PROTECTED_EVALUATION_PROPOSAL.md",
+      "category": "output",
+      "source_sha256": "0eeafec0676c3a8ce930f8d91ab1362cde2176ab389efe2e50747e79424f2f2c",
+      "published_sha256": "3f90d7012d22d73f19c19062569e86cf8e0dd9b33e7e565709f381912424df45",
+      "bytes": 10859,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/PROTECTED_COST_ESTIMATE.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/PROTECTED_COST_ESTIMATE.json",
+      "category": "output",
+      "source_sha256": "985251edc4b6c050bced34b710b234292e92f941e248e921557d8ce4d9fc7876",
+      "published_sha256": "851db4cca34813fee3e07da05e30f703512fdcb47a5950037ab170cf1f6a07d6",
+      "bytes": 1851,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/PROPOSAL_VALIDATION.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/PROPOSAL_VALIDATION.json",
+      "category": "output",
+      "source_sha256": "da7fb571077f20fd58b80021dce3c325b9867acec143a08c79a8d001d217afa8",
+      "published_sha256": "1779f873c04d70f6faa4ff3ab741ee22442c47436f8590a49e38f4a9a9f97e00",
+      "bytes": 906,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/half_budget_binding.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/half_budget_binding.json",
+      "category": "output",
+      "source_sha256": "13314118fcd3340a8509d100a5be3c5012aa9d486ba92f06c8af5f2e86ba5073",
+      "published_sha256": "1d1f65caebe7c647a67df0c7e031fb2a9ef6e54392ecb19d52568aa9c7010940",
+      "bytes": 1556,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/half_budget_receipt.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/half_budget_receipt.json",
+      "category": "output",
+      "source_sha256": "f33472169339220f84c3103877c6fe55f392c483c0c6f96ca5e0e516a8097566",
+      "published_sha256": "2d19349abcbbe524f62a0f88b4bf455ee021d06c7f48b28674c32ba281c98cd3",
+      "bytes": 5728,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/half_corrected/comparison.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/half_corrected/comparison.json",
+      "category": "output",
+      "source_sha256": "a13063a10bcf5890a78d98406160c35353e418a9db3b64bae141ee84afce0fb5",
+      "published_sha256": "af4f70b39485a0bf1daf121045c2740da11accd3bfec0c00e07594627f95425d",
+      "bytes": 1412,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/half_corrected/full/training.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/half_corrected/full/training.json",
+      "category": "output",
+      "source_sha256": "94ec93e89ba00aa57fdb4b5cc597b18289b33e4481e63b56c93dd2892bb06c2c",
+      "published_sha256": "8ec80812857e133a0d1a798978705c50339524051038cccf4e0294fd46e7a5db",
+      "bytes": 384,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/half_corrected/full/epochs.jsonl",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/half_corrected/full/epochs.jsonl",
+      "category": "output",
+      "source_sha256": "5839bb097ab49edd191555a7efbd81a67605c3d4a8d91d5c1733440fc15de3d3",
+      "published_sha256": "9c7da86b1b3e7f2c7eb4be03fd0334b68e49351efd04f6e9bd785cfc841303bd",
+      "bytes": 14838,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/half_corrected/validation/metrics.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/half_corrected/validation/metrics.json",
+      "category": "output",
+      "source_sha256": "10e6379e8e8dc510f0832fb238d0393b2c0c011a225055c9e0d7d13434ac1744",
+      "published_sha256": "bed25a46c3403de71e2e541503d238cf6985f0e26ce146bad37fe79307e8a85e",
+      "bytes": 7973,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/neural/training.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/neural/training.json",
+      "category": "output",
+      "source_sha256": "ed8c8f1a3c7262d995e9f8d8c9117ca24efd138f50facafab72066686d03027f",
+      "published_sha256": "f7486058efae51d8205ebd9ce41e1aac8eaf5a180599cf6297a82a601ea43b09",
+      "bytes": 241,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/neural/epochs.jsonl",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/neural/epochs.jsonl",
+      "category": "output",
+      "source_sha256": "03c2a5de656d0c53a7b0f2047b10f19c7c7069c9964ee67a50af46ba4d7c7ff9",
+      "published_sha256": "484601c3afe3f5a3f892ab883e97ba351ad4de89ce201ecc18564d4fe413a678",
+      "bytes": 5748,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/validation/metrics.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/validation/metrics.json",
+      "category": "output",
+      "source_sha256": "d750ff34dbc27315ad89ef5ac5dedd80d5a1e6e14bf55316d20ca372c81d0f52",
+      "published_sha256": "82627579829d3108a8aac3110c7e1b120a68a7b51c91e68678ee3e9298612bfe",
+      "bytes": 7834,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/validation/source_stress.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/validation/source_stress.json",
+      "category": "output",
+      "source_sha256": "4fdb5cdc25b730b0e1f3e4adb3589f19c49da46b16f61d1c7159b554b809e660",
+      "published_sha256": "4170060a5ff931160efc986255a4a2b5c3c32d6804bed5c5132c10113e5e7c48",
+      "bytes": 8969,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/validation/observable_stress.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/validation/observable_stress.json",
+      "category": "output",
+      "source_sha256": "ab7e55aace5a99b16a1429bc215d4d713b46f31639c2951352b7b7710c297181",
+      "published_sha256": "e137e1dc5059337d5a2b6c8a367c2ad41bca5cee1b796f13c9343c0e9bb949fb",
+      "bytes": 1930,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/validation/challenge_quarantine.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/validation/challenge_quarantine.json",
+      "category": "output",
+      "source_sha256": "9e3397ee73cd502eed0d161f9a024aff88c6b3292b6850a1b7154d1d99545f6e",
+      "published_sha256": "688294ab14704ebb8071f0ce13ad6b703a44ad7e9c7847634ada8768e211f8ea",
+      "bytes": 4649,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02_failed_preparation_01/STATUS.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02_failed_preparation_01/STATUS.json",
+      "category": "output",
+      "source_sha256": "10c79eecf8f0a767dbed03228b463b06cc0a0b02d660bd9377c47ef15203d785",
+      "published_sha256": "e5aa78abe66290ba44288a0af6c2e1d20114f502a50894bbe813de147ca2aab3",
+      "bytes": 698,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/compressed_bayes/old32_01.diagnostic_history.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/compressed_bayes/old32_01.diagnostic_history.json",
+      "category": "output",
+      "source_sha256": "bbe98ccde58217b032a32aa2765990ac40630f47c8b0ad3b83d7e780a9bb837e",
+      "published_sha256": "c4a8a416b20ec47d7a6b4f763fa8195f7004f6d65fa193d7da6e8607d072391b",
+      "bytes": 32471,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/compressed_bayes/old32_01.initialization.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/compressed_bayes/old32_01.initialization.json",
+      "category": "output",
+      "source_sha256": "59e46002b71cb264676c6b87704af64789ea5e56230233bdd9ae38ff84dd0bc0",
+      "published_sha256": "f7693941a1c32f39f4fa44c2dade8342801e907c45b8f704b9d1d76cc94316a8",
+      "bytes": 4579,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/compressed_bayes/old32_01.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/compressed_bayes/old32_01.json",
+      "category": "output",
+      "source_sha256": "7151c2edd9691073e4a0caff97632cc3406901f00592eed87d83b2f6354da796",
+      "published_sha256": "4b9ca032e49393147abc96c2512e5dd4d7cce339bf4b84321d0c4301dca74d5d",
+      "bytes": 4909,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/compressed_bayes/old32_01.observation.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/compressed_bayes/old32_01.observation.json",
+      "category": "output",
+      "source_sha256": "9011106fe24b201a2f593667823c79cd9005df4b7babb3900798df4c280acefd",
+      "published_sha256": "d99b89f05769cf5ed8b8553e0ab6cc19a0a94a21254f4e180b9131be2cf5c020",
+      "bytes": 444,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/compressed_bayes/old32_02.diagnostic_history.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/compressed_bayes/old32_02.diagnostic_history.json",
+      "category": "output",
+      "source_sha256": "017d5f0c9d16e185f7749b0d65e71bfef1a6ca769bef30ffa98592c09f713859",
+      "published_sha256": "eeb6e20a49796c151e4eec6e5d389f7e5729e4fa8747a04dbde2ddb2898544c7",
+      "bytes": 12395,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/compressed_bayes/old32_02.initialization.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/compressed_bayes/old32_02.initialization.json",
+      "category": "output",
+      "source_sha256": "c9932c2f52102c1b2667b2780c5338f9085677e1d7fb8fce244554512e4b11ae",
+      "published_sha256": "ae36ab3f2d0095cfdda05d8b34fb74f1430cbe99af5c21c20735c9a1bc9e994a",
+      "bytes": 4571,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/compressed_bayes/old32_02.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/compressed_bayes/old32_02.json",
+      "category": "output",
+      "source_sha256": "60d37671f91d93b6dc50995ca765e8ac2136ac4ca1fb449907e1c99da27948c1",
+      "published_sha256": "c6b7f7e38b5ac7e1ed8afcdee1099bd80917ef3f7500ac7b240ffcb74e7a9038",
+      "bytes": 4965,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/compressed_bayes/old32_02.observation.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/compressed_bayes/old32_02.observation.json",
+      "category": "output",
+      "source_sha256": "b3ba5507d6f36469dc48394f70920b6a7b0c38576894d269aacb3a2281bed602",
+      "published_sha256": "d99b89f05769cf5ed8b8553e0ab6cc19a0a94a21254f4e180b9131be2cf5c020",
+      "bytes": 444,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/compressed_bayes/refresh_01/continuation_01/old32_02.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/compressed_bayes/refresh_01/continuation_01/old32_02.json",
+      "category": "output",
+      "source_sha256": "f1b2dc01e2cb348df708e09deac7ff14f7bbd06a687ae3c381c878b3a02c4a71",
+      "published_sha256": "b562b9aa61bea55e1c8e815681353cd30dfe836d6ff455fb12bdc99c0d7e8140",
+      "bytes": 5752,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/compressed_bayes/refresh_01/old32_01.diagnostic_history.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/compressed_bayes/refresh_01/old32_01.diagnostic_history.json",
+      "category": "output",
+      "source_sha256": "4c501a52cf774cebb6db302d4f9816167de82b16db9370b653c8df7eeb2e586e",
+      "published_sha256": "35f89eb4fedfd3dc5ed8aedc25aaa2da916437a6299bb2965ea00f2aa7f993b5",
+      "bytes": 12104,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/compressed_bayes/refresh_01/old32_01.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/compressed_bayes/refresh_01/old32_01.json",
+      "category": "output",
+      "source_sha256": "d3d05b6829df133be53f6899073a19ccf977bfb3cacb6e9927c3f0e3d018189e",
+      "published_sha256": "67d75d11e0103b083fdc90c2c916dc7c8eba11c3d6e97e1fb6705dfe0ee40085",
+      "bytes": 5086,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/compressed_bayes/refresh_01/old32_02.diagnostic_history.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/compressed_bayes/refresh_01/old32_02.diagnostic_history.json",
+      "category": "output",
+      "source_sha256": "8dec47c47adfe6954b7010eef2043cb6f5c5849b04d64e23ba9592b391345dc2",
+      "published_sha256": "267e07408a1e0f967e5a86c300a768e68383d10b2c8e7831e893da449d16ee1a",
+      "bytes": 12064,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/compressed_bayes/refresh_01/old32_02.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/compressed_bayes/refresh_01/old32_02.json",
+      "category": "output",
+      "source_sha256": "e03842ba6f772c8915303e905d567a8bd108e80f2110357db564e4fd982936a0",
+      "published_sha256": "8de80b8d7f47f71640be92dddf33c26983ba836fb3044cef8b3e02fd6c52f41e",
+      "bytes": 5128,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/v2_02/conditional_01_01_result.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/v2_02/conditional_01_01_result.json",
+      "category": "output",
+      "source_sha256": "363f5db667584fff568efede34220f852e5dab8cad0817256f535becfa96b1e6",
+      "published_sha256": "2509c77733bfff85060b809f273d80fd1bc5c1ba6559f46a3d8e938bab5ceaed",
+      "bytes": 6081,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/v2_02/conditional_01_01_sampling.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/v2_02/conditional_01_01_sampling.json",
+      "category": "output",
+      "source_sha256": "769f97e7a78d1b2bc86046d0c39099092016c8aeed19855bf8c91d1331038793",
+      "published_sha256": "5ade6006295bbe4f3a08cb626526f880c4619cae2047f423800b80f9f820abb3",
+      "bytes": 5279,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/v2_02/conditional_01_02_result.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/v2_02/conditional_01_02_result.json",
+      "category": "output",
+      "source_sha256": "9591872b05330742122744ab6883fe85099ef486ba38c3a232d6e6e87f71a70b",
+      "published_sha256": "e9a9d72f79c9140a5cf00f10b1623a827c41d66c06e0fd60c00f98fb1e0be2e9",
+      "bytes": 10153,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/v2_02/conditional_01_02_sampling.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/v2_02/conditional_01_02_sampling.json",
+      "category": "output",
+      "source_sha256": "a8f84187ff8a59c9a7cba26b47c733d9ad22b6a0bf687acddcef0d1bfdef9f80",
+      "published_sha256": "40622ac4e2ae435a293167cf07ca45e4049cadca707af8779fa48ac3b6917cbc",
+      "bytes": 5225,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/v2_02/conditional_02_01_result.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/v2_02/conditional_02_01_result.json",
+      "category": "output",
+      "source_sha256": "e27c1c63ca19fe61c7f4e5bc7dfda2f7992ea097dfc85a5f48d3d4bd62ab67f4",
+      "published_sha256": "f8d93d27c1012700d9f55628750a5e372d7a4bd72dcc77d6cfaa25753a66c316",
+      "bytes": 6115,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/v2_02/conditional_02_01_sampling.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/v2_02/conditional_02_01_sampling.json",
+      "category": "output",
+      "source_sha256": "684892c37ce3bb1942090850a78bd2a74dd4feab5495a4ffc922cfb3a9ed17ec",
+      "published_sha256": "b8cd40f7ba32fe9db72e213dc4aed255d6f8cfb9527b58f75bf83f1be6b6a5f4",
+      "bytes": 5312,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/v2_02/conditional_02_02_result.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/v2_02/conditional_02_02_result.json",
+      "category": "output",
+      "source_sha256": "e53015fed5c53c25d27554ee5fca06dabc57239ce63b2d8526608283914d8521",
+      "published_sha256": "ba4360bc0e777340fc080d95edb29f40208045bc161290b8369a75f13b6b7c57",
+      "bytes": 10136,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/v2_02/conditional_02_02_sampling.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/v2_02/conditional_02_02_sampling.json",
+      "category": "output",
+      "source_sha256": "324c9f96559f2536060d17f9b55f0b9b3972efab8d8d9024eb080d1ca84a3f1b",
+      "published_sha256": "305e7060fb4eee640f4b59f982b4c648fa86a6a5d42590e57be21daaa3719dd7",
+      "bytes": 5206,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/extensions_01/conditional_01_01_result.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/extensions_01/conditional_01_01_result.json",
+      "category": "output",
+      "source_sha256": "113fc5f3b5c01d2b5c00c210e4d415f15faa4c8c27f1a738523770c1c140538f",
+      "published_sha256": "00e01191c145f8cfab7526e5c76e7d45a522a711a799c816127422c73a19d71e",
+      "bytes": 2786,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/extensions_01/conditional_01_01_sampling.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/extensions_01/conditional_01_01_sampling.json",
+      "category": "output",
+      "source_sha256": "ead80ae574507d7718be10b18f6528144afc0042135ccc46a4472c2b272f0898",
+      "published_sha256": "d9b14b9140e086b120dfafd309aa9ba84dd14a2b7f03cc4fa00cefd4afbd2636",
+      "bytes": 6674,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/extensions_01/conditional_02_01_result.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/extensions_01/conditional_02_01_result.json",
+      "category": "output",
+      "source_sha256": "0980602c5f0dd4e56cb3a1a303e91be96f3d4e02688d69a7e5c5d874433a8779",
+      "published_sha256": "20ebc67de119c8840da48061bd6041cd3335bdd4f4597dc862f0fc0ebe33267b",
+      "bytes": 2823,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/extensions_01/conditional_02_01_sampling.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/extensions_01/conditional_02_01_sampling.json",
+      "category": "output",
+      "source_sha256": "c7f250d8381796fbbf2a2c2dff5aee1d40c8a16fb5051ea5ec6f5d991ba340d0",
+      "published_sha256": "5e28a5a0876149e537b522ab9ac120007e8bd2f971ad81d7b0eb3b70262e59b0",
+      "bytes": 10025,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/angle_refresh_01/conditional_02_01_result.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/angle_refresh_01/conditional_02_01_result.json",
+      "category": "output",
+      "source_sha256": "43da83656d166127ace2d6e8871bc1534f0af858fbafe2d3bf5db2b32aa201dc",
+      "published_sha256": "d02b7ff4c777cbead565671ae0b18b11268f8879e37e12b76794ef3d8d3adaac",
+      "bytes": 4305,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/angle_refresh_01/conditional_02_01_sampling.json",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/angle_refresh_01/conditional_02_01_sampling.json",
+      "category": "output",
+      "source_sha256": "8e3a0daf7aef06d1eeba155fb2e37a4041fd826e8320224d40a89c222b790244",
+      "published_sha256": "d3a2f1a705fe0e838e2a5f4843ff1b4b93a32d03e385d8011be9e1c6f5ee6c92",
+      "bytes": 4082,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/training_curves.png",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/training_curves.png",
+      "category": "figure",
+      "source_sha256": "c3cee4e332ab388a3af4566137d890809840245ec8cc2d049b90e3f126720e73",
+      "published_sha256": "c3cee4e332ab388a3af4566137d890809840245ec8cc2d049b90e3f126720e73",
+      "bytes": 58616,
+      "modified_public_copy": false
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/bayesian_residual_checks.png",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/bayesian_residual_checks.png",
+      "category": "figure",
+      "source_sha256": "823ae462a6c2659f86b8e5d80737e8e90e2bd11b48120096f092af65186dd524",
+      "published_sha256": "823ae462a6c2659f86b8e5d80737e8e90e2bd11b48120096f092af65186dd524",
+      "bytes": 300204,
+      "modified_public_copy": false
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/half_corrected/training_curves.png",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/half_corrected/training_curves.png",
+      "category": "figure",
+      "source_sha256": "3d766d4fd08ec335788382ac5e1b8a1ae6a63b16dc9122d0ac4bac35ef0729fc",
+      "published_sha256": "3d766d4fd08ec335788382ac5e1b8a1ae6a63b16dc9122d0ac4bac35ef0729fc",
+      "bytes": 99824,
+      "modified_public_copy": false
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/probit_probe_01/training_curves.png",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/probit_probe_01/training_curves.png",
+      "category": "figure",
+      "source_sha256": "f99b6f8357edec5d279b106e8587fd0d5275a239a67b5ee983952a59643043aa",
+      "published_sha256": "f99b6f8357edec5d279b106e8587fd0d5275a239a67b5ee983952a59643043aa",
+      "bytes": 83488,
+      "modified_public_copy": false
+    },
+    {
+      "source": "output/ml_initial_20261023/review_01/predictive_details_01/band_residuals.png",
+      "published": "physics-renderer/progress/ml_initial_20261023/review_01/predictive_details_01/band_residuals.png",
+      "category": "figure",
+      "source_sha256": "fe88b042488dc3a5650229119776624cadf461d03024e8ceaf9620d7e0a3ffe6",
+      "published_sha256": "fe88b042488dc3a5650229119776624cadf461d03024e8ceaf9620d7e0a3ffe6",
+      "bytes": 203293,
+      "modified_public_copy": false
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/regressions.log",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/regressions.txt",
+      "category": "output",
+      "source_sha256": "a44e0fccf95df2f8649ea350e0c148d037ca0e5e7de3212071bdb7d6419112e4",
+      "published_sha256": "8418133c13989cf80c63ec8af7892c2558472ffe8ca3e2978e1da97722c6c160",
+      "bytes": 190,
+      "modified_public_copy": true
+    },
+    {
+      "source": "output/ml_initial_20261023/repair_02/new_math_tests.log",
+      "published": "physics-renderer/progress/ml_initial_20261023/repair_02/new_math_tests.txt",
+      "category": "output",
+      "source_sha256": "82d26448e2e2f23b1afb2a931c6569eb6e8786d5ae7024046e8072ef771990bd",
+      "published_sha256": "ac886d4eac2e1f180085267dff7d2e2d6eef358681ef27f2c198ce5d59e72036",
+      "bytes": 98,
+      "modified_public_copy": true
+    }
+  ],
+  "redactions": {
+    "project_absolute_prefix": 8,
+    "user_path": 13,
+    "source_id": 2,
+    "email": 0,
+    "json_field:source_id": 16,
+    "json_field:posterior_draws": 8,
+    "json_field:realization_id": 6,
+    "json_field:seed": 23,
+    "json_field:predictive_seed": 2,
+    "json_field:model_optimizer_seed_stopping": 3,
+    "json_field:model_seed": 1,
+    "json_field:bookkeeping": 27,
+    "json_field:seed_base": 1
+  },
+  "explicit_omissions": [
+    {
+      "path": "ml/NEXT_AGENT_PROMPT.md",
+      "reason": "prompt, internal instructions or machine setup notes"
+    },
+    {
+      "path": "docs/CASA_SETUP_LOG_2026-10-20.md",
+      "reason": "prompt, internal instructions or machine setup notes"
+    },
+    {
+      "path": "output/ml_initial_20261023/repair_02/representation.json",
+      "reason": "not present; no result regenerated"
+    }
+  ],
+  "excluded_categories": [
+    "task prompts and transcripts",
+    "private notes and machine setup logs",
+    "raw datasets and protected labels/seeds",
+    "model checkpoints",
+    "raw chains and parameter draws",
+    "large bindings and caches",
+    "credentials"
+  ],
+  "historical_prompts_remain_in_git_history": true,
+  "figures_reviewed": [
+    "repair_02/training_curves.png",
+    "repair_02/bayesian_residual_checks.png",
+    "repair_02/half_corrected/training_curves.png",
+    "review_01/probit_probe_01/training_curves.png",
+    "review_01/predictive_details_01/band_residuals.png"
+  ],
+  "experiments_run_during_publication": false
+}

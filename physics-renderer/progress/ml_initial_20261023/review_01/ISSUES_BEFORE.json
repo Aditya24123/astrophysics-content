@@ -1,0 +1,76 @@
+{
+  "issues": [
+    {
+      "id": "I01",
+      "severity": "P1",
+      "evidence": "Saved convergence/finalizer evidence not derived from raw chains at finalization; chain hashes not bound",
+      "intended_repair": "Recompute raw-chain diagnostics, physical quantiles, source selection and predictive receipts; bind derived artifacts",
+      "regression_check": "Tampered chains, omitted/duplicate/missing cases, NaN diagnostics rejected",
+      "scientific_limit": "Actual raw-chain passes require independent recheck, not automatic withdrawal"
+    },
+    {
+      "id": "I02",
+      "severity": "P1",
+      "evidence": "Diagnostic API silently accepts fewer names than variables; NaN/constant failure serialization and odd-FFT inverse-length handling are weak",
+      "intended_repair": "Versioned strict finite diagnostics, all-variable dimension checks, explicit inverse FFT length, JSON-safe failures",
+      "regression_check": "Omitted variable, nonfinite/stuck chains, odd padding vs direct autocovariance",
+      "scientific_limit": "Existing 4000-draw chain FFT padding is even; numeric impact must be measured"
+    },
+    {
+      "id": "I03",
+      "severity": "P1",
+      "evidence": "Neural forward records profile only marginal medians and fitted nuisances; no nuisance-correlated predictive integration",
+      "intended_repair": "Implement conditional p(nuisance|theta,measurement) sampling for frozen neural theta draws; accept only converged conditionals",
+      "regression_check": "Known conditional Gaussian, cached likelihood vs original, all-nuisance convergence",
+      "scientific_limit": "Few outer neural draws and approximate neural theta posterior prevent global calibration claims"
+    },
+    {
+      "id": "I04",
+      "severity": "P2",
+      "evidence": "Broad optimization starts collapse near modes; finite diagnostics cannot prove global mode coverage",
+      "intended_repair": "Independent bounded validation multistart mode search and chain log-density/early-late checks",
+      "regression_check": "Displaced geometry modes and higher-density discoveries flagged",
+      "scientific_limit": "Global mode completeness is irreducible with finite exploration"
+    },
+    {
+      "id": "I05",
+      "severity": "P2",
+      "evidence": "PhysicsLikelihood and Support assume PA 0..180, offsets +/-10 and log EM/size even if future config changes",
+      "intended_repair": "Fail closed on unsupported config/observing units and prior definitions in new review route",
+      "regression_check": "Changed PA/offset/grid/target transforms rejected",
+      "scientific_limit": "Current documented config may already match exactly"
+    },
+    {
+      "id": "I06",
+      "severity": "P2",
+      "evidence": "Validation/test/challenge roles and empirical coverage uncertainty can be confused",
+      "intended_repair": "Explicit data-role ledger and source-based validation resampling with finite-design caveats; preserve test archive",
+      "regression_check": "Exact grouped counts, no test/challenge training, feature allowlist and train-only preprocessing checks",
+      "scientific_limit": "67 validation/48 test groups and Sobol design cannot certify frequentist calibration"
+    },
+    {
+      "id": "I07",
+      "severity": "P1",
+      "evidence": "Frozen neural posterior is broad/weak for temperature and differs from validated Bayesian marginals",
+      "intended_repair": "Quantify validation-only errors, widths and predictive mismatch; retain frozen model and propose later architecture/joint-nuisance work",
+      "regression_check": "Do not pick models or calibrate using test; no false fixed-accuracy claim",
+      "scientific_limit": "Insufficient design/posterior family cannot be eliminated by bookkeeping fixes"
+    },
+    {
+      "id": "I08",
+      "severity": "P2",
+      "evidence": "Historical/follow-up timings and conditional-predictive work have different cost/precision scopes",
+      "intended_repair": "Retain pilot-inclusive accounting; time new conditional work separately with call counts and CPU/thread environment",
+      "regression_check": "No matched-accuracy speedup from incomparable draw counts",
+      "scientific_limit": "Two cases/session effects remain"
+    },
+    {
+      "id": "I09",
+      "severity": "P2",
+      "evidence": "Sampler final output requires draw count divisible by diagnostic interval; wall budget checked only at diagnostic milestones; interrupted conditional work needs honest status",
+      "intended_repair": "New bounded conditional sampler validates settings and always records success/failure/time-stop with resumable state or explicit limitation",
+      "regression_check": "Invalid budgets, stop before first milestone, failed chain state serialization",
+      "scientific_limit": "Historical follow-up files/code preserved; new route does not imply old sampler has been retroactively repaired"
+    }
+  ]
+}

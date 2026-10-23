@@ -1,0 +1,275 @@
+{
+  "observations": 134,
+  "independent_parents": 67,
+  "mean_nll_scaled_logit_coordinates": 5.129973101204911,
+  "parameters": {
+    "em0_pc_cm6": {
+      "mae_original_units": 30094.529337689288,
+      "rmse_original_units": 49957.71733898842,
+      "absolute_error_original_units": {
+        "mean": 30094.529337689288,
+        "median": 13567.275293112849,
+        "p10": 2133.6141859204627,
+        "p90": 80555.63064751383,
+        "max": 208491.04629951835
+      },
+      "absolute_relative_error": {
+        "mean": 0.31926488437417383,
+        "median": 0.27824588531263994,
+        "p10": 0.05893435956321439,
+        "p90": 0.6116823136443472,
+        "max": 1.157136714375714
+      },
+      "prior_midpoint_mae": 87035.23829937741,
+      "absolute_log10_error_dex": {
+        "mean": 0.16066105987558268,
+        "median": 0.12585874759453963,
+        "p10": 0.02605436601353177,
+        "p90": 0.3335642456211835,
+        "max": 0.6480899083292064
+      },
+      "coverage": {
+        "0.5": {
+          "observed": 0.6791044776119403,
+          "parent_bootstrap_95ci": [
+            0.5671641791044776,
+            0.7835820895522388
+          ],
+          "mean_interval_width_original_units": 83611.87017067157
+        },
+        "0.8": {
+          "observed": 0.9029850746268657,
+          "parent_bootstrap_95ci": [
+            0.8283582089552238,
+            0.9701492537313433
+          ],
+          "mean_interval_width_original_units": 157889.25969261565
+        },
+        "0.95": {
+          "observed": 0.9328358208955224,
+          "parent_bootstrap_95ci": [
+            0.8656716417910447,
+            0.9850746268656716
+          ],
+          "mean_interval_width_original_units": 244530.0798478402
+        }
+      },
+      "pit_histogram_10bins": [
+        6,
+        6,
+        6,
+        10,
+        23,
+        24,
+        23,
+        21,
+        8,
+        7
+      ],
+      "mae_parent_bootstrap_95ci": [
+        21457.57507992669,
+        40327.28887573671
+      ]
+    },
+    "te_k": {
+      "mae_original_units": 1886.7220737391604,
+      "rmse_original_units": 2112.792227661759,
+      "absolute_error_original_units": {
+        "mean": 1886.7220737391604,
+        "median": 1751.551300279537,
+        "p10": 735.8204211109023,
+        "p90": 3249.004007270116,
+        "max": 4150.089149154741
+      },
+      "absolute_relative_error": {
+        "mean": 0.2399827573615524,
+        "median": 0.2121005215102872,
+        "p10": 0.07960995201389623,
+        "p90": 0.48906527819613616,
+        "max": 0.8015093048183968
+      },
+      "prior_midpoint_mae": 1788.075661675921,
+      "coverage": {
+        "0.5": {
+          "observed": 0.5597014925373134,
+          "parent_bootstrap_95ci": [
+            0.44776119402985076,
+            0.6716417910447762
+          ],
+          "mean_interval_width_original_units": 3904.3993736746543
+        },
+        "0.8": {
+          "observed": 0.8582089552238806,
+          "parent_bootstrap_95ci": [
+            0.7686567164179104,
+            0.9328358208955224
+          ],
+          "mean_interval_width_original_units": 5757.903146636097
+        },
+        "0.95": {
+          "observed": 0.9626865671641791,
+          "parent_bootstrap_95ci": [
+            0.917910447761194,
+            1.0
+          ],
+          "mean_interval_width_original_units": 6568.762811917893
+        }
+      },
+      "pit_histogram_10bins": [
+        12,
+        10,
+        17,
+        21,
+        6,
+        12,
+        20,
+        12,
+        17,
+        7
+      ],
+      "mae_parent_bootstrap_95ci": [
+        1667.375335076605,
+        2105.8246145085595
+      ]
+    },
+    "major_fwhm_arcsec": {
+      "mae_original_units": 7.8637547575135205,
+      "rmse_original_units": 10.346541784958175,
+      "absolute_error_original_units": {
+        "mean": 7.8637547575135205,
+        "median": 6.16093481623286,
+        "p10": 1.2491613660733003,
+        "p90": 17.320324052737913,
+        "max": 31.92394940475633
+      },
+      "absolute_relative_error": {
+        "mean": 0.31601678684836876,
+        "median": 0.254144270571121,
+        "p10": 0.04232800525009941,
+        "p90": 0.6725558949203203,
+        "max": 1.245800584792601
+      },
+      "prior_midpoint_mae": 11.415809737231383,
+      "absolute_log10_error_dex": {
+        "mean": 0.12587079338839377,
+        "median": 0.11528519357055597,
+        "p10": 0.01851353055391897,
+        "p90": 0.2510935666254612,
+        "max": 0.3513711905856809
+      },
+      "coverage": {
+        "0.5": {
+          "observed": 0.6194029850746269,
+          "parent_bootstrap_95ci": [
+            0.5074626865671642,
+            0.7238805970149254
+          ],
+          "mean_interval_width_original_units": 20.122438180454846
+        },
+        "0.8": {
+          "observed": 0.8731343283582089,
+          "parent_bootstrap_95ci": [
+            0.7910447761194029,
+            0.9477611940298507
+          ],
+          "mean_interval_width_original_units": 33.10138370215471
+        },
+        "0.95": {
+          "observed": 0.9626865671641791,
+          "parent_bootstrap_95ci": [
+            0.917910447761194,
+            0.9925373134328358
+          ],
+          "mean_interval_width_original_units": 41.230752410881486
+        }
+      },
+      "pit_histogram_10bins": [
+        10,
+        11,
+        17,
+        20,
+        26,
+        10,
+        15,
+        13,
+        5,
+        7
+      ],
+      "mae_parent_bootstrap_95ci": [
+        6.364130978360681,
+        9.578889759439798
+      ]
+    },
+    "axis_ratio": {
+      "mae_original_units": 0.1274826802847079,
+      "rmse_original_units": 0.14967739887179035,
+      "absolute_error_original_units": {
+        "mean": 0.1274826802847079,
+        "median": 0.12034700496636652,
+        "p10": 0.02147588505180922,
+        "p90": 0.23630065955506502,
+        "max": 0.2806446553342312
+      },
+      "absolute_relative_error": {
+        "mean": 0.18785349160434886,
+        "median": 0.15414562060330456,
+        "p10": 0.026578611188764933,
+        "p90": 0.41777295511270246,
+        "max": 0.5538418902266714
+      },
+      "prior_midpoint_mae": 0.12867091689258814,
+      "coverage": {
+        "0.5": {
+          "observed": 0.5373134328358209,
+          "parent_bootstrap_95ci": [
+            0.417910447761194,
+            0.6492537313432836
+          ],
+          "mean_interval_width_original_units": 0.2599451896707818
+        },
+        "0.8": {
+          "observed": 0.7910447761194029,
+          "parent_bootstrap_95ci": [
+            0.6940298507462687,
+            0.8805970149253731
+          ],
+          "mean_interval_width_original_units": 0.39849180395058137
+        },
+        "0.95": {
+          "observed": 0.917910447761194,
+          "parent_bootstrap_95ci": [
+            0.8507462686567164,
+            0.9776119402985075
+          ],
+          "mean_interval_width_original_units": 0.4653031427976911
+        }
+      },
+      "pit_histogram_10bins": [
+        16,
+        15,
+        15,
+        15,
+        15,
+        13,
+        14,
+        13,
+        6,
+        12
+      ],
+      "mae_parent_bootstrap_95ci": [
+        0.10918555808923777,
+        0.14641090616914387
+      ]
+    }
+  },
+  "joint_transformed_ellipsoid_coverage": {
+    "0.5": 0.5895522388059702,
+    "0.8": 0.7686567164179104,
+    "0.95": 0.8805970149253731
+  },
+  "finite_outputs": true,
+  "definitions": "point estimate is marginal posterior median; absolute relative error=abs(pred-truth)/truth; two realizations/source, bootstrap resamples source groups; intervals central equal-tail; coverage is empirical on a small heldout set, not proof of calibration",
+  "loss_unit": "nats per observation density in scaled logit prior coordinates; not comparable to original-unit densities without Jacobian",
+  "posterior_family": "full covariance logit-normal, bounded support, single mode in logit coordinates; PCA compression may lose information",
+  "split": "reused validation development only"
+}

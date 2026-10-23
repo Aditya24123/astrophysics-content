@@ -1,0 +1,20 @@
+{
+  "version": "local_repair_campaign_20261023_v1",
+  "deadline_utc": "2026-10-23T14:00:00+00:00",
+  "science_stop_utc": "2026-10-23T13:30:00+00:00",
+  "reserve": "Stop admitting scientific work at 13:30 UTC; preserve states and reserve 30 minutes for regression, preservation checks, README and report",
+  "seed": 231040,
+  "model_seed": 231026,
+  "preserved_before": "output/ml_initial_20261023/review_01/final_01",
+  "hypothesis": "Empirical per-coordinate scaling plus PCA32 discards demonstrated q information. Conditional-thermal whitening followed by training-only PCA128 should retain more likelihood information without supervised metadata features. Keep hidden32/full covariance probit-normal output to isolate one modest representation/capacity remedy.",
+  "representation": {"components": 128, "noise": "Exact canonical conditional thermal covariance only; calibration remains explicit latent/prior variation, not an independent noise floor", "fitting": "Training observations only; fitted raw mean, whitened PCA and component scaling. No true parameters, realized nuisances, IDs or seeds in feature tensors."},
+  "neural": {"epochs": 300, "batch_size": 64, "learning_rate": 0.001, "weight_decay": 0.0001, "gradient_clip": 5.0, "patience": 30, "min_delta": 0.001, "hidden": 32, "fit_wall_seconds": 300, "posterior_draws": 2048, "bootstrap_parent_draws": 5000},
+  "comparison": "One full-data noisePCA128 model; no architecture/hyperparameter sweep or score-driven retraining. Same 794/397 training and 134/67 validation observations/sources. Preserve original and probit models. No test/challenge selection or scoring.",
+  "metrics": ["Original-unit per-parameter MAE/RMSE vs frozen and probit models and matched prior medians", "paired source-resampling uncertainty", "joint/marginal prior-relative NLL with exact Jacobians", "50/80/95% coverage/widths", "matched compressed Bayesian posterior marginals and predictive residuals", "local likelihood-information retention", "separate training/inference/conditional cost"],
+  "bayesian": {"cases": "Same first realization of first two sorted validation source IDs", "routes": ["existing empirical-PCA32", "new conditional-thermal-noise-PCA128"], "coordinates": "u=Phi(z) for seven uniform-prior coordinates, two normal calibration coordinates unchanged; exact N(0,I9) reference prior including Jacobians", "chains": 4, "warmup": 1000, "max_draws": 8000, "diagnostic_every": 1000, "wall_seconds_per_case": 720, "map_starts": 4, "map_max_nfev": 100, "student_df": 5, "proposal_inflation": 1.5, "independence_probability": 0.8, "local_scale": 0.6, "gate": "All physical targets, all nuisance coordinates, PA sine/cosine and log likelihood: rank/folded Rhat<1.01 and bulk/tail ESS>=400. Otherwise retain failure and do not use as validated comparator."},
+  "half_learning_curve": "If admitted before science stop, repeat original logit/PCA32 half-data diagnostic with its OWN first-198-training-parent means/scales/PCA and unique-parent target statistics; same original fitting/stopping settings, no model selection or full-model replacement",
+  "temperature_policy": {"prior_KL_nats_warning": 0.1, "central95_width_fraction_of_prior95_warning": 0.8, "meaning": "Explicit heuristic informativeness flag, not an accuracy/calibration threshold. Never alter/fix Te or drop it from targets. All NPE point-temperature precision remains unvalidated; weak-info outputs abstain from a constrained-Te claim."},
+  "compute": "CPU only, two BLAS threads, one scientific job at a time, frequent atomic saved-state checkpoints",
+  "generation": "No new scientific/protected bank; proposal and explicit approval required before any generation. Existing test archive and 24 challenges preserved.",
+  "publication": "None; no external service, real data, paid compute, credentials or security changes"
+}

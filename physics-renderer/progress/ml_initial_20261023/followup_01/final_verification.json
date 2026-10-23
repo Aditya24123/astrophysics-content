@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-23T09:46:48.472905+00:00",
+  "original_archive_unchanged": true,
+  "original_forward_rows_preserved": true,
+  "continuation_source_binding_unchanged": true,
+  "same_comparison_observations": true,
+  "runtime_replay_reproduces_original_fit": true,
+  "finalizer_code_sha256": "fcbdf076106366f09e3830d8d48be09bab6a60f087736e2ab752ec3b7b51934e",
+  "new_test_scoring": false,
+  "summary_sha256": "dcdc82bc3ca201dca23fcc936354b9a2f4f0b3a04d190d63168bbc7281db13c7",
+  "report_sha256": "b257f2ef192bcf9408a7fcfa8db21d03edfe98b133eeaf84c4b97e535ac1c3e1",
+  "figure_hashes": {
+    "training_curves.png": "5cb13b6bd903afa391668b01cf07f30b7308abe4a9cdbcdcea4c77e2d81a7949",
+    "archived_test_coverage.png": "bf4cd7633911feea91ae4c4c81d567fc9fbfa63edf0293a6fd83a641a7f7f995",
+    "bayes_01_traces.png": "27845e42fb114290814ac30e312d7ff76e26800b4372541133843273a382c809",
+    "bayes_02_traces.png": "184e2c78285ef97710994bb8917a0ab4cc5de6bc515cc95ba609769bad00e99f"
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "observations": 134,
+  "independent_parents": 67,
+  "mean_nll_scaled_logit_coordinates": 4.9338096487585466,
+  "parameters": {
+    "em0_pc_cm6": {
+      "mae_original_units": 33718.01141754727,
+      "rmse_original_units": 64234.808033903086,
+      "absolute_error_original_units": {
+        "mean": 33718.01141754727,
+        "median": 14789.383245975388,
+        "p10": 1911.7038867984982,
+        "p90": 73834.75046374204,
+        "max": 336252.1803982136
+      },
+      "absolute_relative_error": {
+        "mean": 0.3188192161577208,
+        "median": 0.2760144572833928,
+        "p10": 0.0688567478974342,
+        "p90": 0.6049671552072828,
+        "max": 0.9810975193999986
+      },
+      "prior_midpoint_mae": 87035.23829937741,
+      "absolute_log10_error_dex": {
+        "mean": 0.1661026945996653,
+        "median": 0.1257387637306639,
+        "p10": 0.03060198324409609,
+        "p90": 0.3275322544837631,
+        "max": 0.7718709218023228
+      },
+      "coverage": {
+        "0.5": {
+          "observed": 0.664179104477612,
+          "parent_bootstrap_95ci": [
+            0.5597014925373134,
+            0.7761194029850746
+          ],
+          "mean_interval_width_original_units": 76524.61041553615
+        },
+        "0.8": {
+          "observed": 0.917910447761194,
+          "parent_bootstrap_95ci": [
+            0.8432835820895522,
+            0.9776119402985075
+          ],
+          "mean_interval_width_original_units": 145836.00222155362
+        },
+        "0.95": {
+          "observed": 0.9253731343283582,
+          "parent_bootstrap_95ci": [
+            0.8507462686567164,
+            0.9850746268656716
+          ],
+          "mean_interval_width_original_units": 227247.8910213665
+        }
+      },
+      "pit_histogram_10bins": [
+        6,
+        5,
+        13,
+        11,
+        17,
+        21,
+        23,
+        19,
+        14,
+        5
+      ],
+      "mae_parent_bootstrap_95ci": [
+        21678.79244728373,
+        48161.43269144061
+      ]
+    },
+    "te_k": {
+      "mae_original_units": 1832.0412172598637,
+      "rmse_original_units": 2053.082951169836,
+      "absolute_error_original_units": {
+        "mean": 1832.0412172598637,
+        "median": 1843.112228324896,
+        "p10": 600.151986633194,
+        "p90": 3151.9165991293244,
+        "max": 3822.64725194132
+      },
+      "absolute_relative_error": {
+        "mean": 0.22667531534552088,
+        "median": 0.22153662789751327,
+        "p10": 0.06444645094230647,
+        "p90": 0.3661744072408842,
+        "max": 0.6648057852576276
+      },
+      "prior_midpoint_mae": 1788.075661675921,
+      "coverage": {
+        "0.5": {
+          "observed": 0.5373134328358209,
+          "parent_bootstrap_95ci": [
+            0.4253731343283582,
+            0.6567164179104478
+          ],
+          "mean_interval_width_original_units": 3728.045162988418
+        },
+        "0.8": {
+          "observed": 0.8283582089552238,
+          "parent_bootstrap_95ci": [
+            0.7388059701492538,
+            0.9104477611940298
+          ],
+          "mean_interval_width_original_units": 5659.142882861539
+        },
+        "0.95": {
+          "observed": 0.9552238805970149,
+          "parent_bootstrap_95ci": [
+            0.9104477611940298,
+            1.0
+          ],
+          "mean_interval_width_original_units": 6551.031880195186
+        }
+      },
+      "pit_histogram_10bins": [
+        6,
+        11,
+        24,
+        17,
+        7,
+        13,
+        15,
+        13,
+        11,
+        17
+      ],
+      "mae_parent_bootstrap_95ci": [
+        1600.5356068048152,
+        2058.122036540372
+      ]
+    },
+    "major_fwhm_arcsec": {
+      "mae_original_units": 7.535885692247667,
+      "rmse_original_units": 10.327741037126298,
+      "absolute_error_original_units": {
+        "mean": 7.535885692247667,
+        "median": 5.756245193184947,
+        "p10": 1.2738431410381539,
+        "p90": 16.357378896833904,
+        "max": 35.7678894672496
+      },
+      "absolute_relative_error": {
+        "mean": 0.2964944966311797,
+        "median": 0.22767609283127024,
+        "p10": 0.04010273220286731,
+        "p90": 0.6734325385213201,
+        "max": 1.1081465802736992
+      },
+      "prior_midpoint_mae": 11.415809737231383,
+      "absolute_log10_error_dex": {
+        "mean": 0.12072855472972778,
+        "median": 0.10521947530922991,
+        "p10": 0.017548471711715474,
+        "p90": 0.25938362620417454,
+        "max": 0.3956475469481858
+      },
+      "coverage": {
+        "0.5": {
+          "observed": 0.6343283582089553,
+          "parent_bootstrap_95ci": [
+            0.5298507462686567,
+            0.746268656716418
+          ],
+          "mean_interval_width_original_units": 18.1464642793594
+        },
+        "0.8": {
+          "observed": 0.8656716417910447,
+          "parent_bootstrap_95ci": [
+            0.7835820895522388,
+            0.9328358208955224
+          ],
+          "mean_interval_width_original_units": 30.585508485808948
+        },
+        "0.95": {
+          "observed": 0.9477611940298507,
+          "parent_bootstrap_95ci": [
+            0.8955223880597015,
+            0.9925373134328358
+          ],
+          "mean_interval_width_original_units": 39.14253730059428
+        }
+      },
+      "pit_histogram_10bins": [
+        10,
+        11,
+        16,
+        24,
+        23,
+        13,
+        14,
+        7,
+        8,
+        8
+      ],
+      "mae_parent_bootstrap_95ci": [
+        5.973319909767956,
+        9.440525148027836
+      ]
+    },
+    "axis_ratio": {
+      "mae_original_units": 0.13072506050149366,
+      "rmse_original_units": 0.1495678044606502,
+      "absolute_error_original_units": {
+        "mean": 0.13072506050149366,
+        "median": 0.13445416909994368,
+        "p10": 0.032284543280305035,
+        "p90": 0.23438457512002223,
+        "max": 0.26812078975859843
+      },
+      "absolute_relative_error": {
+        "mean": 0.18846894501156436,
+        "median": 0.16328536970748733,
+        "p10": 0.04497526487933885,
+        "p90": 0.36712752451496256,
+        "max": 0.5067373134781376
+      },
+      "prior_midpoint_mae": 0.12867091689258814,
+      "coverage": {
+        "0.5": {
+          "observed": 0.4626865671641791,
+          "parent_bootstrap_95ci": [
+            0.35074626865671643,
+            0.582089552238806
+          ],
+          "mean_interval_width_original_units": 0.249531683250128
+        },
+        "0.8": {
+          "observed": 0.746268656716418,
+          "parent_bootstrap_95ci": [
+            0.6343283582089553,
+            0.8432835820895522
+          ],
+          "mean_interval_width_original_units": 0.38829994340637314
+        },
+        "0.95": {
+          "observed": 0.917910447761194,
+          "parent_bootstrap_95ci": [
+            0.8507462686567164,
+            0.9701492537313433
+          ],
+          "mean_interval_width_original_units": 0.4587235818002701
+        }
+      },
+      "pit_histogram_10bins": [
+        19,
+        18,
+        5,
+        22,
+        8,
+        11,
+        19,
+        9,
+        8,
+        15
+      ],
+      "mae_parent_bootstrap_95ci": [
+        0.1135086716566823,
+        0.1480740959149075
+      ]
+    }
+  },
+  "joint_transformed_ellipsoid_coverage": {
+    "0.5": 0.5671641791044776,
+    "0.8": 0.7835820895522388,
+    "0.95": 0.8507462686567164
+  },
+  "finite_outputs": true,
+  "definitions": "point estimate is marginal posterior median; absolute relative error=abs(pred-truth)/truth; two realizations/source, bootstrap resamples source groups; intervals central equal-tail; coverage is empirical on a small heldout set, not proof of calibration",
+  "loss_unit": "nats per observation density in scaled logit prior coordinates; not comparable to original-unit densities without Jacobian",
+  "posterior_family": "full covariance logit-normal, bounded support, single mode in logit coordinates; PCA compression may lose information",
+  "split": "validation"
+}

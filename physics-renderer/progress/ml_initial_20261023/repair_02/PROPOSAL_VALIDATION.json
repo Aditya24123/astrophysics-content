@@ -1,0 +1,25 @@
+{
+  "proposal_only": true,
+  "generation_called": false,
+  "plan_called": false,
+  "prepare_called": false,
+  "output_path_created": false,
+  "schema_and_argument_parser_passed": true,
+  "config_sha256": "77783884b33f4d1553dd360788c17a2e02f9c741f174bd8bcde369c55ff5732d",
+  "frozen_core_digest": "0a31e1c6c436ca14d4def031a53fb76ee159db7c2b209308277ffb7fb45f2e6a",
+  "frozen_cli_module_path": ".\\output\\training_readiness_20261021\\candidate_gl4_512_01\\protected\\source_snapshot\\src\\hii_sim\\cli.py",
+  "changed_config_fields": [
+    "challenge_sources"
+  ],
+  "parsed_command_arguments": {
+    "command": "generate",
+    "config": "output\\ml_initial_20261023\\repair_02\\PROPOSED_protected_256_config.json",
+    "out": "LOCAL_PATH_REDACTED",
+    "sources": 256,
+    "limit": 256,
+    "max_seconds": 600.0,
+    "max_gib": 0.4,
+    "source_headroom_seconds": 5.0,
+    "source_headroom_mib": 3.0
+  }
+}

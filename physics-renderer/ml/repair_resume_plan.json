@@ -1,0 +1,12 @@
+{
+  "version": "homogeneous_original_compression_continuation_only_v1",
+  "declared_utc": "2026-10-23T12:36:30+00:00",
+  "trigger": "Only a preselected original32 case whose separately frozen refresh phase still fails the complete gate; no extension of already-passing case or new-model tuning",
+  "method": "Restore exact saved latent states and PCG64 states, keep identical fixed proposals/target, zero new warmup, preserve and concatenate the complete homogeneous refresh production prefix with array equality check. Do not pool initial different-proposal phase.",
+  "additional_wall_seconds_per_failed_case": 180,
+  "maximum_additional_draws_per_chain": 3000,
+  "admission_cutoff_utc": "2026-10-23T13:15:00+00:00",
+  "science_stop_utc": "2026-10-23T13:30:00+00:00",
+  "gate": "Unchanged all-target/nuisance/PA sine/cosine/log-likelihood rank-folded Rhat<1.01 and bulk/tail ESS>=400; four chains. Keep failed evidence and withhold any unvalidated posterior.",
+  "priority": "Canonical model's two matched compressed comparators before more failed-remedy experiments. No new model fit, selection, data generation, priors, likelihood or threshold changes. Count all prior phases in runtime."
+}

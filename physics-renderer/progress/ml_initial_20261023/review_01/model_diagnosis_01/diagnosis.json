@@ -1,0 +1,1150 @@
+{
+  "parameters": {
+    "em0_pc_cm6": {
+      "unit": "pc cm^-6",
+      "neural_mae": 33718.01141754727,
+      "prior_median_mae": 87035.23829937741,
+      "mae_difference_neural_minus_prior": -53317.226881830116,
+      "paired_source_resampling_95_interval": [
+        -71435.1241198388,
+        -37314.473352893714
+      ],
+      "marginal_nll_prior_unit_vs_uniform_prior": -0.544408547639538,
+      "marginal_nll_difference_source_resampling_95_interval": [
+        -0.7209980212919151,
+        -0.3348404584947579
+      ]
+    },
+    "te_k": {
+      "unit": "K",
+      "neural_mae": 1832.0412172598637,
+      "prior_median_mae": 1788.075661675921,
+      "mae_difference_neural_minus_prior": 43.965555583942624,
+      "paired_source_resampling_95_interval": [
+        -59.673793779541185,
+        146.74390251261408
+      ],
+      "marginal_nll_prior_unit_vs_uniform_prior": 0.023476034313867692,
+      "marginal_nll_difference_source_resampling_95_interval": [
+        -0.024899782341755265,
+        0.0748380119058663
+      ]
+    },
+    "major_fwhm_arcsec": {
+      "unit": "arcsec (full major EM FWHM)",
+      "neural_mae": 7.535885692247667,
+      "prior_median_mae": 11.415809737231383,
+      "mae_difference_neural_minus_prior": -3.8799240449837153,
+      "paired_source_resampling_95_interval": [
+        -5.447631717251989,
+        -2.388329125568091
+      ],
+      "marginal_nll_prior_unit_vs_uniform_prior": -0.29543289087617797,
+      "marginal_nll_difference_source_resampling_95_interval": [
+        -0.4220725802981336,
+        -0.15532444773153384
+      ]
+    },
+    "axis_ratio": {
+      "unit": "1",
+      "neural_mae": 0.13072506050149366,
+      "prior_median_mae": 0.12867091689258814,
+      "mae_difference_neural_minus_prior": 0.002054143608905507,
+      "paired_source_resampling_95_interval": [
+        -0.005336430155002786,
+        0.009426812684251867
+      ],
+      "marginal_nll_prior_unit_vs_uniform_prior": 0.01348575515728005,
+      "marginal_nll_difference_source_resampling_95_interval": [
+        -0.03482213879470373,
+        0.060292616373309744
+      ]
+    }
+  },
+  "validation_observations": 134,
+  "independent_validation_sources": 67,
+  "mean_joint_nll_prior_unit_vs_uniform_prior": -0.6944119261600485,
+  "joint_nll_difference_source_resampling_95_interval": [
+    -0.9468458002719582,
+    -0.41283234054742673
+  ],
+  "cases": [
+    {
+      "posterior_prior_comparison": {
+        "em0_pc_cm6": {
+          "bayesian": {
+            "descriptive_histogram_KL_from_uniform_prior_nats": 2.048584474670567,
+            "central95_prior_unit_width": 0.10380799298537369,
+            "histogram_counts": [
+              0,
+              0,
+              0,
+              0,
+              4,
+              2015,
+              9274,
+              4687,
+              20,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "neural": {
+            "descriptive_histogram_KL_from_uniform_prior_nats": 0.4589924234118556,
+            "central95_prior_unit_width": 0.6418976888674227,
+            "histogram_counts": [
+              386,
+              1029,
+              1087,
+              1043,
+              915,
+              762,
+              672,
+              570,
+              441,
+              358,
+              254,
+              232,
+              164,
+              117,
+              64,
+              49,
+              34,
+              12,
+              3,
+              0
+            ]
+          }
+        },
+        "te_k": {
+          "bayesian": {
+            "descriptive_histogram_KL_from_uniform_prior_nats": 0.006835739921063712,
+            "central95_prior_unit_width": 0.954649586306485,
+            "histogram_counts": [
+              796,
+              783,
+              834,
+              753,
+              843,
+              896,
+              721,
+              777,
+              833,
+              852,
+              663,
+              897,
+              1036,
+              788,
+              657,
+              813,
+              807,
+              846,
+              596,
+              809
+            ]
+          },
+          "neural": {
+            "descriptive_histogram_KL_from_uniform_prior_nats": 0.009344494881067155,
+            "central95_prior_unit_width": 0.9358469143099732,
+            "histogram_counts": [
+              290,
+              401,
+              436,
+              399,
+              372,
+              385,
+              386,
+              374,
+              400,
+              373,
+              389,
+              391,
+              348,
+              397,
+              414,
+              466,
+              493,
+              506,
+              547,
+              425
+            ]
+          }
+        },
+        "major_fwhm_arcsec": {
+          "bayesian": {
+            "descriptive_histogram_KL_from_uniform_prior_nats": 2.255799867959159,
+            "central95_prior_unit_width": 0.0797116245000773,
+            "histogram_counts": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              300,
+              10166,
+              5509,
+              25,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "neural": {
+            "descriptive_histogram_KL_from_uniform_prior_nats": 0.09122619508049079,
+            "central95_prior_unit_width": 0.8493895587652731,
+            "histogram_counts": [
+              254,
+              506,
+              583,
+              592,
+              567,
+              603,
+              577,
+              533,
+              518,
+              473,
+              468,
+              416,
+              394,
+              376,
+              348,
+              313,
+              273,
+              214,
+              148,
+              36
+            ]
+          }
+        },
+        "axis_ratio": {
+          "bayesian": {
+            "descriptive_histogram_KL_from_uniform_prior_nats": 1.3088956225761703,
+            "central95_prior_unit_width": 0.2687500165784019,
+            "histogram_counts": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              31,
+              188,
+              520,
+              1266,
+              2361,
+              3442,
+              4011,
+              4181
+            ]
+          },
+          "neural": {
+            "descriptive_histogram_KL_from_uniform_prior_nats": 0.00698809374286966,
+            "central95_prior_unit_width": 0.9287498392933254,
+            "histogram_counts": [
+              278,
+              382,
+              418,
+              400,
+              408,
+              412,
+              393,
+              400,
+              405,
+              389,
+              371,
+              405,
+              407,
+              428,
+              406,
+              460,
+              450,
+              512,
+              502,
+              366
+            ]
+          }
+        }
+      },
+      "local_information": [
+        {
+          "prior_unit_coordinates": [
+            0.3317539331325946,
+            0.9513866656125517,
+            0.4804162704225554,
+            0.913938096936286,
+            0.3806066711159775,
+            0.4096050735406122,
+            0.025488933598329867,
+            0.4523106368033898,
+            0.4505469874934676
+          ],
+          "conditional_information_retention": [
+            0.2169444299436551,
+            0.2160801011507738,
+            0.1151532281270634,
+            0.20046027636504102
+          ],
+          "nuisance_projected_information_retention": [
+            0.502539807189785,
+            0.500238459309276,
+            0.15703816773713342,
+            0.1869264561891398
+          ],
+          "full_nuisance_projected_information": [
+            [
+              4664.517673711185,
+              -256.81880082229134,
+              1625.344041025318,
+              303.8175208578041
+            ],
+            [
+              -256.81880082229134,
+              14.144809641866393,
+              -90.31962659720386,
+              -16.85157771563162
+            ],
+            [
+              1625.344041025318,
+              -90.31962659720386,
+              3841.2614226113346,
+              568.9624265018059
+            ],
+            [
+              303.8175208578041,
+              -16.85157771563162,
+              568.9624265018059,
+              194.68251948153113
+            ]
+          ],
+          "compressed_nuisance_projected_information": [
+            [
+              2344.105812380163,
+              -128.78760481225143,
+              -127.32087907002142,
+              0.7522787318498446
+            ],
+            [
+              -128.78760481225143,
+              7.075777782470237,
+              6.823042919423838,
+              -0.06850961895590309
+            ],
+            [
+              -127.32087907002142,
+              6.823042919423838,
+              603.2246556062184,
+              94.04427037872095
+            ],
+            [
+              0.7522787318498446,
+              -0.06850961895590309,
+              94.04427037872095,
+              36.39131344865579
+            ]
+          ],
+          "full_information_correlation": [
+            [
+              1.0,
+              -0.999827064809353,
+              0.38397681288295044,
+              0.3188202992641376
+            ],
+            [
+              -0.999827064809353,
+              1.0,
+              -0.3874776414020753,
+              -0.321128266550124
+            ],
+            [
+              0.38397681288295044,
+              -0.3874776414020753,
+              1.0,
+              0.6579352813234576
+            ],
+            [
+              0.3188202992641376,
+              -0.321128266550124,
+              0.6579352813234576,
+              1.0
+            ]
+          ],
+          "compressed_noise_condition_number": 461.0635137991441,
+          "meaning": "Local derivatives at one existing joint posterior state; exact compressed conditional thermal covariance, calibration-prior curvature included in nuisance projection. Other physical targets held fixed for each diagonal. Uniform bounds/nonlinear global geometry and float32 rounding are not Fisher information."
+        },
+        {
+          "prior_unit_coordinates": [
+            0.3365631063356361,
+            0.21979571741971463,
+            0.4207073128705817,
+            0.9108252695154156,
+            0.37807610598426283,
+            0.40586146580541044,
+            0.019142194289761418,
+            -1.3541850146564465,
+            -0.3757691012169704
+          ],
+          "conditional_information_retention": [
+            0.2535855769331662,
+            0.25189546765877485,
+            0.14668938857030256,
+            0.24697264004041117
+          ],
+          "nuisance_projected_information_retention": [
+            0.5729245773809654,
+            0.5685450906751857,
+            0.205707825548357,
+            0.24764914608266358
+          ],
+          "full_nuisance_projected_information": [
+            [
+              4753.321207710178,
+              -449.0741495773741,
+              1729.4147425835881,
+              321.4071560793358
+            ],
+            [
+              -449.0741495773741,
+              42.44000479153684,
+              -166.58624465596736,
+              -30.848418032624355
+            ],
+            [
+              1729.4147425835881,
+              -166.58624465596736,
+              4298.306260536534,
+              656.9927244915253
+            ],
+            [
+              321.4071560793358,
+              -30.848418032624355,
+              656.9927244915253,
+              217.76990950208685
+            ]
+          ],
+          "compressed_nuisance_projected_information": [
+            [
+              2723.2945440833337,
+              -256.33509387128794,
+              -37.53860770699742,
+              11.292738827725293
+            ],
+            [
+              -256.33509387128794,
+              24.129056372459626,
+              2.603785099272245,
+              -1.2116085738112894
+            ],
+            [
+              -37.53860770699742,
+              2.603785099272245,
+              884.1952343958601,
+              143.99973412953986
+            ],
+            [
+              11.292738827725293,
+              -1.2116085738112894,
+              143.99973412953986,
+              53.930532130690736
+            ]
+          ],
+          "full_information_correlation": [
+            [
+              1.0,
+              -0.9998428897897426,
+              0.3826061064945128,
+              0.3159061096299714
+            ],
+            [
+              -0.9998428897897426,
+              1.0,
+              -0.39003425215234416,
+              -0.3208826606525911
+            ],
+            [
+              0.3826061064945128,
+              -0.39003425215234416,
+              1.0,
+              0.6790675015369732
+            ],
+            [
+              0.3159061096299714,
+              -0.3208826606525911,
+              0.6790675015369732,
+              1.0
+            ]
+          ],
+          "compressed_noise_condition_number": 461.0635137991441,
+          "meaning": "Local derivatives at one existing joint posterior state; exact compressed conditional thermal covariance, calibration-prior curvature included in nuisance projection. Other physical targets held fixed for each diagonal. Uniform bounds/nonlinear global geometry and float32 rounding are not Fisher information."
+        },
+        {
+          "prior_unit_coordinates": [
+            0.30435365561947664,
+            0.10591829880983844,
+            0.46504318026659547,
+            0.9892488865697041,
+            0.6663150294182112,
+            0.4381593575451696,
+            0.03033700690302937,
+            -1.6798647954373467,
+            -0.33551923821164586
+          ],
+          "conditional_information_retention": [
+            0.2201435503315732,
+            0.21845949995167782,
+            0.118163283671978,
+            0.19113689417581362
+          ],
+          "nuisance_projected_information_retention": [
+            0.5261115889333684,
+            0.5215367276905791,
+            0.16291886293479493,
+            0.194657149799696
+          ],
+          "full_nuisance_projected_information": [
+            [
+              4704.234856636336,
+              -501.7641602359282,
+              1685.411544538574,
+              283.48991006629103
+            ],
+            [
+              -501.7641602359282,
+              53.53658800263077,
+              -183.44556283441824,
+              -30.829248531561227
+            ],
+            [
+              1685.411544538574,
+              -183.44556283441824,
+              4046.3930856968736,
+              673.2209872767953
+            ],
+            [
+              283.48991006629103,
+              -30.829248531561227,
+              673.2209872767953,
+              198.06439882584715
+            ]
+          ],
+          "compressed_nuisance_projected_information": [
+            [
+              2474.9524751406793,
+              -262.87001378561916,
+              -115.30940635597699,
+              -50.1702150462496
+            ],
+            [
+              -262.87001378561916,
+              27.92129691861077,
+              11.356638430041539,
+              5.198047272583275
+            ],
+            [
+              -115.30940635597699,
+              11.356638430041539,
+              659.2337605089509,
+              106.0785565553418
+            ],
+            [
+              -50.1702150462496,
+              5.198047272583275,
+              106.0785565553418,
+              38.55465135222966
+            ]
+          ],
+          "full_information_correlation": [
+            [
+              1.0,
+              -0.9998383603417356,
+              0.386302422536523,
+              0.2936904997938099
+            ],
+            [
+              -0.9998383603417356,
+              1.0,
+              -0.3941375675412144,
+              -0.2993879966300957
+            ],
+            [
+              0.386302422536523,
+              -0.3941375675412144,
+              1.0,
+              0.7520044341623129
+            ],
+            [
+              0.2936904997938099,
+              -0.2993879966300957,
+              0.7520044341623129,
+              1.0
+            ]
+          ],
+          "compressed_noise_condition_number": 461.0635137991441,
+          "meaning": "Local derivatives at one existing joint posterior state; exact compressed conditional thermal covariance, calibration-prior curvature included in nuisance projection. Other physical targets held fixed for each diagonal. Uniform bounds/nonlinear global geometry and float32 rounding are not Fisher information."
+        }
+      ]
+    },
+    {
+      "posterior_prior_comparison": {
+        "em0_pc_cm6": {
+          "bayesian": {
+            "descriptive_histogram_KL_from_uniform_prior_nats": 1.9393200498166658,
+            "central95_prior_unit_width": 0.12225739916119968,
+            "histogram_counts": [
+              0,
+              0,
+              0,
+              17,
+              1700,
+              8237,
+              5588,
+              458,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "neural": {
+            "descriptive_histogram_KL_from_uniform_prior_nats": 0.4641386351550898,
+            "central95_prior_unit_width": 0.6701574498389445,
+            "histogram_counts": [
+              644,
+              1209,
+              1147,
+              991,
+              847,
+              690,
+              562,
+              482,
+              416,
+              292,
+              244,
+              195,
+              148,
+              130,
+              75,
+              58,
+              33,
+              19,
+              9,
+              1
+            ]
+          }
+        },
+        "te_k": {
+          "bayesian": {
+            "descriptive_histogram_KL_from_uniform_prior_nats": 0.005486364043660232,
+            "central95_prior_unit_width": 0.9388331605124215,
+            "histogram_counts": [
+              687,
+              819,
+              863,
+              1005,
+              797,
+              770,
+              702,
+              793,
+              842,
+              820,
+              766,
+              640,
+              933,
+              708,
+              798,
+              800,
+              864,
+              768,
+              888,
+              737
+            ]
+          },
+          "neural": {
+            "descriptive_histogram_KL_from_uniform_prior_nats": 0.009295808373824863,
+            "central95_prior_unit_width": 0.9422803458851206,
+            "histogram_counts": [
+              473,
+              543,
+              482,
+              468,
+              423,
+              390,
+              350,
+              368,
+              342,
+              371,
+              364,
+              354,
+              367,
+              372,
+              378,
+              383,
+              441,
+              467,
+              486,
+              370
+            ]
+          }
+        },
+        "major_fwhm_arcsec": {
+          "bayesian": {
+            "descriptive_histogram_KL_from_uniform_prior_nats": 1.8712945643273184,
+            "central95_prior_unit_width": 0.13505403003176575,
+            "histogram_counts": [
+              0,
+              178,
+              3133,
+              8667,
+              3661,
+              361,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "neural": {
+            "descriptive_histogram_KL_from_uniform_prior_nats": 0.013003498694096779,
+            "central95_prior_unit_width": 0.9104549834352138,
+            "histogram_counts": [
+              269,
+              435,
+              487,
+              462,
+              461,
+              461,
+              442,
+              427,
+              432,
+              392,
+              424,
+              436,
+              434,
+              386,
+              405,
+              434,
+              421,
+              377,
+              389,
+              218
+            ]
+          }
+        },
+        "axis_ratio": {
+          "bayesian": {
+            "descriptive_histogram_KL_from_uniform_prior_nats": 0.8854085605633941,
+            "central95_prior_unit_width": 0.42683402678413374,
+            "histogram_counts": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              22,
+              0,
+              27,
+              109,
+              128,
+              348,
+              481,
+              980,
+              1476,
+              1919,
+              2243,
+              2633,
+              2795,
+              2839
+            ]
+          },
+          "neural": {
+            "descriptive_histogram_KL_from_uniform_prior_nats": 0.004603925739340139,
+            "central95_prior_unit_width": 0.9433176451746582,
+            "histogram_counts": [
+              470,
+              459,
+              490,
+              455,
+              396,
+              397,
+              379,
+              385,
+              412,
+              368,
+              350,
+              386,
+              363,
+              367,
+              397,
+              405,
+              402,
+              432,
+              475,
+              404
+            ]
+          }
+        }
+      },
+      "local_information": [
+        {
+          "prior_unit_coordinates": [
+            0.28482619196006964,
+            0.6204398532151498,
+            0.15566501209164152,
+            0.97654081861614,
+            0.5692611629190326,
+            0.6195862986602592,
+            0.5658387153127169,
+            0.8544587917620211,
+            0.41874192755570483
+          ],
+          "conditional_information_retention": [
+            0.5677374354116211,
+            0.5663730204734994,
+            0.3590673377454199,
+            0.5020309151267079
+          ],
+          "nuisance_projected_information_retention": [
+            0.7309137061755758,
+            0.7290960640797929,
+            0.44577048313087503,
+            0.5898763590693135
+          ],
+          "full_nuisance_projected_information": [
+            [
+              3195.9617931631938,
+              -216.86579468597262,
+              1262.152185881187,
+              213.9526520893989
+            ],
+            [
+              -216.86579468597262,
+              14.718557123520219,
+              -85.95548494849098,
+              -14.563512698204633
+            ],
+            [
+              1262.152185881187,
+              -85.95548494849098,
+              1580.7150484529857,
+              244.87133082946173
+            ],
+            [
+              213.9526520893989,
+              -14.563512698204633,
+              244.87133082946173,
+              66.31660698584571
+            ]
+          ],
+          "compressed_nuisance_projected_information": [
+            [
+              2335.972279036449,
+              -158.3280379248204,
+              449.59849987322553,
+              87.81767712920238
+            ],
+            [
+              -158.3280379248204,
+              10.73124206769219,
+              -30.642139120660584,
+              -5.976617616585684
+            ],
+            [
+              449.59849987322553,
+              -30.642139120660584,
+              704.636110841132,
+              108.125555920927
+            ],
+            [
+              87.81767712920238,
+              -5.976617616585684,
+              108.125555920927,
+              39.11859867464126
+            ]
+          ],
+          "full_information_correlation": [
+            [
+              1.0,
+              -0.9999024896870857,
+              0.5615444515419465,
+              0.4647353795447979
+            ],
+            [
+              -0.9999024896870857,
+              1.0,
+              -0.5635262903625939,
+              -0.46614643910455983
+            ],
+            [
+              0.5615444515419465,
+              -0.5635262903625939,
+              1.0,
+              0.7563102716137343
+            ],
+            [
+              0.4647353795447979,
+              -0.46614643910455983,
+              0.7563102716137343,
+              1.0
+            ]
+          ],
+          "compressed_noise_condition_number": 461.0635137991441,
+          "meaning": "Local derivatives at one existing joint posterior state; exact compressed conditional thermal covariance, calibration-prior curvature included in nuisance projection. Other physical targets held fixed for each diagonal. Uniform bounds/nonlinear global geometry and float32 rounding are not Fisher information."
+        },
+        {
+          "prior_unit_coordinates": [
+            0.30470305898431477,
+            0.7033509286533501,
+            0.19729958984383061,
+            0.6243077581887225,
+            0.6921706819293882,
+            0.6219949026326914,
+            0.6786502636918331,
+            0.10486674422312828,
+            1.2866741045528498
+          ],
+          "conditional_information_retention": [
+            0.5839317112405968,
+            0.5826419481874966,
+            0.36876388748552613,
+            0.5006416008914663
+          ],
+          "nuisance_projected_information_retention": [
+            0.7398849258074468,
+            0.7381938105008254,
+            0.4530723452003977,
+            0.5778767443742379
+          ],
+          "full_nuisance_projected_information": [
+            [
+              3153.050106258476,
+              -202.10715789874897,
+              1261.7370909296978,
+              243.31967298757888
+            ],
+            [
+              -202.10715789874897,
+              12.957259752093359,
+              -81.15205820464088,
+              -15.647530421671782
+            ],
+            [
+              1261.7370909296978,
+              -81.15205820464088,
+              1534.2317793389675,
+              289.8214011378024
+            ],
+            [
+              243.31967298757888,
+              -15.647530421671782,
+              289.8214011378024,
+              96.30504418892778
+            ]
+          ],
+          "compressed_nuisance_projected_information": [
+            [
+              2332.8942439362145,
+              -149.37860604626516,
+              495.301309412297,
+              92.96849050078784
+            ],
+            [
+              -149.37860604626516,
+              9.564968950046778,
+              -31.863672074324906,
+              -5.978591943358078
+            ],
+            [
+              495.301309412297,
+              -31.863672074324906,
+              695.1179903460851,
+              125.85465692059759
+            ],
+            [
+              92.96849050078784,
+              -5.978591943358078,
+              125.85465692059759,
+              55.652445402714704
+            ]
+          ],
+          "full_information_correlation": [
+            [
+              1.0,
+              -0.9999071553422033,
+              0.5736644622862049,
+              0.44155750480321826
+            ],
+            [
+              -0.9999071553422033,
+              1.0,
+              -0.5755690986503917,
+              -0.4429601979751513
+            ],
+            [
+              0.5736644622862049,
+              -0.5755690986503917,
+              1.0,
+              0.7539810784351614
+            ],
+            [
+              0.44155750480321826,
+              -0.4429601979751513,
+              0.7539810784351614,
+              1.0
+            ]
+          ],
+          "compressed_noise_condition_number": 461.0635137991441,
+          "meaning": "Local derivatives at one existing joint posterior state; exact compressed conditional thermal covariance, calibration-prior curvature included in nuisance projection. Other physical targets held fixed for each diagonal. Uniform bounds/nonlinear global geometry and float32 rounding are not Fisher information."
+        },
+        {
+          "prior_unit_coordinates": [
+            0.24740873618800974,
+            0.21578340921808248,
+            0.18562561378464223,
+            0.9798103995125421,
+            0.79633132695739,
+            0.6419725789193597,
+            0.6602475261227612,
+            0.24314007999590426,
+            -0.14946540540490466
+          ],
+          "conditional_information_retention": [
+            0.5365460582564066,
+            0.5348094333018257,
+            0.3316399566098123,
+            0.4605119402842707
+          ],
+          "nuisance_projected_information_retention": [
+            0.7035195433051988,
+            0.7011952520379436,
+            0.41498258561534024,
+            0.5218563225438718
+          ],
+          "full_nuisance_projected_information": [
+            [
+              3178.8433058088754,
+              -302.4686613585844,
+              1248.5869958352473,
+              183.1435013579505
+            ],
+            [
+              -302.4686613585844,
+              28.785722972997434,
+              -119.4294798351228,
+              -17.52643486124643
+            ],
+            [
+              1248.5869958352473,
+              -119.4294798351228,
+              1585.4127346939756,
+              248.092922424233
+            ],
+            [
+              183.1435013579505,
+              -17.52643486124643,
+              248.092922424233,
+              68.38593316800763
+            ]
+          ],
+          "compressed_nuisance_projected_information": [
+            [
+              2236.3783907414486,
+              -212.46065054508406,
+              389.30627148366034,
+              45.31447953178608
+            ],
+            [
+              -212.46065054508406,
+              20.18441227514536,
+              -37.3215867253829,
+              -4.356270840007897
+            ],
+            [
+              389.30627148366034,
+              -37.3215867253829,
+              657.9186759107935,
+              96.29240066941341
+            ],
+            [
+              45.31447953178608,
+              -4.356270840007897,
+              96.29240066941341,
+              35.68763159678745
+            ]
+          ],
+          "full_information_correlation": [
+            [
+              1.0,
+              -0.9999015764255654,
+              0.556177064835665,
+              0.3928018853697105
+            ],
+            [
+              -0.9999015764255654,
+              1.0,
+              -0.5590514765521142,
+              -0.395022309311776
+            ],
+            [
+              0.556177064835665,
+              -0.5590514765521142,
+              1.0,
+              0.7534593299193003
+            ],
+            [
+              0.3928018853697105,
+              -0.395022309311776,
+              0.7534593299193003,
+              1.0
+            ]
+          ],
+          "compressed_noise_condition_number": 461.0635137991441,
+          "meaning": "Local derivatives at one existing joint posterior state; exact compressed conditional thermal covariance, calibration-prior curvature included in nuisance projection. Other physical targets held fixed for each diagonal. Uniform bounds/nonlinear global geometry and float32 rounding are not Fisher information."
+        }
+      ]
+    }
+  ],
+  "model_changed": false,
+  "test_used": false,
+  "bootstrap_limit": "Local Fisher retention is not global sufficiency or posterior calibration. Histograms are coarse, correlated MCMC ESS limits precision. Validation was used for stopping, so source bootstrap is descriptive development uncertainty, not a fresh blind confidence guarantee. A proper density objective need not improve a finite-sample point MAE, but the exact posterior median is optimal for expected absolute error."
+}

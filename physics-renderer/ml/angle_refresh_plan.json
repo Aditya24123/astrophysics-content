@@ -1,0 +1,16 @@
+{
+  "version": "targeted_conditional_PA_tail_mixing_repair_v1",
+  "rationale": "One original frozen-target conditional remains under-mixed in PA tails after a valid same-kernel continuation reached its 300s budget. Retain that failure; add a full-period PA proposal rather than relax diagnostics or redraw theta.",
+  "selection": "Only conditional cases still failed after extensions_01; preserve all four outer targets and every old chain",
+  "kernel": "Fixed mixture: 30% original Student-t independence, 30% local joint Gaussian, 15% calibration random walk, 25% full-period uniform PA plus correlated conditional 4D Student-t independence; exact per-kernel Hastings corrections",
+  "posterior": "Unchanged p(nuisance|same frozen neural theta, same validation measurement), same physical priors and full correlated likelihood",
+  "seed": 231032,
+  "warmup": 500,
+  "max_draws": 3000,
+  "diagnostic_every": 1000,
+  "wall_seconds_per_case": 300,
+  "acceptance": "Same all-five-nuisance plus PA sine/cosine rank/folded Rhat <1.01, bulk/tail ESS >=400; otherwise withhold predictive conclusions",
+  "phase_handling": "Start from saved current states; changed proposal is a new homogeneous phase with 500 declared equilibration steps. Diagnose retained new-phase draws alone. Never relabel or discard previous failures.",
+  "retries": "One bounded proposal repair, no score-driven seed retries or model changes",
+  "predictive_replicates": 64
+}

@@ -1,0 +1,44 @@
+{
+  "proposal_only": true,
+  "generated": false,
+  "sources": 256,
+  "observations": 512,
+  "config_sha256": "77783884b33f4d1553dd360788c17a2e02f9c741f174bd8bcde369c55ff5732d",
+  "historical_mixed_seconds_per_source": 0.4991223969465642,
+  "historical_gaussian_commit_seconds_per_source": 0.5131287723779678,
+  "historical_external_seconds_per_source": 0.5098467085877851,
+  "generation_wall_central_seconds": 136.98050502875958,
+  "payload_bytes_linear_estimate": 201112499.8778626,
+  "fixed_metadata_bytes_estimate": 1878916,
+  "numerical_audit_seconds_linear_estimate": 145.77086275419884,
+  "inventory_audit_seconds_linear_estimate": 16.267645801526836,
+  "generation_cap_seconds": 600,
+  "disk_cap_gib": 0.4,
+  "source_headroom_seconds": 5,
+  "source_headroom_mib": 3,
+  "historical_sources": [
+    "output/training_readiness_20261021/candidate_gl4_512_01/protected/last_run.json",
+    "output/training_readiness_20261021/candidate_generation_external_timing_01.json",
+    "output/training_readiness_20261021/benchmark_resource_measurements_01.json",
+    "output/training_readiness_20261021/candidate_inventory_01.json"
+  ],
+  "proposed_matched_bayesian_sources": 8,
+  "proposed_additional_full_y_sources": 2,
+  "planned_bayesian_routes": 10,
+  "posterior_budget_seconds_per_route": 1800,
+  "posterior_budget_total_seconds": 18000,
+  "diagnostics_predictive_report_allowance_seconds": 2400,
+  "generation_audit_custody_allowance_seconds": 1200,
+  "end_to_end_allowance_seconds": 21600,
+  "evaluation_artifact_allowance_mib": [
+    50,
+    150
+  ],
+  "total_bank_and_evaluation_allowance_mib": [
+    242,
+    342
+  ],
+  "recommended_single_copy_reserve_gib": 0.6,
+  "design": "Fresh independently seeded scrambled Sobol bank; not IID within-bank sources; all256 groups reserved regardless of internal tags",
+  "needed_for_today_decision": false
+}

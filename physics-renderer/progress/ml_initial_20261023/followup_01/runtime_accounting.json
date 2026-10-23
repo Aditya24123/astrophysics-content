@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "converged": true,
+      "historical_required_pilot_sampler_seconds": 76.36870640000416,
+      "followup_sampler_seconds_including_new_initialization_warmup": 485.91328969999995,
+      "sum_pilot_plus_followup_sampler_seconds": 562.2819961000041,
+      "followup_total_seconds_including_setup_reference_checks_predictive": 494.41441729999997,
+      "sum_original_pilot_workflow_plus_followup_workflow_seconds": 573.4704670999977,
+      "neural": {
+        "repetitions": 30,
+        "median_point_inference_seconds": 0.00019255000006523915,
+        "median_posterior_inference_seconds": 0.0007738499998595216,
+        "measurement_loading_included": false,
+        "normalization_and_pca_included": true,
+        "note": "Approximate neural draws, not MCMC effective samples; no scientific speedup claim from unmatched precision."
+      }
+    },
+    {
+      "converged": true,
+      "historical_required_pilot_sampler_seconds": 80.8487157999989,
+      "followup_sampler_seconds_including_new_initialization_warmup": 630.8322175000003,
+      "sum_pilot_plus_followup_sampler_seconds": 711.6809332999992,
+      "followup_total_seconds_including_setup_reference_checks_predictive": 641.0973770999999,
+      "sum_original_pilot_workflow_plus_followup_workflow_seconds": 724.7292441999971,
+      "neural": {
+        "repetitions": 30,
+        "median_point_inference_seconds": 0.00019059999999626598,
+        "median_posterior_inference_seconds": 0.0007693500001551001,
+        "measurement_loading_included": false,
+        "normalization_and_pca_included": true,
+        "note": "Approximate neural draws, not MCMC effective samples; no scientific speedup claim from unmatched precision."
+      }
+    }
+  ],
+  "training_runtime_replay": {
+    "end_to_end_wall_seconds": 83.89211090000026,
+    "end_to_end_cpu_seconds": 69.8125,
+    "train_only_normalization_fit_seconds": 35.59993630000008,
+    "training_validation_verified_loading_seconds": 43.142563399999744,
+    "pca_and_optimizer_and_checkpoint_io_seconds": 1.895906599999762,
+    "optimizer_only_seconds": 1.4099859999996625,
+    "best_epoch": 22,
+    "epochs": 52,
+    "max_array_differences_from_frozen_fit": {
+      "weights/w1": 0.0,
+      "weights/b1": 0.0,
+      "weights/w2": 0.0,
+      "weights/b2": 0.0,
+      "pca/mean": 0.0,
+      "pca/basis": 0.0,
+      "pca/scale": 0.0,
+      "pca/explained_fraction": 0.0
+    },
+    "frozen_checkpoint_preserved": true,
+    "test_labels_opened": false,
+    "test_scored": false,
+    "interpretation": "Measured replay cost on this CPU/two-thread environment, including integrity checks, repeated disk reads, normalization fit, PCA, optimizer, validation stopping and checkpoint I/O. Excludes initial dataset generation, readiness audit, half-data diagnostic and dependency import startup. Disk/cache/system load affect timing. Neural model used in comparison remains the original frozen checkpoint."
+  },
+  "interpretation": "Follow-up proposal construction depends on the saved pilot, so its historical per-source cost belongs in a from-scratch comparison. Historical and follow-up times were measured in different sessions and system/cache conditions; sums describe recorded work, not a controlled repeated from-scratch benchmark. Neural training is an offline cost; per-observation inference is separate. Neural approximate independent draws and MCMC effective samples have different accuracy, so no numerical speedup or superiority claim is justified.",
+  "limits": "Two validation observations only; disk loading excluded from neural inference and separately explicit in training replay. Old end-to-end training cost was not recorded; the new instrumented replay measures the same training procedure, not a reconstructed historical duration."
+}

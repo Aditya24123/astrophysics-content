@@ -1,0 +1,18 @@
+{
+  "incidents": [
+    {
+      "id": "I10",
+      "severity": "P2",
+      "problem": "The first v2 integration attempt completed raw-chain and 128-draw predictive verification for both validation cases but its final dataset fingerprint failed: the new holdout guard rejected raw checksum reads. STATUS remained actively_executing despite exception.",
+      "repair": "Allow only the frozen hii_sim.io.digest function's raw-byte open for sealed files; keep all label decoding blocked. Add an isolated subprocess regression proving SHA256 succeeds while read_text raises. Record failed stage status on exceptions and retry in v2_02 without overwriting v2.",
+      "evidence": "verify_console.log retains the PermissionError; v2/source_snapshot retains the failed attempt's exact source files; v2/binding.json and independent_verification.json retain its partial evidence. No protected label was decoded and no preserved data was changed."
+    },
+    {
+      "id": "I11",
+      "severity": "P2",
+      "problem": "Combined regression: 62 passed and one unchanged lineage test failed during Windows atomic replacement of a temporary fixture manifest. A sandbox TEMP retry failed during temporary-directory setup.",
+      "repair": "No simulator or test logic changed. The identical lineage test passed when retried in a fresh shorter workspace fixture directory (output/review_retry01). Root cause of Windows I/O denial was not established; this is not claimed as a software defect fixed.",
+      "evidence": "tests_final.log, test_file_lock_retry.log, test_short_path_retry.log retain 62-pass/one-I/O-failure, one setup error, and one unchanged passing retry."
+    }
+  ]
+}

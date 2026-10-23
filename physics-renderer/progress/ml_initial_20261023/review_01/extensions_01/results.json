@@ -1,0 +1,333 @@
+[
+  {
+    "tag": "conditional_01_01",
+    "converged": true,
+    "used_parent_pass": false,
+    "neural_target_draw": [
+      96785.45903239278,
+      11248.007437755059,
+      31.077692810146036,
+      0.8691559318792385
+    ],
+    "diagnostics": {
+      "variables": {
+        "pa_branch": {
+          "rank_folded_split_rhat": 1.0082325384732191,
+          "bulk_ess": 863.5748575973413,
+          "tail_ess": 413.17363127074304,
+          "mean_mcse": 0.002920422802366989,
+          "passed": true,
+          "failure": null
+        },
+        "east_prior_unit": {
+          "rank_folded_split_rhat": 1.0027034363404659,
+          "bulk_ess": 2301.9772171857203,
+          "tail_ess": 2870.1535240988615,
+          "mean_mcse": 0.0003675619736973895,
+          "passed": true,
+          "failure": null
+        },
+        "north_prior_unit": {
+          "rank_folded_split_rhat": 1.0016847700543685,
+          "bulk_ess": 2204.3445768281263,
+          "tail_ess": 2809.8659440298425,
+          "mean_mcse": 0.0003522486023295968,
+          "passed": true,
+          "failure": null
+        },
+        "common_gain_z": {
+          "rank_folded_split_rhat": 1.0008409007930306,
+          "bulk_ess": 2465.8582511846826,
+          "tail_ess": 3204.819646885958,
+          "mean_mcse": 0.007860984593457585,
+          "passed": true,
+          "failure": null
+        },
+        "slope_z": {
+          "rank_folded_split_rhat": 1.002147856386891,
+          "bulk_ess": 2363.747881823791,
+          "tail_ess": 3153.9698801425975,
+          "mean_mcse": 0.019952656010285025,
+          "passed": true,
+          "failure": null
+        },
+        "pa_sin": {
+          "rank_folded_split_rhat": 1.0080711381033507,
+          "bulk_ess": 866.0276348795592,
+          "tail_ess": 413.17363127074304,
+          "mean_mcse": 0.015355680025545987,
+          "passed": true,
+          "failure": null
+        },
+        "pa_cos": {
+          "rank_folded_split_rhat": 1.005614193707238,
+          "bulk_ess": 1510.6354677374989,
+          "tail_ess": 1687.747136992523,
+          "mean_mcse": 0.005490908114296821,
+          "passed": true,
+          "failure": null
+        }
+      },
+      "passed": true,
+      "chain_shape": [
+        4,
+        4000,
+        7
+      ],
+      "rhat_limit": 1.01,
+      "ess_min": 400,
+      "method": "rank/folded split Rhat; explicit-length FFT Geyer positive/monotone bulk and 5/95% tail ESS; capped at retained count",
+      "limits": "Finite diagnostic passes do not prove global mode coverage or model calibration."
+    },
+    "extra_draws_per_chain": 1000,
+    "old_draws_preserved": true,
+    "new_outer_draws": 0,
+    "conditional_observed_rms_median": 1.0130719722359636,
+    "conditional_predictive_tail_fraction": 0.1875,
+    "additional_wall_seconds": 60.701942799999415,
+    "additional_forward_calls_including_predictive": 2808,
+    "chain_sha256": "668a4f43f79c3c1367f7937ad3812d536379973a5af52d1b65946dbdda632097"
+  },
+  {
+    "tag": "conditional_01_02",
+    "converged": true,
+    "used_parent_pass": true,
+    "additional_wall_seconds": 0.0,
+    "conditional_observed_rms_median": 1.0604160208120352,
+    "parent_diagnostics": {
+      "variables": {
+        "pa_branch": {
+          "rank_folded_split_rhat": 1.0074197984504472,
+          "bulk_ess": 845.4811528753511,
+          "tail_ess": 544.883911788314,
+          "mean_mcse": 0.005013424767542996,
+          "passed": true,
+          "failure": null
+        },
+        "east_prior_unit": {
+          "rank_folded_split_rhat": 1.0012443893033178,
+          "bulk_ess": 1858.949237787033,
+          "tail_ess": 2090.7990780538335,
+          "mean_mcse": 0.0004702858631965817,
+          "passed": true,
+          "failure": null
+        },
+        "north_prior_unit": {
+          "rank_folded_split_rhat": 1.001108909410648,
+          "bulk_ess": 1595.3130814194908,
+          "tail_ess": 2020.2044818564816,
+          "mean_mcse": 0.0005037327753513501,
+          "passed": true,
+          "failure": null
+        },
+        "common_gain_z": {
+          "rank_folded_split_rhat": 1.0018917833623902,
+          "bulk_ess": 1946.1453246133672,
+          "tail_ess": 2457.368826977047,
+          "mean_mcse": 0.01699381724122298,
+          "passed": true,
+          "failure": null
+        },
+        "slope_z": {
+          "rank_folded_split_rhat": 1.0019471645489095,
+          "bulk_ess": 2155.672164434553,
+          "tail_ess": 2583.4645323178515,
+          "mean_mcse": 0.021554594277273433,
+          "passed": true,
+          "failure": null
+        },
+        "pa_sin": {
+          "rank_folded_split_rhat": 1.0032082799637534,
+          "bulk_ess": 1285.188107866924,
+          "tail_ess": 1014.1168686007932,
+          "mean_mcse": 0.015577887140709868,
+          "passed": true,
+          "failure": null
+        },
+        "pa_cos": {
+          "rank_folded_split_rhat": 1.0071716175060332,
+          "bulk_ess": 1018.1963304874915,
+          "tail_ess": 454.2185643265623,
+          "mean_mcse": 0.0187046775135521,
+          "passed": true,
+          "failure": null
+        }
+      },
+      "passed": true,
+      "chain_shape": [
+        4,
+        3000,
+        7
+      ],
+      "rhat_limit": 1.01,
+      "ess_min": 400,
+      "method": "rank/folded split Rhat; explicit-length FFT Geyer positive/monotone bulk and 5/95% tail ESS; capped at retained count",
+      "limits": "Finite diagnostic passes do not prove global mode coverage or model calibration."
+    }
+  },
+  {
+    "tag": "conditional_02_01",
+    "converged": false,
+    "used_parent_pass": false,
+    "neural_target_draw": [
+      22469.038594003887,
+      8828.550608345005,
+      14.739746751170664,
+      0.5427689037269975
+    ],
+    "diagnostics": {
+      "variables": {
+        "pa_branch": {
+          "rank_folded_split_rhat": 1.0062838530038387,
+          "bulk_ess": 573.3145756791903,
+          "tail_ess": 171.12544402226527,
+          "mean_mcse": 0.005597079336554273,
+          "passed": false,
+          "failure": "rhat_or_ess_gate_failed"
+        },
+        "east_prior_unit": {
+          "rank_folded_split_rhat": 1.0010816941184792,
+          "bulk_ess": 2785.9888566141067,
+          "tail_ess": 3790.112230371673,
+          "mean_mcse": 0.0005076420878185149,
+          "passed": true,
+          "failure": null
+        },
+        "north_prior_unit": {
+          "rank_folded_split_rhat": 1.0027944312849353,
+          "bulk_ess": 1302.3860275405723,
+          "tail_ess": 628.9323380834774,
+          "mean_mcse": 0.0006414262626578714,
+          "passed": true,
+          "failure": null
+        },
+        "common_gain_z": {
+          "rank_folded_split_rhat": 1.0027677448861085,
+          "bulk_ess": 2445.861848531055,
+          "tail_ess": 3304.904960131295,
+          "mean_mcse": 0.01865953764570953,
+          "passed": true,
+          "failure": null
+        },
+        "slope_z": {
+          "rank_folded_split_rhat": 1.0018828311884862,
+          "bulk_ess": 2695.9677560768346,
+          "tail_ess": 3928.6982355665486,
+          "mean_mcse": 0.019221345368630006,
+          "passed": true,
+          "failure": null
+        },
+        "pa_sin": {
+          "rank_folded_split_rhat": 1.0031234217183345,
+          "bulk_ess": 1010.9360569410405,
+          "tail_ess": 576.1027623229016,
+          "mean_mcse": 0.012239694170480896,
+          "passed": true,
+          "failure": null
+        },
+        "pa_cos": {
+          "rank_folded_split_rhat": 1.0063323675480877,
+          "bulk_ess": 540.9698641725096,
+          "tail_ess": 173.10894172417326,
+          "mean_mcse": 0.02478072326325269,
+          "passed": false,
+          "failure": "rhat_or_ess_gate_failed"
+        }
+      },
+      "passed": false,
+      "chain_shape": [
+        4,
+        4619,
+        7
+      ],
+      "rhat_limit": 1.01,
+      "ess_min": 400,
+      "method": "rank/folded split Rhat; explicit-length FFT Geyer positive/monotone bulk and 5/95% tail ESS; capped at retained count",
+      "limits": "Finite diagnostic passes do not prove global mode coverage or model calibration."
+    },
+    "extra_draws_per_chain": 1619,
+    "old_draws_preserved": true,
+    "new_outer_draws": 0,
+    "predictive_status": "WITHHELD: extended conditional did not pass; outer draw retained as failed",
+    "additional_wall_seconds": 300.2918886000007,
+    "additional_forward_calls_including_predictive": 4777,
+    "chain_sha256": "b9a8639917a32f015303b6c0df066d0720470d83effff01897db0f835ab9d6d7"
+  },
+  {
+    "tag": "conditional_02_02",
+    "converged": true,
+    "used_parent_pass": true,
+    "additional_wall_seconds": 0.0,
+    "conditional_observed_rms_median": 1.0428738247939822,
+    "parent_diagnostics": {
+      "variables": {
+        "pa_branch": {
+          "rank_folded_split_rhat": 1.0048663952058083,
+          "bulk_ess": 935.5134850275413,
+          "tail_ess": 607.496122033801,
+          "mean_mcse": 0.0009795250477140276,
+          "passed": true,
+          "failure": null
+        },
+        "east_prior_unit": {
+          "rank_folded_split_rhat": 1.0030351631048475,
+          "bulk_ess": 1776.9752026660215,
+          "tail_ess": 2355.678223619798,
+          "mean_mcse": 0.0013922979440820962,
+          "passed": true,
+          "failure": null
+        },
+        "north_prior_unit": {
+          "rank_folded_split_rhat": 1.0018648041063354,
+          "bulk_ess": 1908.7820055984075,
+          "tail_ess": 2438.916537381948,
+          "mean_mcse": 0.001124773053490344,
+          "passed": true,
+          "failure": null
+        },
+        "common_gain_z": {
+          "rank_folded_split_rhat": 1.001871752217344,
+          "bulk_ess": 1564.5996759027537,
+          "tail_ess": 1940.9700489152751,
+          "mean_mcse": 0.016918480836372624,
+          "passed": true,
+          "failure": null
+        },
+        "slope_z": {
+          "rank_folded_split_rhat": 1.0006950951538953,
+          "bulk_ess": 1710.1552738077012,
+          "tail_ess": 2387.254762098805,
+          "mean_mcse": 0.024029700083851867,
+          "passed": true,
+          "failure": null
+        },
+        "pa_sin": {
+          "rank_folded_split_rhat": 1.004263849522638,
+          "bulk_ess": 935.5134850275417,
+          "tail_ess": 596.8321405820013,
+          "mean_mcse": 0.004039226154853031,
+          "passed": true,
+          "failure": null
+        },
+        "pa_cos": {
+          "rank_folded_split_rhat": 1.005149597727421,
+          "bulk_ess": 935.5134850275413,
+          "tail_ess": 607.496122033801,
+          "mean_mcse": 0.004545175107135116,
+          "passed": true,
+          "failure": null
+        }
+      },
+      "passed": true,
+      "chain_shape": [
+        4,
+        3000,
+        7
+      ],
+      "rhat_limit": 1.01,
+      "ess_min": 400,
+      "method": "rank/folded split Rhat; explicit-length FFT Geyer positive/monotone bulk and 5/95% tail ESS; capped at retained count",
+      "limits": "Finite diagnostic passes do not prove global mode coverage or model calibration."
+    }
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "version": "frozen_neural_validation_bayes_followup_v1",
+  "original_run": "output/ml_initial_20261023/run_03",
+  "seed": 231027,
+  "neural_policy": "Preserve original checkpoint, PCA, and test archive. No retraining or test-based selection.",
+  "bayes_sources": "Same first realization of the first two sorted validation source IDs as original pilot",
+  "sampler": "Four independent chains; fixed mixture of pilot-fitted multivariate Student-t independence MH with exact Hastings correction and symmetric local Gaussian MH. Same full 9D posterior, PA represented on one full-period branch.",
+  "warmup": 1000,
+  "max_draws_per_chain": 12000,
+  "diagnostic_every": 2000,
+  "wall_seconds_per_source": 1200,
+  "map_max_nfev": 120,
+  "student_df": 5,
+  "proposal_covariance_inflation": 1.5,
+  "independence_probability": 0.8,
+  "local_scale": 0.6,
+  "convergence": "All four physical targets, all five nuisance coordinates, and PA sine/cosine: rank/folded split Rhat <1.01, bulk ESS >=400 and tail ESS >=400. Otherwise comparison is inconclusive.",
+  "posterior_predictive_draws": 128,
+  "neural_posterior_draws": 2048,
+  "threads": 2,
+  "new_dependencies": [],
+  "new_data": "None. No challenge training or new blind data generation."
+}

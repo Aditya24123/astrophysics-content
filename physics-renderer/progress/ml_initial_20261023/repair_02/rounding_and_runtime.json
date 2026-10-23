@@ -1,0 +1,5 @@
+{
+  "old32_float32_rounding_whitened_l2_max": 9.646942489471774e-07,
+  "old32_float32_rounding_whitened_l2_median": 1.4621448978302623e-07,
+  "definition": "Difference historical float32 standardized feature PCA vs ideal float64 affine C(y), divided by exact compressed thermal covariance; rounding approximation explicitly retained"
+}

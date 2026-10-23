@@ -1,0 +1,275 @@
+{
+  "observations": 134,
+  "independent_parents": 67,
+  "mean_nll_scaled_logit_coordinates": 4.757237202539851,
+  "parameters": {
+    "em0_pc_cm6": {
+      "mae_original_units": 32218.784093262504,
+      "rmse_original_units": 63823.81069711461,
+      "absolute_error_original_units": {
+        "mean": 32218.784093262504,
+        "median": 13209.139236935218,
+        "p10": 1950.2943156310107,
+        "p90": 65893.96942558944,
+        "max": 350745.4526486539
+      },
+      "absolute_relative_error": {
+        "mean": 0.30985711811488975,
+        "median": 0.2763746564915501,
+        "p10": 0.069494581423501,
+        "p90": 0.5842967321914189,
+        "max": 1.0603543076155797
+      },
+      "prior_midpoint_mae": 87035.23829937741,
+      "absolute_log10_error_dex": {
+        "mean": 0.15733873712974147,
+        "median": 0.11679738260031249,
+        "p10": 0.0312817642688563,
+        "p90": 0.3074893380646959,
+        "max": 0.6912950665190878
+      },
+      "coverage": {
+        "0.5": {
+          "observed": 0.5522388059701493,
+          "parent_bootstrap_95ci": [
+            0.44776119402985076,
+            0.664179104477612
+          ],
+          "mean_interval_width_original_units": 59463.88368110939
+        },
+        "0.8": {
+          "observed": 0.8731343283582089,
+          "parent_bootstrap_95ci": [
+            0.7910447761194029,
+            0.9477611940298507
+          ],
+          "mean_interval_width_original_units": 113848.54602485911
+        },
+        "0.95": {
+          "observed": 0.917910447761194,
+          "parent_bootstrap_95ci": [
+            0.8507462686567164,
+            0.9776119402985075
+          ],
+          "mean_interval_width_original_units": 176133.96804301746
+        }
+      },
+      "pit_histogram_10bins": [
+        7,
+        6,
+        13,
+        10,
+        17,
+        19,
+        18,
+        19,
+        15,
+        10
+      ],
+      "mae_parent_bootstrap_95ci": [
+        20706.745860928582,
+        47056.02440264888
+      ]
+    },
+    "te_k": {
+      "mae_original_units": 1831.8497674854757,
+      "rmse_original_units": 2051.7479579364253,
+      "absolute_error_original_units": {
+        "mean": 1831.8497674854757,
+        "median": 1863.1769924482733,
+        "p10": 651.5891126972022,
+        "p90": 3207.455570516392,
+        "max": 3775.01124122528
+      },
+      "absolute_relative_error": {
+        "mean": 0.22646541219572547,
+        "median": 0.21913041792507815,
+        "p10": 0.06996944333778057,
+        "p90": 0.3698581133655157,
+        "max": 0.6343656019370769
+      },
+      "prior_midpoint_mae": 1788.075661675921,
+      "coverage": {
+        "0.5": {
+          "observed": 0.43283582089552236,
+          "parent_bootstrap_95ci": [
+            0.3208955223880597,
+            0.5447761194029851
+          ],
+          "mean_interval_width_original_units": 3404.8687549812375
+        },
+        "0.8": {
+          "observed": 0.8059701492537313,
+          "parent_bootstrap_95ci": [
+            0.7014925373134329,
+            0.8955223880597015
+          ],
+          "mean_interval_width_original_units": 5476.590094893936
+        },
+        "0.95": {
+          "observed": 0.9552238805970149,
+          "parent_bootstrap_95ci": [
+            0.8955223880597015,
+            1.0
+          ],
+          "mean_interval_width_original_units": 6561.084961998464
+        }
+      },
+      "pit_histogram_10bins": [
+        8,
+        13,
+        26,
+        11,
+        8,
+        9,
+        16,
+        13,
+        12,
+        18
+      ],
+      "mae_parent_bootstrap_95ci": [
+        1613.3603202730346,
+        2051.8630314785723
+      ]
+    },
+    "major_fwhm_arcsec": {
+      "mae_original_units": 7.573065753377603,
+      "rmse_original_units": 10.240712624635963,
+      "absolute_error_original_units": {
+        "mean": 7.573065753377603,
+        "median": 5.516926878395047,
+        "p10": 1.3758562145685758,
+        "p90": 15.690972182668999,
+        "max": 34.86385313025724
+      },
+      "absolute_relative_error": {
+        "mean": 0.3033220874069817,
+        "median": 0.2313425554984223,
+        "p10": 0.043231818886213344,
+        "p90": 0.7013801715192223,
+        "max": 1.1498491721094444
+      },
+      "prior_midpoint_mae": 11.415809737231383,
+      "absolute_log10_error_dex": {
+        "mean": 0.12135617476037945,
+        "median": 0.10042982939157323,
+        "p10": 0.018508454173545616,
+        "p90": 0.26020777237390247,
+        "max": 0.3796259719137695
+      },
+      "coverage": {
+        "0.5": {
+          "observed": 0.5895522388059702,
+          "parent_bootstrap_95ci": [
+            0.47761194029850745,
+            0.7014925373134329
+          ],
+          "mean_interval_width_original_units": 15.369766527503666
+        },
+        "0.8": {
+          "observed": 0.8432835820895522,
+          "parent_bootstrap_95ci": [
+            0.7611940298507462,
+            0.917910447761194
+          ],
+          "mean_interval_width_original_units": 27.003561667142154
+        },
+        "0.95": {
+          "observed": 0.9328358208955224,
+          "parent_bootstrap_95ci": [
+            0.8656716417910447,
+            0.9850746268656716
+          ],
+          "mean_interval_width_original_units": 36.16999088433678
+        }
+      },
+      "pit_histogram_10bins": [
+        11,
+        21,
+        12,
+        25,
+        16,
+        10,
+        13,
+        7,
+        9,
+        10
+      ],
+      "mae_parent_bootstrap_95ci": [
+        6.036809456516244,
+        9.35313281976836
+      ]
+    },
+    "axis_ratio": {
+      "mae_original_units": 0.12926369486221265,
+      "rmse_original_units": 0.14802600620921727,
+      "absolute_error_original_units": {
+        "mean": 0.12926369486221265,
+        "median": 0.13386620305150954,
+        "p10": 0.02939308193190159,
+        "p90": 0.2317994968069154,
+        "max": 0.26721802209391887
+      },
+      "absolute_relative_error": {
+        "mean": 0.1863008155155317,
+        "median": 0.16210634229933196,
+        "p10": 0.03846439339090072,
+        "p90": 0.3672733737273669,
+        "max": 0.509164144986536
+      },
+      "prior_midpoint_mae": 0.12867091689258814,
+      "coverage": {
+        "0.5": {
+          "observed": 0.44776119402985076,
+          "parent_bootstrap_95ci": [
+            0.3283582089552239,
+            0.5671641791044776
+          ],
+          "mean_interval_width_original_units": 0.22732934467422025
+        },
+        "0.8": {
+          "observed": 0.7388059701492538,
+          "parent_bootstrap_95ci": [
+            0.6343283582089553,
+            0.835820895522388
+          ],
+          "mean_interval_width_original_units": 0.3730457231653011
+        },
+        "0.95": {
+          "observed": 0.917910447761194,
+          "parent_bootstrap_95ci": [
+            0.8507462686567164,
+            0.9776119402985075
+          ],
+          "mean_interval_width_original_units": 0.4570504293603704
+        }
+      },
+      "pit_histogram_10bins": [
+        20,
+        17,
+        9,
+        18,
+        8,
+        10,
+        14,
+        10,
+        13,
+        15
+      ],
+      "mae_parent_bootstrap_95ci": [
+        0.11182775687862499,
+        0.14642571012781502
+      ]
+    }
+  },
+  "joint_transformed_ellipsoid_coverage": {
+    "0.5": 0.5,
+    "0.8": 0.753731343283582,
+    "0.95": 0.8731343283582089
+  },
+  "finite_outputs": true,
+  "definitions": "point estimate is marginal posterior median; absolute relative error=abs(pred-truth)/truth; two realizations/source, bootstrap resamples source groups; intervals central equal-tail; coverage is empirical on a small heldout set, not proof of calibration",
+  "loss_unit": "Nats in probit prior coordinates; common prior-unit density scores/Jacobians are saved in comparison.json",
+  "posterior_family": "Full covariance probit-normal; exact prior representable at zero mean/identity covariance; still a restricted Gaussian conditional family",
+  "split": "validation development; not a new blind test"
+}

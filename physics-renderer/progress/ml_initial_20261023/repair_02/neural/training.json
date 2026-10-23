@@ -1,0 +1,10 @@
+{
+  "best_epoch": 18,
+  "epochs": 48,
+  "best_validation_nll": 5.182005976329514,
+  "stopping_reason": "validation_patience",
+  "elapsed_seconds": 0.41899299999931827,
+  "cpu_seconds": 0.375,
+  "parameter_count": 4590,
+  "train_rows": 794
+}

@@ -1,0 +1,11 @@
+{
+  "wall_seconds": 31.42551220000132,
+  "cpu_seconds": 30.96875,
+  "pca_explained_fraction": 0.9109269388715139,
+  "training_observations": 794,
+  "training_sources": 397,
+  "validation_observations": 134,
+  "validation_sources": 67,
+  "feature_contract": "Measured Jy only; metadata defines fixed known thermal whitening. Labels/bookkeeping stored separately and never fed to predictor.",
+  "covariance_max_off_diagonal": 8.039291346344235e-16
+}

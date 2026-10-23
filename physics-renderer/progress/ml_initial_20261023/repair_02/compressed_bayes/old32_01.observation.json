@@ -1,0 +1,6 @@
+{
+  "route": "old32",
+  "forward_reference_error": 1.8856610909259737e-14,
+  "noise": "C^T Sigma_thermal C; same explicit calibration priors, all source/nuisance priors and forward model; offset cancels; same observed y compressed linearly",
+  "distinction": "Matched to ideal float64 compression. Historical NPE used float32 normalized inputs; rounding difference recorded separately. Full-y posterior is a separate information experiment."
+}

@@ -1,0 +1,358 @@
+{
+  "rows": [
+    {
+      "stratification_target": "em0_pc_cm6",
+      "prior_unit_range": [
+        0.0,
+        0.25
+      ],
+      "observations": 42,
+      "sources": 21,
+      "mae_all_targets": [
+        5099.2590344002465,
+        1856.283276071613,
+        12.839702154425023,
+        0.1429595903527415
+      ],
+      "central95_coverage_all_targets": [
+        0.9047619047619048,
+        0.9761904761904762,
+        0.8333333333333334,
+        0.8095238095238095
+      ],
+      "limits": "Small descriptive validation subgroups; no fitting/tuning or subgroup confidence claim"
+    },
+    {
+      "stratification_target": "em0_pc_cm6",
+      "prior_unit_range": [
+        0.25,
+        0.5
+      ],
+      "observations": 36,
+      "sources": 18,
+      "mae_all_targets": [
+        15966.049611848159,
+        1777.7164931882899,
+        7.043890086067886,
+        0.13282824243895225
+      ],
+      "central95_coverage_all_targets": [
+        1.0,
+        0.8888888888888888,
+        1.0,
+        0.8333333333333334
+      ],
+      "limits": "Small descriptive validation subgroups; no fitting/tuning or subgroup confidence claim"
+    },
+    {
+      "stratification_target": "em0_pc_cm6",
+      "prior_unit_range": [
+        0.5,
+        0.75
+      ],
+      "observations": 26,
+      "sources": 13,
+      "mae_all_targets": [
+        42691.2772714202,
+        1777.1191229111134,
+        4.7566921047030934,
+        0.12445410048180176
+      ],
+      "central95_coverage_all_targets": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "limits": "Small descriptive validation subgroups; no fitting/tuning or subgroup confidence claim"
+    },
+    {
+      "stratification_target": "em0_pc_cm6",
+      "prior_unit_range": [
+        0.75,
+        1.0
+      ],
+      "observations": 30,
+      "sources": 15,
+      "mae_all_targets": [
+        94536.96853304228,
+        1900.9105525662221,
+        7.1605858891002105,
+        0.12796494194932148
+      ],
+      "central95_coverage_all_targets": [
+        0.8666666666666667,
+        0.9333333333333333,
+        1.0,
+        0.9333333333333333
+      ],
+      "limits": "Small descriptive validation subgroups; no fitting/tuning or subgroup confidence claim"
+    },
+    {
+      "stratification_target": "te_k",
+      "prior_unit_range": [
+        0.0,
+        0.25
+      ],
+      "observations": 34,
+      "sources": 17,
+      "mae_all_targets": [
+        31230.66377948706,
+        2550.9566448189025,
+        9.1868815443993,
+        0.1416254540109707
+      ],
+      "central95_coverage_all_targets": [
+        0.9411764705882353,
+        0.9411764705882353,
+        0.9117647058823529,
+        0.8823529411764706
+      ],
+      "limits": "Small descriptive validation subgroups; no fitting/tuning or subgroup confidence claim"
+    },
+    {
+      "stratification_target": "te_k",
+      "prior_unit_range": [
+        0.25,
+        0.5
+      ],
+      "observations": 32,
+      "sources": 16,
+      "mae_all_targets": [
+        45700.2951799341,
+        1272.7307867588102,
+        6.554503471971924,
+        0.11896775609876914
+      ],
+      "central95_coverage_all_targets": [
+        0.875,
+        1.0,
+        0.96875,
+        0.96875
+      ],
+      "limits": "Small descriptive validation subgroups; no fitting/tuning or subgroup confidence claim"
+    },
+    {
+      "stratification_target": "te_k",
+      "prior_unit_range": [
+        0.5,
+        0.75
+      ],
+      "observations": 32,
+      "sources": 16,
+      "mae_all_targets": [
+        21664.028482230493,
+        890.9544283520045,
+        9.914972321703864,
+        0.13043012052365016
+      ],
+      "central95_coverage_all_targets": [
+        0.9375,
+        1.0,
+        0.96875,
+        0.875
+      ],
+      "limits": "Small descriptive validation subgroups; no fitting/tuning or subgroup confidence claim"
+    },
+    {
+      "stratification_target": "te_k",
+      "prior_unit_range": [
+        0.75,
+        1.0
+      ],
+      "observations": 36,
+      "sources": 18,
+      "mae_all_targets": [
+        42153.55568965863,
+        2478.434786529806,
+        8.11005297423278,
+        0.1406910251481526
+      ],
+      "central95_coverage_all_targets": [
+        1.0,
+        0.8611111111111112,
+        0.9444444444444444,
+        0.8055555555555556
+      ],
+      "limits": "Small descriptive validation subgroups; no fitting/tuning or subgroup confidence claim"
+    },
+    {
+      "stratification_target": "major_fwhm_arcsec",
+      "prior_unit_range": [
+        0.0,
+        0.25
+      ],
+      "observations": 32,
+      "sources": 16,
+      "mae_all_targets": [
+        64164.31616726955,
+        1578.5834929963412,
+        8.105252744259133,
+        0.13912801378392226
+      ],
+      "central95_coverage_all_targets": [
+        0.9375,
+        1.0,
+        0.9375,
+        0.96875
+      ],
+      "limits": "Small descriptive validation subgroups; no fitting/tuning or subgroup confidence claim"
+    },
+    {
+      "stratification_target": "major_fwhm_arcsec",
+      "prior_unit_range": [
+        0.25,
+        0.5
+      ],
+      "observations": 42,
+      "sources": 21,
+      "mae_all_targets": [
+        25142.297216117084,
+        1954.6602882186821,
+        3.9452797126500316,
+        0.14174203307999386
+      ],
+      "central95_coverage_all_targets": [
+        0.9523809523809523,
+        0.8809523809523809,
+        1.0,
+        0.8571428571428571
+      ],
+      "limits": "Small descriptive validation subgroups; no fitting/tuning or subgroup confidence claim"
+    },
+    {
+      "stratification_target": "major_fwhm_arcsec",
+      "prior_unit_range": [
+        0.5,
+        0.75
+      ],
+      "observations": 30,
+      "sources": 15,
+      "mae_all_targets": [
+        24074.997017873462,
+        1782.8619835512472,
+        4.673215061795853,
+        0.12725874414379296
+      ],
+      "central95_coverage_all_targets": [
+        0.8666666666666667,
+        1.0,
+        1.0,
+        0.8
+      ],
+      "limits": "Small descriptive validation subgroups; no fitting/tuning or subgroup confidence claim"
+    },
+    {
+      "stratification_target": "major_fwhm_arcsec",
+      "prior_unit_range": [
+        0.75,
+        1.0
+      ],
+      "observations": 30,
+      "sources": 15,
+      "mae_all_targets": [
+        30118.147318459698,
+        1969.9280578285595,
+        18.86909391260374,
+        0.12126167462882904
+      ],
+      "central95_coverage_all_targets": [
+        1.0,
+        0.9333333333333333,
+        0.8333333333333334,
+        0.9
+      ],
+      "limits": "Small descriptive validation subgroups; no fitting/tuning or subgroup confidence claim"
+    },
+    {
+      "stratification_target": "axis_ratio",
+      "prior_unit_range": [
+        0.0,
+        0.25
+      ],
+      "observations": 36,
+      "sources": 18,
+      "mae_all_targets": [
+        55133.115097594644,
+        1912.2397141314302,
+        9.285765549756098,
+        0.19417646951471146
+      ],
+      "central95_coverage_all_targets": [
+        0.9444444444444444,
+        0.9166666666666666,
+        0.9444444444444444,
+        0.8055555555555556
+      ],
+      "limits": "Small descriptive validation subgroups; no fitting/tuning or subgroup confidence claim"
+    },
+    {
+      "stratification_target": "axis_ratio",
+      "prior_unit_range": [
+        0.25,
+        0.5
+      ],
+      "observations": 36,
+      "sources": 18,
+      "mae_all_targets": [
+        29383.134666468242,
+        1835.9896868513945,
+        10.321034435569604,
+        0.07721529138998146
+      ],
+      "central95_coverage_all_targets": [
+        0.9444444444444444,
+        0.9444444444444444,
+        0.9166666666666666,
+        1.0
+      ],
+      "limits": "Small descriptive validation subgroups; no fitting/tuning or subgroup confidence claim"
+    },
+    {
+      "stratification_target": "axis_ratio",
+      "prior_unit_range": [
+        0.5,
+        0.75
+      ],
+      "observations": 28,
+      "sources": 14,
+      "mae_all_targets": [
+        33446.49139875889,
+        1785.8359160081673,
+        7.171782361812246,
+        0.06603576626578136
+      ],
+      "central95_coverage_all_targets": [
+        0.8571428571428571,
+        0.9285714285714286,
+        0.9642857142857143,
+        1.0
+      ],
+      "limits": "Small descriptive validation subgroups; no fitting/tuning or subgroup confidence claim"
+    },
+    {
+      "stratification_target": "axis_ratio",
+      "prior_unit_range": [
+        0.75,
+        1.0
+      ],
+      "observations": 34,
+      "sources": 17,
+      "mae_all_targets": [
+        22233.593524941913,
+        1772.1894423191602,
+        6.6083646875621564,
+        0.18358145722391445
+      ],
+      "central95_coverage_all_targets": [
+        1.0,
+        1.0,
+        0.9705882352941176,
+        0.7352941176470589
+      ],
+      "limits": "Small descriptive validation subgroups; no fitting/tuning or subgroup confidence claim"
+    }
+  ],
+  "challenge_observations_used": 0,
+  "test_observations_used": 0
+}

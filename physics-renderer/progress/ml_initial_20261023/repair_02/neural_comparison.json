@@ -1,0 +1,136 @@
+{
+  "targets": [
+    "em0_pc_cm6",
+    "te_k",
+    "major_fwhm_arcsec",
+    "axis_ratio"
+  ],
+  "units": [
+    "pc cm^-6",
+    "K",
+    "arcsec (full major EM FWHM)",
+    "1"
+  ],
+  "training": {
+    "best_epoch": 18,
+    "epochs": 48,
+    "best_validation_nll": 5.182005976329514,
+    "stopping_reason": "validation_patience",
+    "elapsed_seconds": 0.41899299999931827,
+    "cpu_seconds": 0.375,
+    "parameter_count": 4590,
+    "train_rows": 794
+  },
+  "before": {
+    "original": {
+      "mae": [
+        33718.01141754726,
+        1832.0412172598653,
+        7.535885692247668,
+        0.13072506050149366
+      ],
+      "joint_prior_unit_nll": -0.6944119261600485,
+      "marginal_prior_unit_nll": [
+        -0.5444085476395383,
+        0.023476034313867675,
+        -0.29543289087617813,
+        0.013485755157280047
+      ],
+      "mae_change_new_minus_before": [
+        1618.0253773746479,
+        -2.234462614626701,
+        0.9069434493910008,
+        0.0025650469136101754
+      ],
+      "mae_change_source_bootstrap95": [
+        [
+          -2999.3511483914544,
+          -111.2464966036267,
+          0.0771146678145624,
+          -0.004782364180150001
+        ],
+        [
+          6838.388679560105,
+          105.68605834809426,
+          1.8092909935362849,
+          0.010556651966463977
+        ]
+      ],
+      "joint_nll_change": 0.19218760912016164,
+      "joint_nll_change_source_bootstrap95": [
+        0.003910532585910079,
+        0.36731871844701036
+      ]
+    },
+    "probit32": {
+      "mae": [
+        32218.78409326251,
+        1831.8497674854755,
+        7.5730657533776045,
+        0.12926369486221262
+      ],
+      "joint_prior_unit_nll": -0.9269930908295483,
+      "marginal_prior_unit_nll": [
+        -0.6919230960615512,
+        0.031508065262768906,
+        -0.38020950872699305,
+        0.013109368610813724
+      ],
+      "mae_change_new_minus_before": [
+        3117.2527016594117,
+        -2.04301284023846,
+        0.8697633882610643,
+        0.004026412552891168
+      ],
+      "mae_change_source_bootstrap95": [
+        [
+          -1541.426166213168,
+          -112.4651453941992,
+          0.03866772462551696,
+          -0.00375034925443774
+        ],
+        [
+          8303.412663840729,
+          107.77044862902407,
+          1.772471931894866,
+          0.012302045572121478
+        ]
+      ],
+      "joint_nll_change": 0.4247687737896614,
+      "joint_nll_change_source_bootstrap95": [
+        0.2536956900970298,
+        0.5928722748780729
+      ]
+    }
+  },
+  "mae": [
+    35336.03679492191,
+    1829.806754645236,
+    8.442829141638668,
+    0.1332901074151038
+  ],
+  "prior_median_mae": [
+    87035.2382993774,
+    1788.075661675921,
+    11.415809737231383,
+    0.12867091689258814
+  ],
+  "joint_prior_unit_nll": -0.5022243170398869,
+  "marginal_prior_unit_nll": [
+    -0.5231219062726408,
+    0.035655542976431066,
+    -0.22542902842291354,
+    0.06198147858309766
+  ],
+  "prior_dominated_counts": [
+    4,
+    129,
+    82,
+    128
+  ],
+  "te_rule": "Keep all four posterior outputs. Flag KL(q_u||uniform)<0.1 nats AND central95 width/prior95 width>0.8; heuristic informational abstention from a data-constrained Te claim. Unflagged neural Te precision is also unvalidated. Never fix Te or substitute a point prior.",
+  "inference_2048_draws_seconds_median": 0.0009321500001533423,
+  "inference_timing_scope": "Already projected single observation; no disk, raw whitening or PCA; neural posterior only, no nuisance draws",
+  "checkpoint_sha256": "22ad199584c17b95bb9f97ae056aff7a117e235e4c9d5a287125e43fa15f4892",
+  "test_scored": false
+}

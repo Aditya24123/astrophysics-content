@@ -1,0 +1,550 @@
+{
+  "execution": "complete",
+  "bounded_audit_and_repairs_complete": true,
+  "all_issues_eliminated": false,
+  "canonical_model_unchanged": true,
+  "canonical_model_sha256": "e07db567c60f826280f47fd063f7068cebc4df49fedb4e1377cfe1222925ec0e",
+  "probe_model_promoted": false,
+  "probe_model_sha256": "ad6e24733192ba28bae361da77e292097a7fed2c56614a8c64ec53850c3078e0",
+  "test_rescored": false,
+  "original_runs_dataset_simulator_unchanged": true,
+  "validated_full_bayesian_cases": 2,
+  "accepted_neural_conditionals": 4,
+  "outer_neural_draws_per_observation": 2,
+  "validation_observations": 134,
+  "validation_sources": 67,
+  "model_comparison": {
+    "em0_pc_cm6": {
+      "unit": "pc cm^-6",
+      "original_mae": 33718.01141754727,
+      "probe_mae": 32218.784093262504,
+      "prior_median_mae": 87035.23829937741,
+      "probe_rmse": 63823.81069711461,
+      "mae_change_vs_original": -1499.2273242847652,
+      "mae_change_vs_original_source_resampling95": [
+        -2593.131519984926,
+        -402.51434173379937
+      ],
+      "mae_change_vs_prior_source_resampling95": [
+        -73302.13030267267,
+        -38318.46879845387
+      ],
+      "original_marginal_prior_unit_nll": -0.544408547639538,
+      "probe_marginal_prior_unit_nll": -0.6919230960615511,
+      "coverage_and_width": {
+        "0.5": {
+          "observed": 0.5522388059701493,
+          "parent_bootstrap_95ci": [
+            0.44776119402985076,
+            0.664179104477612
+          ],
+          "mean_interval_width_original_units": 59463.88368110939
+        },
+        "0.8": {
+          "observed": 0.8731343283582089,
+          "parent_bootstrap_95ci": [
+            0.7910447761194029,
+            0.9477611940298507
+          ],
+          "mean_interval_width_original_units": 113848.54602485911
+        },
+        "0.95": {
+          "observed": 0.917910447761194,
+          "parent_bootstrap_95ci": [
+            0.8507462686567164,
+            0.9776119402985075
+          ],
+          "mean_interval_width_original_units": 176133.96804301746
+        }
+      }
+    },
+    "te_k": {
+      "unit": "K",
+      "original_mae": 1832.0412172598637,
+      "probe_mae": 1831.8497674854757,
+      "prior_median_mae": 1788.075661675921,
+      "probe_rmse": 2051.7479579364253,
+      "mae_change_vs_original": -0.19144977438824087,
+      "mae_change_vs_original_source_resampling95": [
+        -13.974934308036447,
+        13.409410222625652
+      ],
+      "mae_change_vs_prior_source_resampling95": [
+        -59.69674346071308,
+        146.1635084213883
+      ],
+      "original_marginal_prior_unit_nll": 0.023476034313867692,
+      "probe_marginal_prior_unit_nll": 0.03150806526276889,
+      "coverage_and_width": {
+        "0.5": {
+          "observed": 0.43283582089552236,
+          "parent_bootstrap_95ci": [
+            0.3208955223880597,
+            0.5447761194029851
+          ],
+          "mean_interval_width_original_units": 3404.8687549812375
+        },
+        "0.8": {
+          "observed": 0.8059701492537313,
+          "parent_bootstrap_95ci": [
+            0.7014925373134329,
+            0.8955223880597015
+          ],
+          "mean_interval_width_original_units": 5476.590094893936
+        },
+        "0.95": {
+          "observed": 0.9552238805970149,
+          "parent_bootstrap_95ci": [
+            0.8955223880597015,
+            1.0
+          ],
+          "mean_interval_width_original_units": 6561.084961998464
+        }
+      }
+    },
+    "major_fwhm_arcsec": {
+      "unit": "arcsec (full major EM FWHM)",
+      "original_mae": 7.535885692247667,
+      "probe_mae": 7.573065753377603,
+      "prior_median_mae": 11.415809737231383,
+      "probe_rmse": 10.240712624635963,
+      "mae_change_vs_original": 0.037180061129937554,
+      "mae_change_vs_original_source_resampling95": [
+        -0.11525217727183017,
+        0.17977488051477383
+      ],
+      "mae_change_vs_prior_source_resampling95": [
+        -5.449091408120926,
+        -2.4171655967200505
+      ],
+      "original_marginal_prior_unit_nll": -0.29543289087617797,
+      "probe_marginal_prior_unit_nll": -0.38020950872699294,
+      "coverage_and_width": {
+        "0.5": {
+          "observed": 0.5895522388059702,
+          "parent_bootstrap_95ci": [
+            0.47761194029850745,
+            0.7014925373134329
+          ],
+          "mean_interval_width_original_units": 15.369766527503666
+        },
+        "0.8": {
+          "observed": 0.8432835820895522,
+          "parent_bootstrap_95ci": [
+            0.7611940298507462,
+            0.917910447761194
+          ],
+          "mean_interval_width_original_units": 27.003561667142154
+        },
+        "0.95": {
+          "observed": 0.9328358208955224,
+          "parent_bootstrap_95ci": [
+            0.8656716417910447,
+            0.9850746268656716
+          ],
+          "mean_interval_width_original_units": 36.16999088433678
+        }
+      }
+    },
+    "axis_ratio": {
+      "unit": "1",
+      "original_mae": 0.13072506050149366,
+      "probe_mae": 0.12926369486221265,
+      "prior_median_mae": 0.12867091689258814,
+      "probe_rmse": 0.14802600620921727,
+      "mae_change_vs_original": -0.0014613656392809928,
+      "mae_change_vs_original_source_resampling95": [
+        -0.002862974506277449,
+        -0.00017224481732028922
+      ],
+      "mae_change_vs_prior_source_resampling95": [
+        -0.007317663353495339,
+        0.008023427071071457
+      ],
+      "original_marginal_prior_unit_nll": 0.01348575515728005,
+      "probe_marginal_prior_unit_nll": 0.013109368610813724,
+      "coverage_and_width": {
+        "0.5": {
+          "observed": 0.44776119402985076,
+          "parent_bootstrap_95ci": [
+            0.3283582089552239,
+            0.5671641791044776
+          ],
+          "mean_interval_width_original_units": 0.22732934467422025
+        },
+        "0.8": {
+          "observed": 0.7388059701492538,
+          "parent_bootstrap_95ci": [
+            0.6343283582089553,
+            0.835820895522388
+          ],
+          "mean_interval_width_original_units": 0.3730457231653011
+        },
+        "0.95": {
+          "observed": 0.917910447761194,
+          "parent_bootstrap_95ci": [
+            0.8507462686567164,
+            0.9776119402985075
+          ],
+          "mean_interval_width_original_units": 0.4570504293603704
+        }
+      }
+    }
+  },
+  "conditional_diagnostics": [
+    {
+      "tag": "conditional_01_01",
+      "phase": "same-kernel exact continuation",
+      "location": "output\\ml_initial_20261023\\review_01\\extensions_01",
+      "retained_per_chain": 4000,
+      "max_rhat": 1.0082325384732191,
+      "min_bulk_ess": 863.5748575973413,
+      "min_tail_ess": 413.17363127074304,
+      "chain_sha256": "668a4f43f79c3c1367f7937ad3812d536379973a5af52d1b65946dbdda632097",
+      "all_variables": {
+        "variables": {
+          "pa_branch": {
+            "rank_folded_split_rhat": 1.0082325384732191,
+            "bulk_ess": 863.5748575973413,
+            "tail_ess": 413.17363127074304,
+            "mean_mcse": 0.002920422802366989,
+            "passed": true,
+            "failure": null
+          },
+          "east_prior_unit": {
+            "rank_folded_split_rhat": 1.0027034363404659,
+            "bulk_ess": 2301.9772171857203,
+            "tail_ess": 2870.1535240988615,
+            "mean_mcse": 0.0003675619736973895,
+            "passed": true,
+            "failure": null
+          },
+          "north_prior_unit": {
+            "rank_folded_split_rhat": 1.0016847700543685,
+            "bulk_ess": 2204.3445768281263,
+            "tail_ess": 2809.8659440298425,
+            "mean_mcse": 0.0003522486023295968,
+            "passed": true,
+            "failure": null
+          },
+          "common_gain_z": {
+            "rank_folded_split_rhat": 1.0008409007930306,
+            "bulk_ess": 2465.8582511846826,
+            "tail_ess": 3204.819646885958,
+            "mean_mcse": 0.007860984593457585,
+            "passed": true,
+            "failure": null
+          },
+          "slope_z": {
+            "rank_folded_split_rhat": 1.002147856386891,
+            "bulk_ess": 2363.747881823791,
+            "tail_ess": 3153.9698801425975,
+            "mean_mcse": 0.019952656010285025,
+            "passed": true,
+            "failure": null
+          },
+          "pa_sin": {
+            "rank_folded_split_rhat": 1.0080711381033507,
+            "bulk_ess": 866.0276348795592,
+            "tail_ess": 413.17363127074304,
+            "mean_mcse": 0.015355680025545987,
+            "passed": true,
+            "failure": null
+          },
+          "pa_cos": {
+            "rank_folded_split_rhat": 1.005614193707238,
+            "bulk_ess": 1510.6354677374989,
+            "tail_ess": 1687.747136992523,
+            "mean_mcse": 0.005490908114296821,
+            "passed": true,
+            "failure": null
+          }
+        },
+        "passed": true,
+        "chain_shape": [
+          4,
+          4000,
+          7
+        ],
+        "rhat_limit": 1.01,
+        "ess_min": 400,
+        "method": "rank/folded split Rhat; explicit-length FFT Geyer positive/monotone bulk and 5/95% tail ESS; capped at retained count",
+        "limits": "Finite diagnostic passes do not prove global mode coverage or model calibration."
+      }
+    },
+    {
+      "tag": "conditional_01_02",
+      "phase": "original conditional pilot",
+      "location": "output\\ml_initial_20261023\\review_01\\v2_02",
+      "retained_per_chain": 3000,
+      "max_rhat": 1.0074197984504472,
+      "min_bulk_ess": 845.4811528753511,
+      "min_tail_ess": 454.2185643265654,
+      "chain_sha256": "385ce16a47190795a8cb7b17551e9716c14b69d3e4cc56ea4f5d3054794fdf2a",
+      "all_variables": {
+        "variables": {
+          "pa_branch": {
+            "rank_folded_split_rhat": 1.0074197984504472,
+            "bulk_ess": 845.4811528753511,
+            "tail_ess": 544.8839117883095,
+            "mean_mcse": 0.005013424767543003,
+            "passed": true,
+            "failure": null
+          },
+          "east_prior_unit": {
+            "rank_folded_split_rhat": 1.0012443893033178,
+            "bulk_ess": 1858.949237787033,
+            "tail_ess": 2090.7990780538203,
+            "mean_mcse": 0.00047028586319658233,
+            "passed": true,
+            "failure": null
+          },
+          "north_prior_unit": {
+            "rank_folded_split_rhat": 1.001108909410648,
+            "bulk_ess": 1595.3130814194908,
+            "tail_ess": 2020.20448185648,
+            "mean_mcse": 0.0005037327753513501,
+            "passed": true,
+            "failure": null
+          },
+          "common_gain_z": {
+            "rank_folded_split_rhat": 1.0018917833623902,
+            "bulk_ess": 1946.1453246133672,
+            "tail_ess": 2457.3688269770714,
+            "mean_mcse": 0.016993817241222925,
+            "passed": true,
+            "failure": null
+          },
+          "slope_z": {
+            "rank_folded_split_rhat": 1.0019471645489095,
+            "bulk_ess": 2155.672164434553,
+            "tail_ess": 2583.4645323178497,
+            "mean_mcse": 0.021554594277273437,
+            "passed": true,
+            "failure": null
+          },
+          "pa_sin": {
+            "rank_folded_split_rhat": 1.0032082799637534,
+            "bulk_ess": 1285.188107866924,
+            "tail_ess": 1014.1168686007884,
+            "mean_mcse": 0.015577887140709868,
+            "passed": true,
+            "failure": null
+          },
+          "pa_cos": {
+            "rank_folded_split_rhat": 1.0071716175060332,
+            "bulk_ess": 1018.1963304874915,
+            "tail_ess": 454.2185643265654,
+            "mean_mcse": 0.018704677513552065,
+            "passed": true,
+            "failure": null
+          }
+        },
+        "passed": true,
+        "chain_shape": [
+          4,
+          3000,
+          7
+        ],
+        "rhat_limit": 1.01,
+        "ess_min": 400,
+        "method": "rank/folded split Rhat; explicit-length FFT Geyer positive/monotone bulk and 5/95% tail ESS; capped at retained count",
+        "limits": "Finite diagnostic passes do not prove global mode coverage or model calibration."
+      }
+    },
+    {
+      "tag": "conditional_02_01",
+      "phase": "new PA-refresh homogeneous phase",
+      "location": "output\\ml_initial_20261023\\review_01\\angle_refresh_01",
+      "retained_per_chain": 1445,
+      "max_rhat": 1.0078456757875782,
+      "min_bulk_ess": 580.9889306730386,
+      "min_tail_ess": 572.7286646123705,
+      "chain_sha256": "ca69b5a0001275c54a9937cc39d32ec65674799b062f67905eec6c58d4760d15",
+      "all_variables": {
+        "variables": {
+          "pa_branch": {
+            "rank_folded_split_rhat": 1.0053566312308084,
+            "bulk_ess": 580.9889306730386,
+            "tail_ess": 596.353347015199,
+            "mean_mcse": 0.0028655461021417023,
+            "passed": true,
+            "failure": null
+          },
+          "east_prior_unit": {
+            "rank_folded_split_rhat": 1.0035813476612443,
+            "bulk_ess": 869.4820816043837,
+            "tail_ess": 946.1487482967369,
+            "mean_mcse": 0.000969532201323863,
+            "passed": true,
+            "failure": null
+          },
+          "north_prior_unit": {
+            "rank_folded_split_rhat": 1.0052629111550817,
+            "bulk_ess": 731.9307371572802,
+            "tail_ess": 870.8403995861781,
+            "mean_mcse": 0.0007978051419191657,
+            "passed": true,
+            "failure": null
+          },
+          "common_gain_z": {
+            "rank_folded_split_rhat": 1.0078456757875782,
+            "bulk_ess": 745.2298654750531,
+            "tail_ess": 832.4053453282226,
+            "mean_mcse": 0.03267760860565402,
+            "passed": true,
+            "failure": null
+          },
+          "slope_z": {
+            "rank_folded_split_rhat": 1.0035087998658423,
+            "bulk_ess": 950.1303571772028,
+            "tail_ess": 1171.9430833620684,
+            "mean_mcse": 0.03190635516495675,
+            "passed": true,
+            "failure": null
+          },
+          "pa_sin": {
+            "rank_folded_split_rhat": 1.0053771573225139,
+            "bulk_ess": 587.7026255811987,
+            "tail_ess": 572.7286646123705,
+            "mean_mcse": 0.015567812652529184,
+            "passed": true,
+            "failure": null
+          },
+          "pa_cos": {
+            "rank_folded_split_rhat": 1.006994444721591,
+            "bulk_ess": 710.8325616839926,
+            "tail_ess": 718.4552818948464,
+            "mean_mcse": 0.005834589061100819,
+            "passed": true,
+            "failure": null
+          }
+        },
+        "passed": true,
+        "chain_shape": [
+          4,
+          1445,
+          7
+        ],
+        "rhat_limit": 1.01,
+        "ess_min": 400,
+        "method": "rank/folded split Rhat; explicit-length FFT Geyer positive/monotone bulk and 5/95% tail ESS; capped at retained count",
+        "limits": "Finite diagnostic passes do not prove global mode coverage or model calibration."
+      }
+    },
+    {
+      "tag": "conditional_02_02",
+      "phase": "original conditional pilot",
+      "location": "output\\ml_initial_20261023\\review_01\\v2_02",
+      "retained_per_chain": 3000,
+      "max_rhat": 1.005149597727421,
+      "min_bulk_ess": 935.5134850275413,
+      "min_tail_ess": 596.8321405820076,
+      "chain_sha256": "f818ecd59e987a36b66889df8eceb32c5debc7f687afb884a98b4d14214201ee",
+      "all_variables": {
+        "variables": {
+          "pa_branch": {
+            "rank_folded_split_rhat": 1.0048663952058083,
+            "bulk_ess": 935.5134850275413,
+            "tail_ess": 607.496122033805,
+            "mean_mcse": 0.0009795250477140328,
+            "passed": true,
+            "failure": null
+          },
+          "east_prior_unit": {
+            "rank_folded_split_rhat": 1.0030351631048475,
+            "bulk_ess": 1776.9752026660215,
+            "tail_ess": 2355.6782236197855,
+            "mean_mcse": 0.0013922979440820975,
+            "passed": true,
+            "failure": null
+          },
+          "north_prior_unit": {
+            "rank_folded_split_rhat": 1.0018648041063354,
+            "bulk_ess": 1908.7820055984075,
+            "tail_ess": 2438.9165373819474,
+            "mean_mcse": 0.0011247730534903494,
+            "passed": true,
+            "failure": null
+          },
+          "common_gain_z": {
+            "rank_folded_split_rhat": 1.001871752217344,
+            "bulk_ess": 1564.5996759027537,
+            "tail_ess": 1940.9700489152804,
+            "mean_mcse": 0.016918480836372696,
+            "passed": true,
+            "failure": null
+          },
+          "slope_z": {
+            "rank_folded_split_rhat": 1.0006950951538953,
+            "bulk_ess": 1710.1552738077012,
+            "tail_ess": 2387.2547620988,
+            "mean_mcse": 0.02402970008385187,
+            "passed": true,
+            "failure": null
+          },
+          "pa_sin": {
+            "rank_folded_split_rhat": 1.004263849522638,
+            "bulk_ess": 935.5134850275417,
+            "tail_ess": 596.8321405820076,
+            "mean_mcse": 0.004039226154853028,
+            "passed": true,
+            "failure": null
+          },
+          "pa_cos": {
+            "rank_folded_split_rhat": 1.005149597727421,
+            "bulk_ess": 935.5134850275413,
+            "tail_ess": 607.496122033805,
+            "mean_mcse": 0.0045451751071351265,
+            "passed": true,
+            "failure": null
+          }
+        },
+        "passed": true,
+        "chain_shape": [
+          4,
+          3000,
+          7
+        ],
+        "rhat_limit": 1.01,
+        "ess_min": 400,
+        "method": "rank/folded split Rhat; explicit-length FFT Geyer positive/monotone bulk and 5/95% tail ESS; capped at retained count",
+        "limits": "Finite diagnostic passes do not prove global mode coverage or model calibration."
+      }
+    }
+  ],
+  "remaining_limits": [
+    "Te/q still worse than prior-median point estimates; statistical disadvantages not decisive",
+    "Compression vs family/data contributions not fully isolated",
+    "Full neural predictive/population calibration unestablished",
+    "Finite mode/tail evidence",
+    "No independently generated final evaluation or real-data readiness"
+  ],
+  "report": "BEFORE_AFTER.md",
+  "issues_before": "../ISSUES_BEFORE.json",
+  "issues_repaired_route": "../v2_02/ISSUES_AFTER.json",
+  "incidents": [
+    {
+      "id": "I10",
+      "severity": "P2",
+      "problem": "The first v2 integration attempt completed raw-chain and 128-draw predictive verification for both validation cases but its final dataset fingerprint failed: the new holdout guard rejected raw checksum reads. STATUS remained actively_executing despite exception.",
+      "repair": "Allow only the frozen hii_sim.io.digest function's raw-byte open for sealed files; keep all label decoding blocked. Add an isolated subprocess regression proving SHA256 succeeds while read_text raises. Record failed stage status on exceptions and retry in v2_02 without overwriting v2.",
+      "evidence": "verify_console.log retains the PermissionError; v2/source_snapshot retains the failed attempt's exact source files; v2/binding.json and independent_verification.json retain its partial evidence. No protected label was decoded and no preserved data was changed."
+    },
+    {
+      "id": "I11",
+      "severity": "P2",
+      "problem": "Combined regression: 62 passed and one unchanged lineage test failed during Windows atomic replacement of a temporary fixture manifest. A sandbox TEMP retry failed during temporary-directory setup.",
+      "repair": "No simulator or test logic changed. The identical lineage test passed when retried in a fresh shorter workspace fixture directory (output/review_retry01). Root cause of Windows I/O denial was not established; this is not claimed as a software defect fixed.",
+      "evidence": "tests_final.log, test_file_lock_retry.log, test_short_path_retry.log retain 62-pass/one-I/O-failure, one setup error, and one unchanged passing retry."
+    }
+  ],
+  "source_versions": {
+    "python": "3.13.14",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "numpy": "2.2.6",
+    "scipy": "1.18.0",
+    "astropy": "8.0.2",
+    "matplotlib": "3.11.0"
+  }
+}
